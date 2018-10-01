@@ -1,0 +1,22 @@
+{
+  "name": "sistemadereplicacionactiva",
+  "version": "1.0.0",
+  "description": "Sistema de replicación activa para la asignatura de Sistemas distribuidos empotrados y ubicuos de la UPNA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preychester95/SistemaDeReplicacionActiva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preychester95/SistemaDeReplicacionActiva/issues"
+  },
+  "homepage": "https://github.com/preychester95/SistemaDeReplicacionActiva#readme",
+  "dependencies": {
+    "zmq": "^2.15.3"
+  }
+}
