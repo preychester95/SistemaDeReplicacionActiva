@@ -41,25 +41,28 @@ if( verbose ){
 }
 frontend.bindSync('tcp://*:' + portClient);
 backend.bindSync('tcp://*:' + portWorker);
-frontend.on('message', function() {
-	var args = Array.apply(null, arguments);
+frontend.on('message', function(idRR, request) {
+	//var args = Array.apply(null, arguments);
+	var request = JSON.parse(request);
 	var worker = getWorker();
+	console.log(idRR);
 	if(verbose) {
-		console.log("Received request: " + args[2] + " from client ( " + args[0] + " ).");
-		auxfunctions.showArguments(args);
+		console.log("Received request: " + request.msg + " from client ( " + request.idClient + " ).");
+		//auxfunctions.showArguments(request);
 	}
 	if( worker == null ) {
 		console.log("We have not workers")
-		frontend.send([args[0],"",'We have not workers']);
+		//frontend.send([JSON.stringify(request),"",'We have not workers']);
+		frontend.send([idRR, JSON.stringify(request)]);
 		return
 	}
 	if(verbose){
-		console.log("Sending client: ( " + args[2] + " ) req to worker ( " + worker + " ) through backend.");
+		console.log("Sending client: ( " + request.idClient + " ) req to worker ( " + worker + " ) through backend.");
 		auxfunctions.showArguments(args);
 	}
 	workers[worker][0] = WORKING;
 	workers[worker][1] += 1;
-	backend.send([worker,"",args]);
+	//backend.send([worker,"",args]);
 });
 
 backend.on('message', function() {
