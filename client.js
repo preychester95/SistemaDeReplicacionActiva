@@ -1,8 +1,11 @@
 var zmq = require('zmq');
+
 const EventEmitter = require('events'); //Allow events (used for errors)
+ee = new EventEmitter();
+
 var readline = require('readline');
 
-ee = new EventEmitter();
+/******* Initialization *******/
 
 if (process.argv.length != 2 + 2) {
     console.log(process.argv.length);
@@ -18,13 +21,14 @@ var idClient = PREFIX + process.pid;
 var rq = zmq.socket('req');
 rq.connect('tcp://' + process.argv[2 + 0] + ':' + process.argv[2 + 1]);
 
-//We create a test msg to send via the socket:
-var testMsg = {
+//We create a prototype msg whose interior msg will be changed in function of user input:
+var prototypeMsg = {
     "idClient":idClient,
-    "msg":
-        {"op":"testOperation"}
+    "msg": " "
 };
-rq.send(JSON.stringify(testMsg));
+
+/******* RESPONDER LOGIC *******/
+
 rq.on('message', function(response) {
     var parsedResponse = JSON.parse(response);
     console.log(parsedResponse);
@@ -32,17 +36,57 @@ rq.on('message', function(response) {
     console.log('Replier responded with message: ' + msg.op);
 });
 
+/******* USER INTERFACE LOGIC *******/
+
 //Create an Interface for interacting with the user via console:
-/*
 var rl = readline.createInterface({
-    input: process.input,
-    output: process.output
+    input: process.stdin,
+    output: process.stdout
 });
 
-
-rl.setPrompt('Desired instruction: ');
 rl.on('line', (input) => {
-    console.log('Input leido: ' + input);
-    console.log('Nueva orden: ');
+    var parsed_input = input.split(" "); //Transform the input from string to array of strings (by word)
+    var command = parsed_input[0];
+    if (command == 'help') {
+        console.log('set [var] [val]: Sets the value of var to val. Creates var if it does not exist.');
+        console.log('get [var]: Gets the current value of var. NULL if var does not exist.')
+        console.log('help: Shows available commands.')
+    } 
+    else if (command == 'set') {
+        if (parsed_input.length == 3) {
+            //Prepare a copy of the protoypeMsg to send the requested operation:
+            var newMsg = prototypeMsg;
+            //Create get msg:
+            var setMsg = {
+                "op": command,
+                "args": parsed_input.slice(1, 3)
+            }
+            console.log(setMsg);
+            newMsg.msg = setMsg;
+            rq.send(JSON.stringify(newMsg))
+        }
+        else {
+            console.log('Incorrect use of "set": set [var] [val].')
+        }
+    }
+    else if (command == 'get') {
+        if (parsed_input.length == 2) {
+            //Prepare a copy of the protoypeMsg to send the requested operation:
+            var newMsg = prototypeMsg;
+            //Create get msg:
+            var getMsg = {
+                "op": command,
+                "args": parsed_input.slice(1, 2)
+            }
+            console.log(getMsg);
+            newMsg.msg = getMsg;
+            rq.send(JSON.stringify(newMsg))
+        }
+        else {
+            console.log('Incorrect use of "get": get [var].')
+        }
+    }
+    else {
+        console.log('Unrecognized command. Type "help" for a list of available commands.')
+    }
 });
-*/
