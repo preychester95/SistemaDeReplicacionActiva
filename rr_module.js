@@ -1,13 +1,17 @@
 //NOTE: Create one rr_module for each client
 var zmq = require('zmq');
+const EventEmitter = require('events'); //Allow events (used for errors)
+ee = new EventEmitter();
 
 var REP = "rep";
 var DEALER = "dealer";
 var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
 var URL_REP = "tcp://127.0.0.1:5555";
-var handlerList = []; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+var handlerList = ['handler1', 'handler2', 'handler3', 'handler4', 'handler5', 'handler6', 'handler7']; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+
 var usedHandlerList = [];
+
 var idRR = PREFIJO_DEAL + process.pid;
 var URL_DEALER = "tcp://127.0.0.1:6666"; //URL for the router
 var repeatedTimeout;
@@ -32,12 +36,14 @@ responder.bind(URL_REP, function(err) {
 responder.on('message', function(request) {
   //Get the JSON send by a client.
   var request_parsed = JSON.parse(request); 
+  console.log(request_parsed);
   
   //Store the timeout associated with the client that created the request, so we can stop it when we get its response:
-  repeatedTimeout = setTimeout(function() {
+  repeatedTimeout = setInterval(function() {
   	//Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
     var chosenHandler = chooseRandomNonUsedHandler(); 
+    console.log(chosenHandler);
     var requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
@@ -50,7 +56,7 @@ dealer.on('message', function(reply) {
   reply = JSON.parse(reply);
 
   //Stop the timeout from the client that created the request of the gotten replied
-  clearTimeout(repeatedTimeout);
+  clearInterval(repeatedTimeout);
 
   //Send the response to the client who requested it:
   responder.send(JSON.stringify(reply));
@@ -72,12 +78,23 @@ function buildSocket(tipoSocket,idPrefijo){
 }
 
 function chooseRandomNonUsedHandler() {
+  //CHECK:
+  //If there is no non-used handler, set all of them as available and hope for some to be available:
+  if (usedHandlerList.length == handlerList.length) {
+    dealer.disconnect(URL_DEALER); //DEBUG (Should be removed)
+    ee.emit('error', new Error('NO RESPONSE FROM ANY HANDLER')); //DEBUG (Should be removed)
+    //usedHandlerList = []; //DEBUG (Should be uncommented)
+  }
+  
   //MEJORABLE SI EN VEZ DE BUSCAR REPETIDAMENTE UN ÍNDICE BORRAMOS LOS UTILIZADOS
-  var handlerIdx = Math.floor((Math.random() * handlerList.length) + 1); //Choose a random index from your used handlerList
+  console.log('Inside ChooseRandomNonUsedHandler()');
+  var handlerIdx = Math.floor(Math.random() * handlerList.length); //Choose a random index from your used handlerList
   var chosenHandler = handlerList[handlerIdx];
   while (usedHandlerList.includes(chosenHandler)) {
-    handlerIdx = Math.floor((Math.random() * handlerList.length) + 1); 
+    handlerIdx = Math.floor(Math.random() * handlerList.length); 
+    console.log('Chosen handler id: ' + handlerIdx);
     chosenHandler = handlerList[handlerIdx];
+    console.log('Chosen handler: ' + chosenHandler);
   }
   usedHandlerList.push(chosenHandler);
   return chosenHandler;
