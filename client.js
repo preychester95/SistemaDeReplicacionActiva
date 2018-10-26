@@ -7,12 +7,15 @@ var readline = require('readline');
 
 /******* Initialization *******/
 
+console.log('Hello\n');
+
 if (process.argv.length != 2 + 2) {
     console.log(process.argv.length);
     ee.emit('error', new Error('The number of arguments expected for a client are ' + 3));
 }
 
 var PREFIX = 'client'; //Prefix 
+var currentReq = 0;
 
 //Internal properties:
 var idClient = PREFIX + process.pid;
@@ -23,9 +26,14 @@ rq.connect('tcp://' + process.argv[2 + 0] + ':' + process.argv[2 + 1]);
 
 //We create a prototype msg whose interior msg will be changed in function of user input:
 var prototypeMsg = {
+    "idRequest": "",
     "idClient":idClient,
-    "msg": " "
+    "msg": ""
 };
+
+
+console.log('Id of process: ' + idClient);
+console.log('IP of the process: ' + process.argv[2 + 0] + ':' + process.argv[2 + 1]);
 
 /******* RESPONDER LOGIC *******/
 
@@ -33,7 +41,7 @@ rq.on('message', function(response) {
     var parsedResponse = JSON.parse(response);
     console.log(parsedResponse);
     var msg = parsedResponse.msg;
-    console.log('Replier responded with message: ' + msg.op);
+    console.log('Replier responded with message: ' + msg);
 });
 
 /******* USER INTERFACE LOGIC *******/
@@ -62,6 +70,8 @@ rl.on('line', (input) => {
                 "args": parsed_input.slice(1, 3)
             }
             console.log(setMsg);
+            newMsg.idRequest = idClient + currentReq;
+            currentReq = currentReq + 1;
             newMsg.msg = setMsg;
             rq.send(JSON.stringify(newMsg))
         }
@@ -79,6 +89,8 @@ rl.on('line', (input) => {
                 "args": parsed_input.slice(1, 2)
             }
             console.log(getMsg);
+            newMsg.idRequest = idClient + currentReq;
+            currentReq = currentReq + 1;
             newMsg.msg = getMsg;
             rq.send(JSON.stringify(newMsg))
         }
@@ -90,3 +102,4 @@ rl.on('line', (input) => {
         console.log('Unrecognized command. Type "help" for a list of available commands.')
     }
 });
+

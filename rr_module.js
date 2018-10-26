@@ -7,13 +7,13 @@ var REP = "rep";
 var DEALER = "dealer";
 var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
-var URL_REP = "tcp://127.0.0.1:5555";
-var handlerList = ['handler1', 'handler2', 'handler3', 'handler4', 'handler5', 'handler6', 'handler7']; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+var URL_REP = "tcp://127.0.0.1:" + process.argv[2];;
+var handlerList = ['handler1']; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
 
 var usedHandlerList = [];
 
 var idRR = PREFIJO_DEAL + process.pid;
-var URL_DEALER = "tcp://127.0.0.1:6666"; //URL for the router
+var URL_DEALER = "tcp://127.0.0.1:" + process.argv[3];; //URL for the router
 var repeatedTimeout;
 
 // Instantiate a dealer socket for communication with the router
@@ -39,7 +39,10 @@ responder.on('message', function(request) {
   console.log(request_parsed);
   
   //Store the timeout associated with the client that created the request, so we can stop it when we get its response:
-  repeatedTimeout = setInterval(function() {
+
+  var intervalTime = 0;
+  repeatedTimeout = setTimeout(function() {
+    intervalTime = 10000;
   	//Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
     var chosenHandler = chooseRandomNonUsedHandler(); 
@@ -48,11 +51,12 @@ responder.on('message', function(request) {
 
     // Add the given 
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
-  }, 1000);
+  }, intervalTime);
 });
 
 /******* DEALER LOGIC *******/
 dealer.on('message', function(reply) {
+  console.log('Recibida respuesta');
   reply = JSON.parse(reply);
 
   //Stop the timeout from the client that created the request of the gotten replied
@@ -100,9 +104,9 @@ function chooseRandomNonUsedHandler() {
   return chosenHandler;
 }
 
-function createJSONForRouter(msg, idHandler) {
+function createJSONForRouter(request, idHandler) {
   //Añadimos el id del dealer al mensaje a enviar.
-  msg.idHandler = idHandler;
-  msg.rr = dealer.identity;
-  return msg;
+  request.idHandler = idHandler;
+  request.idRR = dealer.identity;
+  return request;
 }

@@ -1,7 +1,7 @@
 var zmq = require('zmq');
 var handler_RR = zmq.socket('dealer');
-var handler_FO= zmq.socket('dealer');
-var handler_TO=zmq.socket('push');
+var handler_FO = zmq.socket('dealer');
+var handler_TO = zmq.socket('dealer');
 
 //Ultima peticion servida
 var LastServerReq=0;
@@ -10,7 +10,7 @@ var seq;
 //Variables del sequenciador
 //Hay que ver cual de las dos siguentes funciona
 //En el array sequenced se guarda el json
-var Sequenced={}
+var Sequenced=[];
 var Requests={}
 var Replicas=['RR_1','RR_2','RR_3'];
 
@@ -41,9 +41,13 @@ var portFO= process.argv[3];
 //TO
 var portTO=process.argv[4];
 
-handler_RR.bind('tcp://*:' + portRR);
-handler_FO.bind('tcp://*:' + portFO);
-handler_TO.bind('tcp://*'+ portTO);
+handler_RR.identity = 'handler1';
+handler_RR.connect('tcp://127.0.0.1:' + portRR);
+
+//handler_FO.connect('tcp://*:' + portFO);
+
+handler_TO.identity = 'TO1';
+handler_TO.connect('tcp://127.0.0.1:'+ portTO);
 numberReplicas=Replicas.length;
 console.log('Esperando...');
 
@@ -56,12 +60,13 @@ handler_TO.on('message',function(requestTO){
 	while(Sequenced[i]!=requestTO){
 		i=i+1;
 	}*/
+	
 	if (Sequenced.indexOf(request_parsedTO)==-1){
 		Sequenced[LocalSeq]=requestTO;
 		LocalSeq=LocalSeq+1;
 
 	}
-
+	//handler_RR.send(requestTO);
 	/*j=0;
 	while(requestARH[j].idClient!=request_id){
 		j=j+1;
@@ -90,7 +95,6 @@ handler_RR.on('message', function(request) {
 	//Si no existe 
 	if (Sequenced.indexOf(request_parsed)==-1){
 		handler_TO.send(request);
-
 	}else{
 		seq=Sequenced.indexOf(request_parsed);
 	}
@@ -102,19 +106,19 @@ handler_RR.on('message', function(request) {
 	}*/
 
 	//seq=getSeq(request_id);
-	if (seq>LastServerReq+1){
-		for (let j=LastServerReq;j<seq;j++){
-			//req=getReq(j);
-			req=Sequenced[j];
-			for(let r=1;r<numberReplicas;r++){
-				handler_FO.send(r,j,req);
-			}
-		}
-	}
-	for(let r=1;r<numberReplicas;r++){
-		handler_FO.send(r,seq,req);
-	}
-	LastServerReq=Math.max(LastServerReq,seq);
+	// if (seq>LastServerReq+1){
+	// 	for (let j=LastServerReq;j<seq;j++){
+	// 		//req=getReq(j);
+	// 		req=Sequenced[j];
+	// 		for(let r=1;r<numberReplicas;r++){
+	// 			handler_FO.send(r,j,req);
+	// 		}
+	// 	}
+	// }
+	// for(let r=1;r<numberReplicas;r++){
+	// 	handler_FO.send(r,seq,req);
+	// }
+	// LastServerReq=Math.max(LastServerReq,seq);
 });
 
 //Desde las replicas

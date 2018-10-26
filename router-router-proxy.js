@@ -1,7 +1,6 @@
 var zmq = require('zmq');
 var frontend = zmq.socket('router');
 var backend = zmq.socket('router');
-var auxfunctions = require('./auxfunctions.js');
 
 // ARGUMENTS
 if( process.argv.length != 5 ) {
@@ -30,6 +29,7 @@ frontend.on('message', function(idRR, request) {
 	}
 	// Send the petition through backend router, to the chosen handler:
 	var idHandler = request.idHandler;
+	console.log('Id manejador: ' + idHandler);
 	backend.send([idHandler, JSON.stringify(request)]);
 
 	if(verbose){
@@ -41,12 +41,13 @@ backend.on('message', function(idHandler, reply) {
 	// Get the reply sent through the handler
 	var reply = JSON.parse(reply);
 	if (verbose) {
-		console.log("Recived response: " + reply.msg + " from handler ( " + idHandler + " ) from backend.");
+		console.log("Received response: " + reply.msg + " from handler ( " + idHandler + " ) from backend.");
 	}
 	// Send the response 
 	var idRR = reply.idRR;
+	console.log(idRR);
 	frontend.send([idRR, JSON.stringify(reply)]);
 	if (verbose) {
-		console.log("Sending response: " + response.msg + " to client ( " + idRR + " ) through frontend.");
+		console.log("Sending response: " + reply.msg + " to client ( " + idRR + " ) through frontend.");
 	}
 });
