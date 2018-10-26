@@ -31,14 +31,14 @@ dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
   console.log('Petición recibida del cliente: ' + messege.idClient + 'desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
-  seq = messege.seq; //Get sequence
-  if (expectedSeq == seq){
-    var result = compute(messege, expectedSeq);
-    executed[seq] = result;
-    expectedSeq = expectedSeq + 1;
-  }
+  //seq = messege.seq; //Get sequence
+  //if (expectedSeq == seq){
+  //  var result = compute(messege, expectedSeq);
+  //  executed[seq] = result;
+  //  expectedSeq = expectedSeq + 1;
+  //}
   //Send the response to the router:
-  dealer.send('Respuesta para cliente');
+  dealer.send(JSON.stringify(messege));
 });
 
 // Function for compute the request
