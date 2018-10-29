@@ -12,39 +12,23 @@ var seq;
 //En el array sequenced se guarda el json
 var Sequenced=[];
 var Requests={}
-var Replicas=['RR_1','RR_2','RR_3'];
+var Replicas=['R_1'];
 
-var LocalSeq=1;
+var LocalSeq=0;
 var UltimaReq=0;
-
-/*function getSeq(requestARH){
-		i=0;
-		while(Sequenced[i].id!=requestARH.id){
-			i=i+1;
-		}
-		if(Sequenced[i].id!=requestARH.id){
-			handler_TO.send(JSON.stringify(requestARH));	
-			Requests[UltimaReq]=JSON.parse(requestARH);		
-		}else{
-			return i;
-		}
-}*/
-
-/*function getReq(j){
-	return Sequenced[j];
-}*/
 
 //RR
 var portRR = process.argv[2];
 //Replicas
-var portFO= process.argv[3];
+var portFO= process.argv[4];
 //TO
-var portTO=process.argv[4];
+var portTO=process.argv[3];
 
 handler_RR.identity = 'handler1';
 handler_RR.connect('tcp://127.0.0.1:' + portRR);
 
-//handler_FO.connect('tcp://*:' + portFO);
+handler_FO.identity = 'FO1'
+handler_FO.connect('tcp://127.0.0.1:' + portFO);
 
 handler_TO.identity = 'TO1';
 handler_TO.connect('tcp://127.0.0.1:'+ portTO);
@@ -55,25 +39,14 @@ console.log('Esperando...');
 handler_TO.on('message',function(requestTO){
 	//Get the JSON send by a TO
   	var request_parsedTO = JSON.parse(requestTO);
-  	var request_id=request_parsedTO.idClient; 
-	/*i=0;
-	while(Sequenced[i]!=requestTO){
-		i=i+1;
-	}*/
 	
 	if (Sequenced.indexOf(request_parsedTO)==-1){
-		Sequenced[LocalSeq]=requestTO;
+		console.log('Secuenciado peticion');
+		Sequenced.push(request_parsedTO);
+		console.log('Sequenced[LocalSeq] ' + Sequenced[LocalSeq]);
+		sendToReplicas(LocalSeq);
 		LocalSeq=LocalSeq+1;
-
 	}
-	//handler_RR.send(requestTO);
-	/*j=0;
-	while(requestARH[j].idClient!=request_id){
-		j=j+1;
-	}
-	if(requestARH[j].idClient==request_id){
-		
-	}*/
 	
 });
 
@@ -82,52 +55,25 @@ handler_TO.on('message',function(requestTO){
 handler_RR.on('message', function(request) {
 	//Get the JSON send by a client.
   	var request_parsed = JSON.parse(request); 
-  	var request_id=request_parsed.idClient; 
-  	var request_op=request_parsed.msg.op;
-  	var request_arg=request_parsed.msg.arg;
-
-  	//Codigo manejador
-
-  //	i=0;
-	//while(Sequenced[i].id!=requestARH.id){
-	//	i=i+1;
-	//}
+  	
 	//Si no existe 
 	if (Sequenced.indexOf(request_parsed)==-1){
+		console.log('Llamando a TO');
 		handler_TO.send(request);
 	}else{
 		seq=Sequenced.indexOf(request_parsed);
+		sendToReplicas(seq);
 	}
-	/*if(Sequenced[i].id!=requestARH.id){
-		handler_TO.send(JSON.stringify(requestARH));	
-		Requests[UltimaReq]=JSON.parse(requestARH);		
-	}else{
-		return i;
-	}*/
-
-	//seq=getSeq(request_id);
-	// if (seq>LastServerReq+1){
-	// 	for (let j=LastServerReq;j<seq;j++){
-	// 		//req=getReq(j);
-	// 		req=Sequenced[j];
-	// 		for(let r=1;r<numberReplicas;r++){
-	// 			handler_FO.send(r,j,req);
-	// 		}
-	// 	}
-	// }
-	// for(let r=1;r<numberReplicas;r++){
-	// 	handler_FO.send(r,seq,req);
-	// }
-	// LastServerReq=Math.max(LastServerReq,seq);
 });
 
 //Desde las replicas
 handler_FO.on('message', function(reply) {
+	console.log('Recivida respuesta de la replica');
 		reply = JSON.parse(reply);
 		msg='recibido de FO';
 		//HAY QUE COMPROBAR SI TIENE EL MISMO NUMERO DE SECUENCIA Y SI LO HEMOS RECIBIDO ANTES DE OTRA FO????????????????
 		if(reply.seq==seq){
-			handler_RR.send(reply,msg);
+			handler_RR.send(JSON.stringify(reply));
 
 		}
 		/*i=1;
@@ -143,5 +89,25 @@ handler_FO.on('message', function(reply) {
 		}*/
 });
 
-
+function sendToReplicas(seq) {
+	console.log(Replicas[0]);
+	if (seq>LastServerReq+1){
+		for (let j=LastServerReq;j<seq;j++){
+			req=Sequenced[j];
+			for(let r=0;r<numberReplicas;r++){
+				req.idReplica = Replicas[r];
+				//console.log('Id de la replica: ' + Replicas[r]);
+				handler_FO.send(JSON.stringify(req));
+			}
+		}
+	}
+	for(let r=0;r<numberReplicas;r++){
+		req = Sequenced[seq];
+		req.idReplica = Replicas[r];
+		console.log('Id de la replica: ' + Replicas[r]);
+		console.log('Enviando JSON ' + req);
+		handler_FO.send(JSON.stringify(req));
+	}
+	LastServerReq=Math.max(LastServerReq, seq);
+}
 
