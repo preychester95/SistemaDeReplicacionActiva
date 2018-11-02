@@ -8,12 +8,13 @@ if( process.argv.length != 5 ) {
 }
 
 // Variables
-var ip = process.argv[2];
-var puerto = process.argv[3];
-var id_replica = process.argv[4];
+var puerto = process.argv[2];
+var id_replica = 'R_1';
 // Array for store executed requests
 var executed = [];
-var expectedSeq = 1;
+var waiting = [];
+var contWaiting = 0;
+var expectedSeq = 0;
 // Variables for compute client's operation
 keyValue = {};
 
@@ -23,24 +24,43 @@ var dealer = zmq.socket('dealer');
 
 // Open the connection
 dealer.identity = id_replica;
-dealer.connect('tcp://'+ ip + ':' + puerto);
+dealer.connect('tcp://127.0.0.1:' + puerto);
 console.log('Conexión abierta ' + id_replica + ' --> tcp://' + ip + ':' + puerto);
 
 // Get request from handler
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
-  console.log('Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
+  console.log('Petición recibida del cliente: ' + messege.idClient + 'desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
-  //seq = messege.seq; //Get sequence
-  //if (expectedSeq == seq){
-  //  var result = compute(messege, expectedSeq);
-  //  executed[seq] = result;
-  //  expectedSeq = expectedSeq + 1;
-  //}
-  //Send the response to the router:
-  console.log("Enviando respuesta desde replica al router-router-HandlerToReplica "+messege.idHandler);
-  dealer.send(JSON.stringify(messege));
+  seq = messege.seq; //Get sequence
+  if(seq > expectedSeq){
+    waiting[contWaiting] = messege;
+    waiting = sortWaiting(waiting);
+    contWaiting++;
+  }
+  if (expectedSeq == seq){
+    var res = compute(messege, expectedSeq);
+    messege.result = res;
+    executed[seq] = result;
+    dealer.send(JSON.stringify(messege));
+    console.log('Petición enviada hacia el cliente: ');
+    expectedSeq = expectedSeq + 1;
+    while(expectedSeq == waiting[contWaiting].seq){
+      var result = compute(waiting[contWaiting], expectedSeq);
+      executed[seq] = result;
+      dealer.send(JSON.stringify(messege));
+      console.log('Petición enviada hacia el cliente: ');
+      waiting.shift();
+      expectedSeq = expectedSeq + 1;
+    }
+  }
 });
+
+function sortWaiting(waiting){
+
+
+}
+
 
 // Function for compute the request
 function compute(request, expectedSeq){
@@ -54,7 +74,7 @@ function compute(request, expectedSeq){
   op = request.msg.op;
   switch (op){
     case 'get':
-      break;
+      return 'Petición';
     case 'set':
       break;
     default:
