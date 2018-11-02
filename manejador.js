@@ -41,9 +41,8 @@ handler_TO.on('message',function(requestTO){
   	var request_parsedTO = JSON.parse(requestTO);
 	
 	if (Sequenced.indexOf(request_parsedTO)==-1){
-		console.log('Secuenciado peticion');
+		console.log('Recibida peticion secuenciada desde TO');
 		Sequenced.push(request_parsedTO);
-		console.log('Sequenced[LocalSeq] ' + Sequenced[LocalSeq]);
 		sendToReplicas(LocalSeq);
 		LocalSeq=LocalSeq+1;
 	}
@@ -55,10 +54,10 @@ handler_TO.on('message',function(requestTO){
 handler_RR.on('message', function(request) {
 	//Get the JSON send by a client.
   	var request_parsed = JSON.parse(request); 
-  	
+  	console.log("Recibida peticion desde router-routerRRToHandler,enviando al manejador "+request_parsed.idHandler);
 	//Si no existe 
 	if (Sequenced.indexOf(request_parsed)==-1){
-		console.log('Llamando a TO');
+		console.log('Enviando para secuenciar a TO');
 		handler_TO.send(request);
 	}else{
 		seq=Sequenced.indexOf(request_parsed);
@@ -68,13 +67,12 @@ handler_RR.on('message', function(request) {
 
 //Desde las replicas
 handler_FO.on('message', function(reply) {
-	console.log('Recivida respuesta de la replica');
+	    console.log('Recibida respuesta de la replica: '+reply);
+	    console.log('El numero de secuencia local es: '+LocalSeq);
 		reply = JSON.parse(reply);
-		msg='recibido de FO';
 		//HAY QUE COMPROBAR SI TIENE EL MISMO NUMERO DE SECUENCIA Y SI LO HEMOS RECIBIDO ANTES DE OTRA FO????????????????
-		if(reply.seq==seq){
+		if(reply.seq==LocalSeq){
 			handler_RR.send(JSON.stringify(reply));
-
 		}
 		/*i=1;
 		while(Sequenced[i]!=reply){
@@ -90,13 +88,13 @@ handler_FO.on('message', function(reply) {
 });
 
 function sendToReplicas(seq) {
-	console.log(Replicas[0]);
 	if (seq>LastServerReq+1){
 		for (let j=LastServerReq;j<seq;j++){
 			req=Sequenced[j];
 			for(let r=0;r<numberReplicas;r++){
 				req.idReplica = Replicas[r];
-				//console.log('Id de la replica: ' + Replicas[r]);
+				req.idFO = handler_FO.identity;
+				console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
 				handler_FO.send(JSON.stringify(req));
 			}
 		}
@@ -104,8 +102,8 @@ function sendToReplicas(seq) {
 	for(let r=0;r<numberReplicas;r++){
 		req = Sequenced[seq];
 		req.idReplica = Replicas[r];
-		console.log('Id de la replica: ' + Replicas[r]);
-		console.log('Enviando JSON ' + req);
+		req.idFO = handler_FO.identity;
+		console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
 		handler_FO.send(JSON.stringify(req));
 	}
 	LastServerReq=Math.max(LastServerReq, seq);

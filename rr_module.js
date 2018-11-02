@@ -46,17 +46,17 @@ responder.on('message', function(request) {
   	//Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
     var chosenHandler = chooseRandomNonUsedHandler(); 
-    console.log(chosenHandler);
     var requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
+    console.log('Enviando peticion desde module_rr al router-routerRRToHandler destino manejador '+chosenHandler);
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
   }, intervalTime);
 });
 
 /******* DEALER LOGIC *******/
 dealer.on('message', function(reply) {
-  console.log('Recibida respuesta');
+  console.log('Recibida respuesta desde router-routerRRToHandler');
   reply = JSON.parse(reply);
 
   //Stop the timeout from the client that created the request of the gotten replied
@@ -91,14 +91,11 @@ function chooseRandomNonUsedHandler() {
   }
   
   //MEJORABLE SI EN VEZ DE BUSCAR REPETIDAMENTE UN ÍNDICE BORRAMOS LOS UTILIZADOS
-  console.log('Inside ChooseRandomNonUsedHandler()');
   var handlerIdx = Math.floor(Math.random() * handlerList.length); //Choose a random index from your used handlerList
   var chosenHandler = handlerList[handlerIdx];
   while (usedHandlerList.includes(chosenHandler)) {
     handlerIdx = Math.floor(Math.random() * handlerList.length); 
-    console.log('Chosen handler id: ' + handlerIdx);
     chosenHandler = handlerList[handlerIdx];
-    console.log('Chosen handler: ' + chosenHandler);
   }
   usedHandlerList.push(chosenHandler);
   return chosenHandler;

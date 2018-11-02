@@ -29,7 +29,7 @@ console.log('Conexión abierta ' + id_replica + ' --> tcp://' + ip + ':' + puert
 // Get request from handler
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
-  console.log('Petición recibida del cliente: ' + messege.idClient + 'desde el manejador: ' + messege.idHandler);
+  console.log('Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
   //seq = messege.seq; //Get sequence
   //if (expectedSeq == seq){
@@ -38,6 +38,7 @@ dealer.on('message', function(msg) {
   //  expectedSeq = expectedSeq + 1;
   //}
   //Send the response to the router:
+  console.log("Enviando respuesta desde replica al router-router-HandlerToReplica "+messege.idHandler);
   dealer.send(JSON.stringify(messege));
 });
 

@@ -41,7 +41,7 @@ rq.on('message', function(response) {
     var parsedResponse = JSON.parse(response);
     console.log(parsedResponse);
     var msg = parsedResponse.msg;
-    console.log('Replier responded with message: ' + msg);
+    console.log('Recibida respuesta del rr_module: ' + msg);
 });
 
 /******* USER INTERFACE LOGIC *******/
