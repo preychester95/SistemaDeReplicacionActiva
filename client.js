@@ -38,10 +38,9 @@ console.log('IP of the process: ' + process.argv[2 + 0] + ':' + process.argv[2 +
 /******* RESPONDER LOGIC *******/
 
 rq.on('message', function(response) {
+    console.log('Recibida respuesta del rr_module: '+response);
     var parsedResponse = JSON.parse(response);
-    console.log(parsedResponse);
     var msg = parsedResponse.msg;
-    console.log('Recibida respuesta del rr_module: ' + msg);
 });
 
 /******* USER INTERFACE LOGIC *******/

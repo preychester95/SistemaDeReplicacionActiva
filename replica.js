@@ -2,10 +2,6 @@
 var zmq = require('zmq');
 
 // Arguments
-if( process.argv.length != 5 ) {
-	console.log("Error. Ejecución debe ser: node replica.js Ip Puerto_Router Id_Replica");
-	process.exit(1);
-}
 
 // Variables
 var puerto = process.argv[2];
@@ -14,7 +10,7 @@ var id_replica = 'R_1';
 var executed = [];
 var waiting = [];
 var contWaiting = 0;
-var expectedSeq = 0;
+var expectedSeq = 1;
 // Variables for compute client's operation
 keyValue = {};
 
@@ -24,8 +20,7 @@ var dealer = zmq.socket('dealer');
 
 // Open the connection
 dealer.identity = id_replica;
-dealer.connect('tcp://127.0.0.1:' + puerto);
-console.log('Conexión abierta ' + id_replica + ' --> tcp://' + ip + ':' + puerto);
+dealer.connect('tcp://127.0.0.1:'+ puerto);
 
 // Get request from handler
 dealer.on('message', function(msg) {
@@ -57,8 +52,8 @@ dealer.on('message', function(msg) {
 });
 
 function sortWaiting(waiting){
-
-
+  //TODO: hacer ordenación de los elementos del array por orden de secuencia
+  return waiting;
 }
 
 
