@@ -12,7 +12,7 @@ var waiting = [];
 var contWaiting = 0;
 var expectedSeq = 1;
 // Variables for compute client's operation
-keyValue = {};
+dictionary = {};
 
 
 // Socket for communication with router
@@ -34,15 +34,18 @@ dealer.on('message', function(msg) {
     contWaiting++;
   }
   if (expectedSeq == seq){
-    var res = compute(messege, expectedSeq);
+    // COMPUTE DEVUELVE VALOR/STRING EN FUNCIÓN DE GET/SET --> ¿SET ACTUALIZA?
+    var res = compute(messege, expectedSeq, dictionary);
     messege.result = res;
+    messege.seqRequest = expectedSeq;
     executed[seq] = result;
     dealer.send(JSON.stringify(messege));
     console.log('Petición enviada hacia el cliente: ');
     expectedSeq = expectedSeq + 1;
     while(expectedSeq == waiting[contWaiting].seq){
-      var result = compute(waiting[contWaiting], expectedSeq);
-      executed[seq] = result;
+      var result = compute(waiting[contWaiting], expectedSeq, dictionary);
+      executed[seq].result = result;
+      executed[seq].seqRequest = expectedSeq;
       dealer.send(JSON.stringify(messege));
       console.log('Petición enviada hacia el cliente: ');
       waiting.shift();
@@ -58,29 +61,37 @@ function sortWaiting(waiting){
 
 
 // Function for compute the request
-function compute(request, expectedSeq){
+function compute(request, expectedSeq, dictionary){
   // Generate JSON for response
-  var respJSON = { 
-    'idClient' : request.idClient,
-    'idHandler' : request.idHandler ,
-    'seqRequest' : expectedSeq
-  };
+  //var respJSON = { 
+  //  'idClient' : request.idClient,
+  //  'idHandler' : request.idHandler ,
+  //  'seqRequest' : expectedSeq
+  //};
   // Get the operator
   op = request.msg.op;
   switch (op){
     case 'get':
-      return 'Petición';
+      var key = request.msg.args[1];
+      var res = get(dictionary, key);
+      return res;
     case 'set':
-      break;
+      var key = request.msg.args[1];
+      var value = request.msg.args[2];
+      dictionary = set(dictionary, key, value);
+      return 'Valor actualizado';
     default:
       console.log('Operación erronea');
   }
 }
 
-function put(key, value){
-  this.keyValue.key = value;
+// Devuelve el diccionario actualizado
+function set(dict,key,value){
+  dict[key] = value;
+  return dict;
 }
 
-function get(key){
-  return (this.keyValue.key != undefined) ? this.keyValue.key : null;
+// Devuelve el valor que corresponde con la clave
+function get(dict,key){
+  return dict[key] != undefined ? dict[key] : 'No existe un valor para esa clave';
 }
