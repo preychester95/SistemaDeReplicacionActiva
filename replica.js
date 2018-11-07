@@ -34,7 +34,7 @@ dealer.on('message', function(msg) {
     contWaiting++;
   }
   if (expectedSeq == seq){
-    // COMPUTE DEVUELVE VALOR/STRING EN FUNCIÓN DE GET/SET --> ¿SET ACTUALIZA?
+    // COMPUTE DEVUELVE VALOR/STRING EN FUNCIÓN DE GET/SET --> ¿SET ACTUALIZA? --> devuelve el string pero se necesitan mas de una petición para comprobar
     var res = compute(messege, expectedSeq, dictionary);
     messege.result = res;
     messege.seqRequest = expectedSeq;
@@ -42,7 +42,7 @@ dealer.on('message', function(msg) {
     dealer.send(JSON.stringify(messege));
     console.log('Petición enviada hacia el cliente: ');
     expectedSeq = expectedSeq + 1;
-    while(expectedSeq == waiting[contWaiting].seq){
+    while(expectedSeq == waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
       var result = compute(waiting[contWaiting], expectedSeq, dictionary);
       executed[seq].result = result;
       executed[seq].seqRequest = expectedSeq;
@@ -72,14 +72,17 @@ function compute(request, expectedSeq, dictionary){
   op = request.msg.op;
   switch (op){
     case 'get':
-      var key = request.msg.args[1];
+      console.log(request.msg.args);
+      var key = request.msg.args[0];
       var res = get(dictionary, key);
       return res;
     case 'set':
-      var key = request.msg.args[1];
-      var value = request.msg.args[2];
+      console.log(request.msg.args);
+      var key = request.msg.args[0];
+      var value = request.msg.args[1];
       dictionary = set(dictionary, key, value);
-      return 'Valor actualizado';
+      return get(dictionary, key); // Apaño para ver si introduce en diccionario
+      //return 'Valor actualizado';
     default:
       console.log('Operación erronea');
   }
