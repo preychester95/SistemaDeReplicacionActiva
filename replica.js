@@ -25,7 +25,8 @@ dealer.connect('tcp://127.0.0.1:'+ puerto);
 // Get request from handler
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
-  console.log('Petición recibida del cliente: ' + messege.idClient + 'desde el manejador: ' + messege.idHandler);
+  console.log('Recibida peticion: '+msg);
+  console.log('Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
   seq = messege.seq; //Get sequence
   if(seq > expectedSeq){
@@ -40,22 +41,29 @@ dealer.on('message', function(msg) {
     messege.seqRequest = expectedSeq;
     executed[seq] = result;
     dealer.send(JSON.stringify(messege));
-    console.log('Petición enviada hacia el cliente: ');
+    console.log('Petición enviada hacia el cliente: '+JSON.stringify(messege));
     expectedSeq = expectedSeq + 1;
-    while(expectedSeq == waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
-      var result = compute(waiting[contWaiting], expectedSeq, dictionary);
-      executed[seq] = result;
-      // Introducir resultado y expected sec en mensaje de vuelta
-      dealer.send(JSON.stringify(messege));
-      console.log('Petición enviada hacia el cliente: ');
-      waiting.shift();
-      expectedSeq = expectedSeq + 1;
+    if(waiting[contWaiting]!=undefined){
+        while(expectedSeq== waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
+          var result = compute(waiting[contWaiting], expectedSeq, dictionary);
+          executed[seq] = result;
+          // Introducir resultado y expected sec en mensaje de vuelta
+          dealer.send(JSON.stringify(messege));
+          console.log('Petición enviada hacia el cliente: '+JSON.stringify(messege));
+          waiting.shift();
+          expectedSeq = expectedSeq + 1;
+        }
     }
   }
 });
 
 function sortWaiting(waiting){
   //TODO: hacer ordenación de los elementos del array por orden de secuencia
+  console.log('El array de peticiones antes de ordenar es: '+waiting);
+  waiting.sort(function(a,b){
+    return a.seq-b.seq;
+  });
+  console.log('El resultado de la ordenacion es: '+JSON.stringify(waiting));
   return waiting;
 }
 
