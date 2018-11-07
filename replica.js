@@ -44,8 +44,8 @@ dealer.on('message', function(msg) {
     expectedSeq = expectedSeq + 1;
     while(expectedSeq == waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
       var result = compute(waiting[contWaiting], expectedSeq, dictionary);
-      executed[seq].result = result;
-      executed[seq].seqRequest = expectedSeq;
+      executed[seq] = result;
+      // Introducir resultado y expected sec en mensaje de vuelta
       dealer.send(JSON.stringify(messege));
       console.log('Petición enviada hacia el cliente: ');
       waiting.shift();
