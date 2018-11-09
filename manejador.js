@@ -1,7 +1,10 @@
 var zmq = require('zmq');
 var handler_RR = zmq.socket('dealer');
-var handler_FO = zmq.socket('dealer');
+var handler_Replica = zmq.socket('dealer');
 var handler_TO = zmq.socket('dealer');
+const fs = require('fs'); //File management
+
+var params = process.argv[2].split(' ');
 
 //Ultima peticion servida
 var LastServerReq=0;
@@ -12,23 +15,38 @@ var seq;
 //En el array sequenced se guarda el json
 var Sequenced=[];
 var Requests={}
-var Replicas=['R_1'];
+var Replicas=[];
 
 var LocalSeq=0;
 var UltimaReq=0;
+// let path_replicas = '../Files/replicas_ids.txt';
+
+// replicas_data=[];
+// fs.readFile(path_replicas,'utf8',function(err,data){
+// 	replicas_data=data.split('\n');
+// 	for (let i=0;i<replicas_data.length-1;i++){
+// 		Replicas_Total=replicas_data.split(' ');
+// 		console.log(Replicas_Total);
+// 		Replicas.push(Replicas_Total[0]);
+// 		console.log(Replicas);
+// 	}
+// });
+Replicas=params[4].split(',');
+console.log(Replicas);
+
 
 //RR
-var portRR = process.argv[2];
+var portRR = params[1];
 //Replicas
-var portFO= process.argv[4];
+var portReplica= params[3];
 //TO
-var portTO=process.argv[3];
+var portTO=params[2];
 
-handler_RR.identity = 'handler1';
+handler_RR.identity = params[0];
 handler_RR.connect('tcp://127.0.0.1:' + portRR);
 
-handler_FO.identity = 'FO1'
-handler_FO.connect('tcp://127.0.0.1:' + portFO);
+handler_Replica.identity = 'FO1'
+handler_Replica.connect('tcp://127.0.0.1:' + portReplica);
 
 handler_TO.identity = 'TO1';
 handler_TO.connect('tcp://127.0.0.1:'+ portTO);
@@ -66,7 +84,7 @@ handler_RR.on('message', function(request) {
 });
 
 //Desde las replicas
-handler_FO.on('message', function(reply) {
+handler_Replica.on('message', function(reply) {
 	    console.log('Recibida respuesta de la replica: '+reply);
 	    console.log('El numero de secuencia local es: '+LocalSeq);
 		reply = JSON.parse(reply);
@@ -93,18 +111,18 @@ function sendToReplicas(seq) {
 			req=Sequenced[j];
 			for(let r=0;r<numberReplicas;r++){
 				req.idReplica = Replicas[r];
-				req.idFO = handler_FO.identity;
+				//req.idFO = handler_Replica.identity;
 				console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
-				handler_FO.send(JSON.stringify(req));
+				handler_Replica.send(JSON.stringify(req));
 			}
 		}
 	}
 	for(let r=0;r<numberReplicas;r++){
 		req = Sequenced[seq];
 		req.idReplica = Replicas[r];
-		req.idFO = handler_FO.identity;
+		//req.idFO = handler_Replica.identity;
 		console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
-		handler_FO.send(JSON.stringify(req));
+		handler_Replica.send(JSON.stringify(req));
 	}
 	LastServerReq=Math.max(LastServerReq, seq);
 }
