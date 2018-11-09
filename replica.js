@@ -35,7 +35,7 @@ dealer.on('message', function(msg) {
   }
   if (expectedSeq == seq){
     // COMPUTE DEVUELVE VALOR/STRING EN FUNCIÓN DE GET/SET --> ¿SET ACTUALIZA? --> devuelve el string pero se necesitan mas de una petición para comprobar
-    var res = compute(messege, expectedSeq, dictionary);
+    var res = compute(messege, dictionary);
     messege.result = res;
     messege.seqRequest = expectedSeq;
     executed[seq] = result;
@@ -44,7 +44,7 @@ dealer.on('message', function(msg) {
     expectedSeq = expectedSeq + 1;
     if(waiting[contWaiting]!=undefined){
         while(expectedSeq== waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
-          var result = compute(waiting[contWaiting], expectedSeq, dictionary);
+          var result = compute(waiting[contWaiting], dictionary);
           executed[seq] = result;
           // Introducir resultado y expected sec en mensaje de vuelta
           dealer.send(JSON.stringify(messege));
@@ -66,7 +66,7 @@ function sortWaiting(waiting){
 
 
 // Function for compute the request
-function compute(request, expectedSeq, dictionary){
+function compute(request, dictionary){
   // Get the operator
   op = request.msg.op;
   switch (op){
