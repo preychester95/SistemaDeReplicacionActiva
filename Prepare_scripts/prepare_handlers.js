@@ -1,26 +1,31 @@
 var zmq = require('zmq');
 const fs = require('fs'); //File management
+const exec = require('child_process').exec;
 const fork = require('child_process').fork;
 
 // Variables:
-var handler_childs = [];
+var client_childs = [];
 var handler_prefix = 'handler';
 var handler_ip = '127.0.0.1';
 var handler_port_base = 6000; //TEMP
 
 // Check user input:
 if (process.argv.length != 2 + 1) {
-	//CHANGE
     console.log(process.argv.length);
     throw new Error('Incorrect number of parameters. Use: node prepare_handlers num_handlers\n');
 }
 var numHandlers = process.argv[2];
 
+// A command to send to the client will be created randomly based in the following parameters:
+possible_commands = ['help', 'get', 'set'];
+possible_vars = ['a', 'b', 'c', 'd', 'e'];
+possible_values = [1, 2, 3, 4, 5];
+
 // Write as much handlers ids as necessary (numHandlers):
 // specify the path to the file, and create a buffer with characters we want to write
-let path = '../Files/handlers_ids.txt';  
+let path = './Files/handlers_ids.txt';  
 
-/******* HANDLERS PREPARATION: *******/
+// HANDLERS PREPARATION:
 // Open the file in writing mode, adding a callback function where we do the actual writing
 fs.open(path, 'w+', function(err, fd) {  
     if (err) {
@@ -54,14 +59,14 @@ fs.open(path, 'w+', function(err, fd) {
     	});
     	write_pos_init = write_pos_final;
     	// Initialize a child process running a handler with the given id:
-    	handler_childs.push(
+    	client_childs.push(
 			fork('manejador', args = [handler_id + ' ' + handler_port], options = {silent: false})
 		);
     }    
 });
 
 
-/******* HANDLERS EXECUTION SIMULATION: *******/
+// HANDLERS EXECUTION SIMULATION:
 
 /*fs.writeFile('./Files/handlers_ids.txt', 'utf-8', function(err) {
 	if (err) throw err;
