@@ -1,52 +1,44 @@
 var zmq = require('zmq');
 
-const EventEmitter = require('events'); //Allow events (used for errors)
-ee = new EventEmitter();
-
-var readline = require('readline');
-
 /******* Initialization *******/
 
-console.log('Hello\n');
-
-if (process.argv.length != 2 + 2) {
+if (process.argv.length != 3) {
     console.log(process.argv.length);
-    ee.emit('error', new Error('The number of arguments expected for a client are ' + 3));
+    throw new Error('The number of arguments expected for a client are ' + 3);
 }
 
+var params = process.argv[2].split(' ');
+
 var PREFIX = 'client'; //Prefix 
+var currentReq = 0;
 
 //Internal properties:
 var idClient = PREFIX + process.pid;
 
 //Initialize a request socket with the ip and port assigned:
 var rq = zmq.socket('req');
-rq.connect('tcp://' + process.argv[2 + 0] + ':' + process.argv[2 + 1]);
+rq.connect('tcp://127.0.0.1:' + params[1]);
 
 //We create a prototype msg whose interior msg will be changed in function of user input:
 var prototypeMsg = {
+    "idRequest": "",
     "idClient":idClient,
-    "msg": " "
+    "msg": ""
 };
-
-
-console.log('Id of process: ' + idClient);
-console.log('IP of the process: ' + process.argv[2 + 0] + ':' + process.argv[2 + 1]);
 
 /******* RESPONDER LOGIC *******/
 
 rq.on('message', function(response) {
+    console.log('Recibida respuesta del rr_module: '+response);
     var parsedResponse = JSON.parse(response);
-    console.log(parsedResponse);
     var msg = parsedResponse.msg;
-    console.log('Replier responded with message: ' + msg.op);
 });
 
 /******* USER INTERFACE LOGIC *******/
 
-//Create an Interface for interacting with the parent process:
+//Create an Interface for interacting with the user via console:
+
 process.on('message', (input) => {
-    console.log('Received message: ' + input);
     var parsed_input = input.split(" "); //Transform the input from string to array of strings (by word)
     var command = parsed_input[0];
     if (command == 'help') {
@@ -64,6 +56,8 @@ process.on('message', (input) => {
                 "args": parsed_input.slice(1, 3)
             }
             console.log(setMsg);
+            newMsg.idRequest = idClient + currentReq;
+            currentReq = currentReq + 1;
             newMsg.msg = setMsg;
             rq.send(JSON.stringify(newMsg))
         }
@@ -81,6 +75,8 @@ process.on('message', (input) => {
                 "args": parsed_input.slice(1, 2)
             }
             console.log(getMsg);
+            newMsg.idRequest = idClient + currentReq;
+            currentReq = currentReq + 1;
             newMsg.msg = getMsg;
             rq.send(JSON.stringify(newMsg))
         }
@@ -92,3 +88,4 @@ process.on('message', (input) => {
         console.log('Unrecognized command. Type "help" for a list of available commands.')
     }
 });
+

@@ -3,17 +3,16 @@ var zmq = require('zmq');
 const EventEmitter = require('events'); //Allow events (used for errors)
 ee = new EventEmitter();
 
-
 var params = process.argv[2].split(' ');
-
-
 
 var REP = "rep";
 var DEALER = "dealer";
 var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
 var URL_REP = "tcp://127.0.0.1:" + params[1];;
-var handlerList = ['handler1']; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+var handlerList = params[2]; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+
+console.log(handlerList);
 
 var usedHandlerList = [];
 
@@ -33,7 +32,7 @@ responder.bind(URL_REP, function(err) {
   if (err) {
     console.log(err);
   } else {
-    console.log("Escuchando en el puerto 5555...");
+    console.log("Escuchando en el puerto " + params[1]);
   }
 });
 

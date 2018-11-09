@@ -6,8 +6,6 @@ const fork = require('child_process').fork;
 // Variables:
 var client_childs = [];
 var client_prefix = 'client';
-var client_ip = '127.0.0.1';
-var client_port_base = 3000; //TEMP
 
 // A command to send to the client will be created randomly based in the following parameters:
 possible_commands = ['help', 'get', 'set'];
@@ -15,12 +13,10 @@ possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
 
 // Check user input:
-if (process.argv.length != 2 + 1) {
+if (process.argv.length != 2) {
 	//CHANGE
-    console.log(process.argv.length);
-    throw new Error('Incorrect number of parameters. Use: node prepare_clients num_clients\n');
+    throw new Error('Incorrect number of parameters. Use: node prepare_clients\n');
 }
-var numClients = process.argv[2];
 
 // Write as much clients ids as necessary (numClients):
 // specify the path to the file
@@ -29,63 +25,54 @@ let path_clients = '../Files/clients_ids.txt';
 
 /******* CLIENTS PREPARATION: *******/
 // Open the file in writing mode, adding a callback function where we do the actual writing
-RRs_ids = [];
+RRs_data = [];
 fs.readFile(path_RRs, 'utf8', function(err, data) {
-	var RRs_data = data.split('\n');
-})
+    RRs_data = data.split('\n');
 
-fs.open(path_clients, 'w+', function(err, fd) {  
-    if (err) {
-        throw 'could not open file clients_ids: ' + err;
+    for (var i = 0; i < RRs_data.length - 1; i++) {
+        var client_id = client_prefix + i;
+
+        current_RR = RRs_data[i].split(' ');
+        console.log(current_RR[1]);
+        client_childs.push(
+            fork('../client_process', args = [client_id + ' ' + current_RR[1]], options = {silent: false}) //current_RR[1] -> Port of this RR
+        );
+        console.log('Creado hijo ' + i);
     }
 
-    var write_pos_init = 0;
-    var write_pos_final = 0;
-    for (let client_idx = 0; client_idx < numHandlers; client_idx++) {    	
-    	// Write the id of the new handler in a file:
-    	var client_id = client_prefix + client_idx;
-    	write_pos_final = write_pos_final + client_id.length;
-    	fs.write(fd, client_id, write_pos_init, write_pos_final, null, function(err) {
-    		if (err) {
-    			throw 'error writting client_id in file: ' + err;
-    		}
-    	});
-    	write_pos_init = write_pos_final;
-    	var client_port = client_port_base + client_idx;
-    	var client_port_txt = " " + client_port + "\n";
-    	write_pos_final = write_pos_init + client_port_txt.length;
-    	console.log(write_pos_init);
-    	console.log(write_pos_final);
-    	console.log(client_port_txt);
-    	fs.write(fd, client_port_txt, write_pos_init, write_pos_final, null, function(err) {
-    		if (err) {
-    			throw 'error writting handler_port in file: ' + err;
-    		}
-    	});
-    	write_pos_init = write_pos_final;
-    	// Initialize a child process running a handler with the given id:
-    	current_RR = RRs_data[client_idx].split(' ');
-    	handler_childs.push(
-			//fork('client', args = [client_id + ' ' + client_ip + ' ' + client_port], options = {silent: false})
-			fork('client', args = [client_id + ' ' + current_RR[1] + ' ' + client_port], options = {silent: false}) //current_RR[1] -> Port of this RR
-		);
-    }    
-});
+    /******* CLIENTS EXECUTION SIMULATION: *******/
+    // for (var i = 0; i < 10; i++) {
+    //     console.log('Iteracion numero ' + i);
+    //     client_childs.forEach(function (client) {
+    //         if (client == null) {
+    //             console.log('ups');
+    //         }
+    //         console.log('Writing help for client ' + client)
+    //         client.send('help');
+    //     })
+    // }
 
-fs.close(fd, function(err) {
-    if (err) {
-        throw 'could not close file clients_ids: ' + err;
+    for (var i = 0; i < 10; i++) {
+        client_childs.forEach(function (client) {
+            sendRandomRequest(client);
+        });
     }
 });
 
-/******* CLIENTS EXECUTION SIMULATION: *******/
-
-for (var i = 0; i < 10; i++) {
-	client_childs.forEach(function (client) {
-		if (client == null) {
-			console.log('ups');
-		}
-		console.log('Writing help for client ' + client)
-		client.send('help');
-	})
+function sendRandomRequest(client) {
+    var commandIdx = Math.floor(Math.random() * possible_commands.length); //Choose a random index from your used handlerList
+    var chosenCommand = possible_commands[commandIdx];
+    if (chosenCommand == 'get') {
+        var variableIdx = Math.floor(Math.random() * possible_vars.length);
+        var chosenVar = possible_vars[variableIdx];
+        client.send(chosenCommand + ' ' + chosenVar);
+    } else if (chosenCommand == 'set') {
+        var variableIdx = Math.floor(Math.random() * possible_vars.length);
+        var chosenVar = possible_vars[variableIdx];
+        var valueIdx = Math.floor(Math.random() * possible_values.length);
+        var chosenValue = possible_values[valueIdx];
+        client.send(chosenCommand + ' ' + chosenVar + ' ' + chosenValue);
+    } else if (chosenCommand == 'help') {
+        client.send('help');
+    }
 }
