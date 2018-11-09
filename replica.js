@@ -1,11 +1,10 @@
 // Requires
 var zmq = require('zmq');
 
-// Arguments
-
 // Variables
-var puerto = process.argv[2];
-var id_replica = 'R_1';
+var params = process.argv[2].split(' ');
+var puerto = params[1];
+var id_replica = params[0];
 // Array for store executed requests
 var executed = [];
 var waiting = [];
@@ -14,13 +13,13 @@ var expectedSeq = 1;
 // Variables for compute client's operation
 dictionary = {};
 
-
 // Socket for communication with router
 var dealer = zmq.socket('dealer');
 
 // Open the connection
 dealer.identity = id_replica;
 dealer.connect('tcp://127.0.0.1:'+ puerto);
+console.log('Conexión de Replica: ' + id_replica + ' abierta --> 127.0.0.1:' + puerto);
 
 // Get request from handler
 dealer.on('message', function(msg) {
@@ -57,35 +56,25 @@ dealer.on('message', function(msg) {
   }
 });
 
+// Function for sort array of waiting
 function sortWaiting(waiting){
-  //TODO: hacer ordenación de los elementos del array por orden de secuencia
-  console.log('El array de peticiones antes de ordenar es: '+waiting);
   waiting.sort(function(a,b){
     return a.seq-b.seq;
   });
-  console.log('El resultado de la ordenacion es: '+JSON.stringify(waiting));
   return waiting;
 }
 
 
 // Function for compute the request
 function compute(request, expectedSeq, dictionary){
-  // Generate JSON for response
-  //var respJSON = { 
-  //  'idClient' : request.idClient,
-  //  'idHandler' : request.idHandler ,
-  //  'seqRequest' : expectedSeq
-  //};
   // Get the operator
   op = request.msg.op;
   switch (op){
     case 'get':
-      console.log(request.msg.args);
       var key = request.msg.args[0];
       var res = get(dictionary, key);
       return res;
     case 'set':
-      console.log(request.msg.args);
       var key = request.msg.args[0];
       var value = request.msg.args[1];
       dictionary = set(dictionary, key, value);
@@ -96,13 +85,13 @@ function compute(request, expectedSeq, dictionary){
   }
 }
 
-// Devuelve el diccionario actualizado
+// Function that return an update dictionary
 function set(dict,key,value){
   dict[key] = value;
   return dict;
 }
 
-// Devuelve el valor que corresponde con la clave
+// Function that return the value for the key in the dictionary
 function get(dict,key){
   return dict[key] != undefined ? dict[key] : 'No existe un valor para esa clave';
 }
