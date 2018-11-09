@@ -3,6 +3,8 @@ var zmq = require('zmq');
 const EventEmitter = require('events'); //Allow events (used for errors)
 ee = new EventEmitter();
 
+console.log(process.argv[2]);
+
 var params = process.argv[2].split(' ');
 
 var REP = "rep";
@@ -10,15 +12,14 @@ var DEALER = "dealer";
 var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
 var URL_REP = "tcp://127.0.0.1:" + params[1];;
-var handlerList = params[2]; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
-
-console.log(handlerList);
 
 var usedHandlerList = [];
 
 //var idRR = PREFIJO_DEAL + process.pid;
 var URL_DEALER = "tcp://127.0.0.1:" + params[2];; //URL for the router
 var repeatedTimeout;
+
+var handlerList = params[3].split(','); //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
 
 // Instantiate a dealer socket for communication with the router
 var dealer = buildSocket(DEALER, params[0]);

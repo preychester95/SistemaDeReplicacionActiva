@@ -26,10 +26,12 @@ let path_handlers = '../Files/handlers_ids.txt';
 
 fs.readFile(path_handlers, 'utf8', function(err, data) {
     var handlers_data = data.split('\n');
+    var handlers_ids = [];
     for (var i = 0; i < handlers_data.length - 1; i++) {
         var currentHandler = handlers_data[i].split(' ');
-        handler_ids.push(currentHandler[0]);
+        handlers_ids.push(currentHandler[0]);
     }
+    console.log(handlers_ids);
     fs.open(path_RRs, 'w+', function(err, fd) {  
         if (err) {
             throw 'could not open file RRs_ids: ' + err;
