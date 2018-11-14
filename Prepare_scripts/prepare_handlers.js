@@ -22,6 +22,7 @@ var numhandlers = process.argv[2];
 // specify the path to the file
 let path_replicas = '../Files/replicas_ids.txt';
 
+
 var replicas_data=[];
 var Replicas=[];
 var Replicas_Total=[];
@@ -35,6 +36,7 @@ fs.readFile(path_replicas,'utf8',function(err,data){
 
 
     let path_handlers = '../Files/handlers_ids.txt';
+
 
     /******* RRS PREPARATION: *******/
     // Open the file in writing mode, adding a callback function where we do the actual writing
@@ -57,7 +59,7 @@ fs.readFile(path_replicas,'utf8',function(err,data){
         	});
         	write_pos_init = write_pos_final;
         	var handler_port_1 = handler_port_router_router_1 + handler_idx;
-        	var handler_port_1_txt = " " + handler_port_1 + "\n";
+        	var handler_port_1_txt = " " + handler_port_1;
         	write_pos_final = write_pos_init + handler_port_1_txt.length;
         	fs.write(fd, handler_port_1_txt, write_pos_init, write_pos_final, null, function(err) {
         		if (err) {
@@ -78,7 +80,7 @@ fs.readFile(path_replicas,'utf8',function(err,data){
         	// Initialize a child process running a handler with the given id:
         	handlers_childs.push(
     			//fork('RR', args = [RR_id + ' ' + RR_ip + ' ' + RR_port], options = {silent: false})
-    			fork('../manejador', args = [handler_id + ' ' + handler_port_1 + ' ' + handler_port_TO+' '+handler_port_2+' '+Replicas], options = {silent: false}) //current_RR[1] -> Port of this RR
+    			fork('../manejador', args = [handler_id + ' ' + handler_port_1 + ' ' + handler_port_TO+ ' ' +handler_port_2+' '+handler_idx+' '+Replicas], options = {silent: false}) //current_RR[1] -> Port of this RR
     		);
         }  
         fs.close(fd, function(err) {

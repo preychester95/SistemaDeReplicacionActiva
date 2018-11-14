@@ -15,7 +15,7 @@ var numReplicas = process.argv[2];
 
 // Write as much Replicass ids as necessary (numReplicas):
 // specify the path to the file
-let path_Replicas = '../Files/Replicas_ids.txt';
+let path_Replicas = '../Files/replicas_ids.txt';
 
 /******* Replicas PREPARATION: *******/
 // Open the file in writing mode, adding a callback function where we do the actual writing

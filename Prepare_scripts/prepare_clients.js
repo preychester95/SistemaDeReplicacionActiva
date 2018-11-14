@@ -28,12 +28,10 @@ let path_clients = '../Files/clients_ids.txt';
 RRs_data = [];
 fs.readFile(path_RRs, 'utf8', function(err, data) {
     RRs_data = data.split('\n');
-
     for (var i = 0; i < RRs_data.length - 1; i++) {
         var client_id = client_prefix + i;
-
         current_RR = RRs_data[i].split(' ');
-        console.log(current_RR[1]);
+        console.log('El hijo '+i+'se conectara al modulo RR en el puerto '+current_RR[1]);
         client_childs.push(
             fork('../client_process', args = [client_id + ' ' + current_RR[1]], options = {silent: false}) //current_RR[1] -> Port of this RR
         );

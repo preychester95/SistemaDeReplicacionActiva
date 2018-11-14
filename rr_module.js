@@ -7,16 +7,19 @@ console.log(process.argv[2]);
 
 var params = process.argv[2].split(' ');
 
+console.log('Los parametros de RR son: '+params);
+
 var REP = "rep";
 var DEALER = "dealer";
 var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
-var URL_REP = "tcp://127.0.0.1:" + params[1];;
+var URL_REP = "tcp://127.0.0.1:" + params[1];
 
 var usedHandlerList = [];
 
 //var idRR = PREFIJO_DEAL + process.pid;
-var URL_DEALER = "tcp://127.0.0.1:" + params[2];; //URL for the router
+var URL_DEALER = "tcp://127.0.0.1:" + params[2]; //URL for the router
+console.log('URL_DEALER es: '+URL_DEALER);
 var repeatedTimeout;
 
 var handlerList = params[3].split(','); //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
@@ -33,7 +36,7 @@ responder.bind(URL_REP, function(err) {
   if (err) {
     console.log(err);
   } else {
-    console.log("Escuchando en el puerto " + params[1]);
+    console.log("Modulo_RR escuchando en el puerto " + params[1]+" conectado router-routerRRToHandler por el puerto "+params[2]);
   }
 });
 
@@ -47,14 +50,14 @@ responder.on('message', function(request) {
 
   var intervalTime = 0;
   repeatedTimeout = setTimeout(function() {
-    intervalTime = 10000;
+    intervalTime = 10000; //////////////////////////////////OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
   	//Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
     var chosenHandler = chooseRandomNonUsedHandler(); 
     var requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
-    console.log('Enviando peticion desde module_rr al router-routerRRToHandler destino manejador '+chosenHandler);
+    console.log('Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
   }, intervalTime);
 });

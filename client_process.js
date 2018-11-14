@@ -59,6 +59,7 @@ process.on('message', (input) => {
             newMsg.idRequest = idClient + currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = setMsg;
+            console.log('Enviando peticion al modulo_rr conectado en el puerto '+params[1]);
             rq.send(JSON.stringify(newMsg))
         }
         else {
@@ -78,6 +79,7 @@ process.on('message', (input) => {
             newMsg.idRequest = idClient + currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = getMsg;
+            console.log('Enviando peticion al modulo_rr conectado en el puerto '+params[1]);
             rq.send(JSON.stringify(newMsg))
         }
         else {

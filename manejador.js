@@ -1,10 +1,7 @@
 var zmq = require('zmq');
 var handler_RR = zmq.socket('dealer');
-var handler_Replica = zmq.socket('dealer');
+var handler_FO = zmq.socket('dealer');
 var handler_TO = zmq.socket('dealer');
-const fs = require('fs'); //File management
-
-var params = process.argv[2].split(' ');
 
 //Ultima peticion servida
 var LastServerReq=0;
@@ -14,43 +11,40 @@ var seq;
 //Hay que ver cual de las dos siguentes funciona
 //En el array sequenced se guarda el json
 var Sequenced=[];
-var Requests={}
-var Replicas=[];
+var Requests={};
 
 var LocalSeq=0;
 var UltimaReq=0;
-// let path_replicas = '../Files/replicas_ids.txt';
 
-// replicas_data=[];
-// fs.readFile(path_replicas,'utf8',function(err,data){
-// 	replicas_data=data.split('\n');
-// 	for (let i=0;i<replicas_data.length-1;i++){
-// 		Replicas_Total=replicas_data.split(' ');
-// 		console.log(Replicas_Total);
-// 		Replicas.push(Replicas_Total[0]);
-// 		console.log(Replicas);
-// 	}
-// });
-Replicas=params[4].split(',');
-console.log(Replicas);
+//Parámetros
+var params = process.argv[2].split(' ');
 
 
 //RR
 var portRR = params[1];
-//Replicas
-var portReplica= params[3];
 //TO
 var portTO=params[2];
+//Replicas
+var portFO= params[3];
+//IdManejador
+var idManejador = params[4];
+//Array de ids de Replicas
+var Replicas = params[5].split(','); 
 
-handler_RR.identity = params[0];
+console.log('El total de replicas en el array Replicas es: '+Replicas);
+
+
+
+handler_RR.identity = 'handler'+idManejador;
 handler_RR.connect('tcp://127.0.0.1:' + portRR);
 
-handler_Replica.identity = 'FO1'
-handler_Replica.connect('tcp://127.0.0.1:' + portReplica);
+handler_FO.identity = 'FO'+idManejador;
+handler_FO.connect('tcp://127.0.0.1:' + portFO);
 
-handler_TO.identity = 'TO1';
+handler_TO.identity = 'TO'+idManejador;
 handler_TO.connect('tcp://127.0.0.1:'+ portTO);
 numberReplicas=Replicas.length;
+console.log('Manejador con id: '+handler_RR.identity+' escuchando al router-routerRRToHandler por el puerto '+portRR+' y escuchando a las replicas por el puerto '+portFO);
 console.log('Esperando...');
 
 //Cuando nos devuelve el TO
@@ -84,7 +78,7 @@ handler_RR.on('message', function(request) {
 });
 
 //Desde las replicas
-handler_Replica.on('message', function(reply) {
+handler_FO.on('message', function(reply) {
 	    console.log('Recibida respuesta de la replica: '+reply);
 	    console.log('El numero de secuencia local es: '+LocalSeq);
 		reply = JSON.parse(reply);
@@ -111,18 +105,18 @@ function sendToReplicas(seq) {
 			req=Sequenced[j];
 			for(let r=0;r<numberReplicas;r++){
 				req.idReplica = Replicas[r];
-				//req.idFO = handler_Replica.identity;
+				req.idFO = handler_FO.identity;
 				console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
-				handler_Replica.send(JSON.stringify(req));
+				handler_FO.send(JSON.stringify(req));
 			}
 		}
 	}
 	for(let r=0;r<numberReplicas;r++){
 		req = Sequenced[seq];
 		req.idReplica = Replicas[r];
-		//req.idFO = handler_Replica.identity;
+		req.idFO = handler_FO.identity;
 		console.log("Enviando peticion secuenciada "+req+" al router-routerHandlerToReplica");
-		handler_Replica.send(JSON.stringify(req));
+		handler_FO.send(JSON.stringify(req));
 	}
 	LastServerReq=Math.max(LastServerReq, seq);
 }
