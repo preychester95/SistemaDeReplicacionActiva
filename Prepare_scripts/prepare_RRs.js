@@ -72,3 +72,10 @@ fs.readFile(path_handlers, 'utf8', function(err, data) {
         });  
     });
 });
+
+//Cuando matamos al padre matamos también a los hijos
+process.on('exit', function(){
+    for (let i = 0; i < RRs_childs.length; i++) {
+        RRs_childs[i].kill();
+    }
+});

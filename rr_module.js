@@ -18,7 +18,7 @@ var URL_REP = "tcp://127.0.0.1:" + params[1];
 var usedHandlerList = [];
 
 //var idRR = PREFIJO_DEAL + process.pid;
-var URL_DEALER = "tcp://127.0.0.1:" + params[2]; //URL for the router
+var URL_DEALER = "tcp://localhost:" + params[2]; //URL for the router
 console.log('URL_DEALER es: '+URL_DEALER);
 var repeatedTimeout;
 

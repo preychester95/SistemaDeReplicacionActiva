@@ -66,7 +66,7 @@ handler_TO.on('message',function(requestTO){
 handler_RR.on('message', function(request) {
 	//Get the JSON send by a client.
   	var request_parsed = JSON.parse(request); 
-  	console.log("Recibida peticion desde router-routerRRToHandler,enviando al manejador "+request_parsed.idHandler);
+  	console.log("Recibida peticion desde router-routerRRToHandler,enviada al manejador "+request_parsed.idHandler);
 	//Si no existe 
 	if (Sequenced.indexOf(request_parsed)==-1){
 		console.log('Enviando para secuenciar a TO');

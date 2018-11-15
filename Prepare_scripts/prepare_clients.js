@@ -74,3 +74,10 @@ function sendRandomRequest(client) {
         client.send('help');
     }
 }
+
+//Cuando matamos al padre matamos también a los hijos
+process.on('exit', function(){
+    for (let i = 0; i < client_childs.length; i++) {
+        client_childs[i].kill();
+    }
+});

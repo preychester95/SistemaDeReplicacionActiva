@@ -13,9 +13,9 @@ if( verbose ){
 }
 
 // Let clients connect to the router:
-frontend.bindSync('tcp://127.0.0.1:' + portClient);
+frontend.bindSync('tcp://*:' + portClient);
 // Let handlers connect to the router:
-backend.bindSync('tcp://127.0.0.1:' + portWorker);
+backend.bindSync('tcp://*:' + portWorker);
 
 
 frontend.on('message', function(idRR, request) {
@@ -28,7 +28,7 @@ frontend.on('message', function(idRR, request) {
 	// Send the petition through backend router, to the chosen handler:
 	var idHandler = request.idHandler;
 	console.log("Recibida peticion desde rr_module,enviando al manejador "+idHandler+"...");
-	backend.send([idHandler, JSON.stringify(request)]);
+	backend.send([idHandler,JSON.stringify(request)]);
 
 	if(verbose){
 		console.log("Sending request: " + request.msg + " to handler ( " + idHandler + " ) through backend.");

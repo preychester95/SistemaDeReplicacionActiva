@@ -5,6 +5,7 @@ const fork = require('child_process').fork;
 // Variables:
 var handlers_childs = [];
 var handler_prefix = 'handler';
+var handler_prefix_TO = 'TO';
 var handler_port_router_router_1= 4000; 
 var handler_port_TO= 5000; 
 var handler_port_router_router_2= 6000; 
@@ -57,6 +58,16 @@ fs.readFile(path_replicas,'utf8',function(err,data){
         			throw 'error writting handler_id in file: ' + err;
         		}
         	});
+            //HAY QUE ESCRIBIR TAMBIÉN EL ID DEL SOCKET QUE CONECTA CON EL TO!!!!!!!!!
+            write_pos_init = write_pos_final;
+            var handler_id_TO = handler_prefix_TO + handler_idx;
+            var handler_id_TO_txt = " " + handler_id_TO;
+            write_pos_final = write_pos_init + handler_id_TO_txt.length;
+            fs.write(fd, handler_id_TO_txt, write_pos_init, write_pos_final, null, function(err) {
+                if (err) {
+                    throw 'error writting handler_id_TO in file: ' + err;
+                }
+            });
         	write_pos_init = write_pos_final;
         	var handler_port_1 = handler_port_router_router_1 + handler_idx;
         	var handler_port_1_txt = " " + handler_port_1;
@@ -80,7 +91,7 @@ fs.readFile(path_replicas,'utf8',function(err,data){
         	// Initialize a child process running a handler with the given id:
         	handlers_childs.push(
     			//fork('RR', args = [RR_id + ' ' + RR_ip + ' ' + RR_port], options = {silent: false})
-    			fork('../manejador', args = [handler_id + ' ' + handler_port_1 + ' ' + handler_port_TO+ ' ' +handler_port_2+' '+handler_idx+' '+Replicas], options = {silent: false}) //current_RR[1] -> Port of this RR
+    			fork('../manejador', args = [handler_id + ' ' + 9001 + ' ' + handler_port_TO+ ' ' +9002+' '+handler_idx+' '+Replicas], options = {silent: false}) //current_RR[1] -> Port of this RR
     		);
         }  
         fs.close(fd, function(err) {
@@ -89,4 +100,11 @@ fs.readFile(path_replicas,'utf8',function(err,data){
             }
         });  
     });
+});
+
+//Cuando matamos al padre matamos también a los hijos
+process.on('exit', function(){
+    for (let i = 0; i < handlers_childs.length; i++) {
+        handlers_childs[i].kill();
+    }
 });

@@ -1,8 +1,10 @@
 var zmq = require('zmq');
-
+const fs = require('fs'); //File management
 var sequencedRequests = [];
 var TOpoint = zmq.socket('router');
-var handlerList = ['TO1']; //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+let path_handlers = 'Files/handlers_ids.txt';  
+var handlerList = getHandlersIdsFromFile(path_handlers); 
+console.log('El array de id_handler es: '+handlerList);
 //var auxfunctions = require('./auxfunctions.js');
 
 // ARGUMENTS
@@ -50,7 +52,25 @@ function getPosition(request) {
 
 function broadCastToHandlers(request) {
 	handlerList.forEach(function(handler) {
-		console.log('Enviando a handler ' + handler);
+		console.log('Enviando a handler: ' + handler);
 		TOpoint.send([handler, JSON.stringify(request)]);
 	}) 
+}
+
+function getHandlersIdsFromFile(file_path){
+	var idHandlerArrayResult = [];
+	var resultData = fs.readFileSync(file_path, 'utf8', function(err, data) {	
+		if (err){
+			console.log(err);
+			throw err;
+		}
+		return data;
+	});
+    var handlers_data = resultData.split('\n');
+    for (var i = 0; i < handlers_data.length - 1; i++) {
+        var current_handler = handlers_data[i].split(' ');
+        idHandlerArrayResult.push(current_handler[1]);
+    }
+	console.log('El resultado de ids es: '+idHandlerArrayResult);
+	return idHandlerArrayResult;
 }

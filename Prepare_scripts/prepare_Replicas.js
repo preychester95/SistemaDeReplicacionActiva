@@ -47,7 +47,7 @@ fs.open(path_Replicas, 'w+', function(err, fd) {
 
     	// Initialize a child process running a handler with the given id:
     	Replicas_childs.push(
-			fork('../replica', args = [Replica_id + ' ' + Replica_port], options = {silent: false})
+			fork('../replica', args = [Replica_id + ' ' + 9003], options = {silent: false})
 		);
     }  
     fs.close(fd, function(err) {
@@ -55,4 +55,11 @@ fs.open(path_Replicas, 'w+', function(err, fd) {
             throw 'could not close file RRs_ids: ' + err;
         }
     });  
+});
+
+//Cuando matamos al padre matamos también a los hijos
+process.on('exit', function(){
+    for (let i = 0; i < Replicas_childs.length; i++) {
+        Replicas_childs[i].kill();
+    }
 });

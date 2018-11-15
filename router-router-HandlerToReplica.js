@@ -37,5 +37,5 @@ backend.on('message', function(idReplica, reply) {
 	var reply = JSON.parse(reply);
 	console.log("Recibida respuesta de la replica, enviando al manejador "+reply.idHandler);
 	// Send the response 
-	frontend.send([reply.HandlerReplica, JSON.stringify(reply)]);
+	frontend.send([reply.idFO, JSON.stringify(reply)]);
 });
