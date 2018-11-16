@@ -70,8 +70,6 @@ function sendRandomRequest(client) {
         var valueIdx = Math.floor(Math.random() * possible_values.length);
         var chosenValue = possible_values[valueIdx];
         client.send(chosenCommand + ' ' + chosenVar + ' ' + chosenValue);
-    } else if (chosenCommand == 'help') {
-        client.send('help');
     }
 }
 
