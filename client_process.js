@@ -29,24 +29,19 @@ var prototypeMsg = {
 /******* RESPONDER LOGIC *******/
 
 rq.on('message', function(response) {
-    console.log('Recibida respuesta del rr_module: '+response);
     var parsedResponse = JSON.parse(response);
+    console.log(parsedResponse.idRequest + ': Recibida respuesta del rr_module: \n' + response + '\n');
     var msg = parsedResponse.msg;
 });
-
 /******* USER INTERFACE LOGIC *******/
+
 
 //Create an Interface for interacting with the user via console:
 
 process.on('message', (input) => {
     var parsed_input = input.split(" "); //Transform the input from string to array of strings (by word)
     var command = parsed_input[0];
-    if (command == 'help') {
-        console.log('set [var] [val]: Sets the value of var to val. Creates var if it does not exist.');
-        console.log('get [var]: Gets the current value of var. NULL if var does not exist.')
-        console.log('help: Shows available commands.')
-    } 
-    else if (command == 'set') {
+    if (command == 'set') {
         if (parsed_input.length == 3) {
             //Prepare a copy of the protoypeMsg to send the requested operation:
             var newMsg = prototypeMsg;
@@ -55,11 +50,10 @@ process.on('message', (input) => {
                 "op": command,
                 "args": parsed_input.slice(1, 3)
             }
-            console.log(setMsg);
             newMsg.idRequest = idClient + currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = setMsg;
-            console.log('Enviando peticion al modulo_rr conectado en el puerto '+params[1]);
+            console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + setMsg.op + ' ' + setMsg.args + '\n');
             rq.send(JSON.stringify(newMsg))
         }
         else {
@@ -75,11 +69,10 @@ process.on('message', (input) => {
                 "op": command,
                 "args": parsed_input.slice(1, 2)
             }
-            console.log(getMsg);
             newMsg.idRequest = idClient + currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = getMsg;
-            console.log('Enviando peticion al modulo_rr conectado en el puerto '+params[1]);
+            console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + getMsg.op + ' ' + getMsg.args + '\n');
             rq.send(JSON.stringify(newMsg))
         }
         else {

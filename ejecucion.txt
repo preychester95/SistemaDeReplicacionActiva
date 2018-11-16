@@ -1,0 +1,19 @@
+Orden:
+1.-Router-Router:
+node router-router-HandlerToReplica.js 9002 9003 S
+node router-router-RRToHandler.js 9000 9001 S
+
+2.-Replicas:
+node Prepare_scripts/prepare_Replicas.js 10
+
+3.-Manejadores
+node Prepare_scripts/prepare_handlers 10
+
+4.-TO
+node TO_module 5000
+
+5.-RR
+node Prepare_scripts/prepare_RRs 10 9000
+
+6.-Cliente
+node Prepare_scripts/prepare_clients

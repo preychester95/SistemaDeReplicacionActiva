@@ -8,7 +8,7 @@ var client_childs = [];
 var client_prefix = 'client';
 
 // A command to send to the client will be created randomly based in the following parameters:
-possible_commands = ['help', 'get', 'set'];
+possible_commands = ['get', 'set'];
 possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
 
@@ -70,8 +70,6 @@ function sendRandomRequest(client) {
         var valueIdx = Math.floor(Math.random() * possible_values.length);
         var chosenValue = possible_values[valueIdx];
         client.send(chosenCommand + ' ' + chosenVar + ' ' + chosenValue);
-    } else if (chosenCommand == 'help') {
-        client.send('help');
     }
 }
 
