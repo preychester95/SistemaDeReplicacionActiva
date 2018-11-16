@@ -8,7 +8,7 @@ var client_childs = [];
 var client_prefix = 'client';
 
 // A command to send to the client will be created randomly based in the following parameters:
-possible_commands = ['help', 'get', 'set'];
+possible_commands = ['get', 'set'];
 possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
 

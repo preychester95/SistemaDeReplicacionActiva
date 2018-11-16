@@ -78,8 +78,7 @@ function compute(request, dictionary){
       var key = request.msg.args[0];
       var value = request.msg.args[1];
       dictionary = set(dictionary, key, value);
-      return get(dictionary, key); // Apaño para ver si introduce en diccionario
-      //return 'Valor actualizado';
+      return 'Valor actualizado en clave: ' + key + ' con valor: ' + value; 
     default:
       console.log('Operación erronea');
   }
