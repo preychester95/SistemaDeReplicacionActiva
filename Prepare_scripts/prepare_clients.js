@@ -13,10 +13,11 @@ possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
 
 // Check user input:
-if (process.argv.length != 2) {
+if (process.argv.length != 3) {
 	//CHANGE
-    throw new Error('Incorrect number of parameters. Use: node prepare_clients\n');
+    throw new Error('Incorrect number of parameters. Use: node prepare_clients numeroPeticiones\n');
 }
+var numeroPeticiones=process.argv[2];
 
 // Write as much clients ids as necessary (numClients):
 // specify the path to the file
@@ -50,11 +51,26 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
     //     })
     // }
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < numeroPeticiones; i++) {
         client_childs.forEach(function (client) {
             sendRandomRequest(client);
         });
     }
+    path_informes='../Files/informe.txt';
+    fs.open(path_informes, 'w+', function(err, fd) {  
+        if (err) {
+            throw 'could not open file path_handlers: ' + err;
+        }
+        var write_pos_init = 0;
+        var write_pos_final = 0;
+        client_childs.forEach(function (client) {
+        var client_id = client;
+        write_pos_final = write_pos_final + client_id.length;
+        fs.write(fd, client_id, write_pos_init, write_pos_final, null, function(err) {
+                if (err) {
+                    throw 'error writting handler_id in file: ' + err;
+                }
+            });
 });
 
 function sendRandomRequest(client) {

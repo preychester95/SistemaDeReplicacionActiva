@@ -58,12 +58,13 @@ fs.readFile(path_handlers, 'utf8', function(err, data) {
         		}
         	});
         	write_pos_init = write_pos_final;
-
-        	// Initialize a child process running a handler with the given id:
-        	RRs_childs.push(
-    			//fork('RR', args = [RR_id + ' ' + RR_ip + ' ' + RR_port], options = {silent: false})
-    			fork('../rr_module', args = [RR_id + ' ' + RR_port + ' ' + portRouterRouter + ' ' + handlers_ids], options = {silent: false}) //current_RR[1] -> Port of this RR
-    		);
+            //setTimeout(function(){
+            	// Initialize a child process running a handler with the given id:
+            	RRs_childs.push(
+        			//fork('RR', args = [RR_id + ' ' + RR_ip + ' ' + RR_port], options = {silent: false})
+        			fork('../rr_module', args = [RR_id + ' ' + RR_port + ' ' + portRouterRouter + ' ' + handlers_ids], options = {silent: false}) //current_RR[1] -> Port of this RR
+    		      );
+           // },0.01);
         }  
         fs.close(fd, function(err) {
             if (err) {

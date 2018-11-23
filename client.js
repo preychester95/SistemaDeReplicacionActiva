@@ -73,6 +73,7 @@ rl.on('line', (input) => {
             currentReq = currentReq + 1;
             newMsg.msg = setMsg;
             rq.send(JSON.stringify(newMsg))
+            Date.now();
         }
         else {
             console.log('Incorrect use of "set": set [var] [val].')

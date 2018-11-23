@@ -1,4 +1,11 @@
 var zmq = require('zmq');
+var start=new Date();
+var end=new Date();
+var tiempo_actual=new Date();
+var arrayTimes=[];
+var allDates=[];
+var elapsed=0;
+
 
 /******* Initialization *******/
 
@@ -32,6 +39,13 @@ rq.on('message', function(response) {
     var parsedResponse = JSON.parse(response);
     console.log(parsedResponse.idRequest + ': Recibida respuesta del rr_module: \n' + response + '\n');
     var msg = parsedResponse.msg;
+    start=arrayTimes[parsedResponse.idRequest];
+    console.log('start: '+start);
+    end=Date.now();
+    elapsed=(end-start)/1000;
+    console.log('Tiempo entre peticion y respuesta: '+elapsed);
+    allDates.push(elapsed);
+    console.log('Array de tiempos del cliente: '+parsedResponse.idClient+', '+allDates);
 });
 /******* USER INTERFACE LOGIC *******/
 
@@ -50,11 +64,13 @@ process.on('message', (input) => {
                 "op": command,
                 "args": parsed_input.slice(1, 3)
             }
-            newMsg.idRequest = idClient + currentReq;
+            newMsg.idRequest = idClient + '_' +currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = setMsg;
             console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + setMsg.op + ' ' + setMsg.args + '\n');
-            rq.send(JSON.stringify(newMsg))
+            rq.send(JSON.stringify(newMsg));
+           // var tiempo_actual =Date.now();
+            arrayTimes[newMsg.idRequest]=Date.now();
         }
         else {
             console.log('Incorrect use of "set": set [var] [val].')
@@ -69,11 +85,13 @@ process.on('message', (input) => {
                 "op": command,
                 "args": parsed_input.slice(1, 2)
             }
-            newMsg.idRequest = idClient + currentReq;
+            newMsg.idRequest = idClient + '_' +currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = getMsg;
             console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + getMsg.op + ' ' + getMsg.args + '\n');
-            rq.send(JSON.stringify(newMsg))
+            rq.send(JSON.stringify(newMsg));
+            //var tiempo_actual =Date.now();
+            arrayTimes[newMsg.idRequest]=Date.now();
         }
         else {
             console.log('Incorrect use of "get": get [var].')

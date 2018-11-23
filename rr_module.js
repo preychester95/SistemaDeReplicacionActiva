@@ -34,7 +34,7 @@ var responder = zmq.socket(REP);
 // Set the url for the clients to connect
 responder.bind(URL_REP, function(err) {
   if (err) {
-    console.log(err);
+    console.log('HOLA'+ err);
   } else {
     console.log("Modulo_RR escuchando en el puerto " + params[1]+" conectado router-routerRRToHandler por el puerto "+params[2]);
   }
@@ -100,6 +100,7 @@ function chooseRandomNonUsedHandler() {
   
   //MEJORABLE SI EN VEZ DE BUSCAR REPETIDAMENTE UN ÍNDICE BORRAMOS LOS UTILIZADOS
   var handlerIdx = Math.floor(Math.random() * handlerList.length); //Choose a random index from your used handlerList
+  console.log('\n Manejador '+handlerIdx);
   var chosenHandler = handlerList[handlerIdx];
   while (usedHandlerList.includes(chosenHandler)) {
     handlerIdx = Math.floor(Math.random() * handlerList.length); 
