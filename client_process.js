@@ -5,16 +5,20 @@ var tiempo_actual=new Date();
 var arrayTimes=[];
 var allDates=[];
 var elapsed=0;
+var contador=0;
 
 
 /******* Initialization *******/
 
 if (process.argv.length != 3) {
     console.log(process.argv.length);
-    throw new Error('The number of arguments expected for a client are ' + 3);
+    throw new Error('The number of arguments expected for a client are ' + 4);
 }
 
 var params = process.argv[2].split(' ');
+console.log(params)
+var numeroPeticiones=params[2];
+
 
 var PREFIX = 'client'; //Prefix 
 var currentReq = 0;
@@ -46,6 +50,10 @@ rq.on('message', function(response) {
     console.log('Tiempo entre peticion y respuesta: '+elapsed);
     allDates.push(elapsed);
     console.log('Array de tiempos del cliente: '+parsedResponse.idClient+', '+allDates);
+    contador=contador+1;
+    console.log('contador:'+contador+'peticiones: '+numeroPeticiones);
+    if(contador==numeroPeticiones)
+        process.send(allDates);
 });
 /******* USER INTERFACE LOGIC *******/
 

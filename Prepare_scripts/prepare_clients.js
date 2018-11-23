@@ -6,6 +6,7 @@ const fork = require('child_process').fork;
 // Variables:
 var client_childs = [];
 var client_prefix = 'client';
+var cont=0;
 
 // A command to send to the client will be created randomly based in the following parameters:
 possible_commands = ['get', 'set'];
@@ -32,9 +33,9 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
     for (var i = 0; i < RRs_data.length - 1; i++) {
         var client_id = client_prefix + i;
         current_RR = RRs_data[i].split(' ');
-        console.log('El hijo '+i+'se conectara al modulo RR en el puerto '+current_RR[1]);
+        console.log('El hijo '+i+' se conectara al modulo RR en el puerto '+current_RR[1]);
         client_childs.push(
-            fork('../client_process', args = [client_id + ' ' + current_RR[1]], options = {silent: false}) //current_RR[1] -> Port of this RR
+            fork('../client_process', args = [client_id + ' ' + current_RR[1]+ ' '+numeroPeticiones], options = {silent: false}) //current_RR[1] -> Port of this RR
         );
         console.log('Creado hijo ' + i);
     }
@@ -56,22 +57,50 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
             sendRandomRequest(client);
         });
     }
-    path_informes='../Files/informe.txt';
-    fs.open(path_informes, 'w+', function(err, fd) {  
-        if (err) {
-            throw 'could not open file path_handlers: ' + err;
-        }
-        var write_pos_init = 0;
-        var write_pos_final = 0;
-        client_childs.forEach(function (client) {
-        var client_id = client;
-        write_pos_final = write_pos_final + client_id.length;
-        fs.write(fd, client_id, write_pos_init, write_pos_final, null, function(err) {
+    client_childs.forEach(function (client) {
+            console.log(client);
+            client.on('message', function(response) {
+                console.log('Recibido mensaje de hijo: '+response);
+
+            path_informes='../Files/informe.txt';
+            fs.open(path_informes, 'as', function(err, fd) {  
                 if (err) {
-                    throw 'error writting handler_id in file: ' + err;
+                    throw 'could not open file path_handlers: ' + err;
                 }
+                var write_pos_init = 0;
+                var write_pos_final = 0;
+               // client_childs.forEach(function (client) {
+                    var client_id = 'cliente'+cont;
+                    write_pos_final = write_pos_final + client_id.length;
+                    fs.write(fd, client_id, write_pos_init, write_pos_final, null, function(err) {
+                            if (err) {
+                                throw 'error writting informes_id in file: ' + err;
+                            }
+                    });
+                    write_pos_init = write_pos_final;
+                    var tiempo=response;
+                    var tiempo_txt=": "+tiempo+"\n";
+                    write_pos_final = write_pos_final + tiempo_txt.length;
+                    fs.write(fd, tiempo_txt, write_pos_init, write_pos_final, null, function(err) {
+                           if (err) {
+                               throw 'error writting informes_id in file: ' + err;
+                           }
+                    });
+                    write_pos_init = write_pos_final;
+                    cont=cont+1;
+                //});
+            fs.close(fd, function(err) {
+                    if (err) {
+                        throw 'could not close file handlers_ids: ' + err;
+                    }
             });
+            });
+    });
 });
+});
+
+
+
 
 function sendRandomRequest(client) {
     var commandIdx = Math.floor(Math.random() * possible_commands.length); //Choose a random index from your used handlerList
@@ -88,6 +117,8 @@ function sendRandomRequest(client) {
         client.send(chosenCommand + ' ' + chosenVar + ' ' + chosenValue);
     }
 }
+
+
 
 //Cuando matamos al padre matamos también a los hijos
 process.on('exit', function(){
