@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/preychester95/SistemaDeReplicacionActiva#readme",
   "dependencies": {
+    "plotly": "^1.0.6",
     "zmq": "^2.15.3"
   }
 }
