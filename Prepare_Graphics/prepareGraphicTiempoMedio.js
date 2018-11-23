@@ -60,7 +60,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 	});
 })
 
-
+// Función para obtener tiempo medio de peticiones de un cliente
 function getMedia(vector){
 	var valoresTiempo = vector.split(' ');
 	var acumulado = 0;

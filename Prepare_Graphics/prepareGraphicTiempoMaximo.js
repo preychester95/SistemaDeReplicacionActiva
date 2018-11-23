@@ -60,6 +60,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 	});
 })
 
+// Función para obtener tiempo máximo de peticiones de un cliente
 function getMax(vector){
 	var valoresTiempo = vector.split(' ');
 	var valor = 0;

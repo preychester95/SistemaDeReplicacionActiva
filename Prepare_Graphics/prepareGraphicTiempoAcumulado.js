@@ -59,6 +59,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 	});
 })
 
+// Función para obtener tiempo acumulado de peticiones de un cliente
 function getAcumulado(vector){
 	var valoresTiempo = vector.split(' ');
 	var acumulado = 0;
