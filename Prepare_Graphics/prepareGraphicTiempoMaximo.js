@@ -1,4 +1,3 @@
-
 const fs = require('fs');
 var plotly = require('plotly')('Erburu', 'tnpOVllY8TisLYgMxfCr');
 
@@ -8,61 +7,71 @@ var dataMax_X = [];
 var dataMax_Y = [];
 
 // Path fichero de tiempos
-let path_timesFile = '../Files/ficheroTiempos.txt';
+let path_timesFile = '../Files/informe.txt';
 
 fs.readFile(path_timesFile,'utf8', function(err, data) {
 	
 	// Obtener lineas del fichero
-	var lines = data.split('\n');
-	
-	// Preparar array de tiempos maximos
-	for (let i = 0; i < lines.length; i++){
-		var maximoCliente = getMax(lines[i]);
+    var lines = data.split('\n');
+	// Preparar array de tiempos 
+	for (let i = 0; i < lines.length - 1; i++){
+        index = lines[i].indexOf(':');
+        // Se obtiene la parte de los tiempos de cada cliente
+        var timesLine = lines[i].slice(index+1,lines[i].length);
+        // Tiempo máximo
+		var maximoCliente = getMax(timesLine);
 		arrayTiempoMax[i] = maximoCliente;
-	}
-
+    }
+    
 	// Preparar datos para grafica
 	for (let i = 0; i < arrayTiempoMax.length; i++){
-		dataMax_X[i] = i + 1;
+        // Tiempo máximo
+        dataMax_X[i] = i + 1;
 		dataMax_Y[i] = arrayTiempoMax[i];
-	}
-	var dataMaximos = {
+    }
+    
+    // Datos para pintar en los gráficos
+    var dataMaximos = {
 		x: dataMax_X,
 		y: dataMax_Y,
-		name: "Tiempo Maximo",
+		name: "Tiempo Máximo peticiones",
 		type: "scatter"
 	};
-	
+
 	// Preparar interfaz de grafica
 	var layout = {
-		title: "Gráfica Tiempos Máximos",
+        title: "Gráfica Tiempo máximos ejecución de clientes",
 		xaxis: {
-			title: "Numero clientes",
+			title: "Clientes",
 			titlefont: {
 			  family: "Courier New, monospace",
 			  size: 18,
 			  color: "#7f7f7f"
-			}
+            },
+            tick0: 0,
+            dtick: 1
 		  },
 		yaxis: {
-			title: "Tiempo máximo peticiones",
+			title: "Tiempos de ejecución",
 			titlefont: {
 			  family: "Courier New, monospace",
 			  size: 18,
 			  color: "#7f7f7f"
-			}
+			},
+			tick0: 0,
+			dtick: 0.002
 		  }
 	};
 	
-	var graphOptions = {layout: layout, filename: "Grafica Tiempos Máximos", fileopt: "overwrite"};
+	var graphOptions = {layout: layout, filename: "Grafica Tiempos máximos de ejecución", fileopt: "overwrite"};
 		plotly.plot(dataMaximos, graphOptions, function (err, msg) {
 			console.log(msg);
-	});
+    });
 })
 
 // Función para obtener tiempo máximo de peticiones de un cliente
 function getMax(vector){
-	var valoresTiempo = vector.split(' ');
+	var valoresTiempo = vector.split(',');
 	var valor = 0;
 	maximo = 0;
 	for (let i = 0; i < valoresTiempo.length; i++){
@@ -72,6 +81,3 @@ function getMax(vector){
 	}
 	return maximo;
 }
-	
-	
-	
