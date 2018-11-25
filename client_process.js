@@ -19,23 +19,16 @@ var params = process.argv[2].split(' ');
 console.log(params)
 var numeroPeticiones=params[2];
 
-
-var PREFIX = 'client'; //Prefix 
 var currentReq = 0;
+var msgBuffer = [];
+var available = true;
 
 //Internal properties:
-var idClient = PREFIX + process.pid;
+var idClient = params[0];
 
 //Initialize a request socket with the ip and port assigned:
 var rq = zmq.socket('req');
 rq.connect('tcp://127.0.0.1:' + params[1]);
-
-//We create a prototype msg whose interior msg will be changed in function of user input:
-var prototypeMsg = {
-    "idRequest": "",
-    "idClient":idClient,
-    "msg": ""
-};
 
 /******* RESPONDER LOGIC *******/
 
@@ -54,11 +47,21 @@ rq.on('message', function(response) {
     console.log('contador:'+contador+'peticiones: '+numeroPeticiones);
     if(contador==numeroPeticiones)
         process.send(allDates);
+    if (msgBuffer.length != 0) {
+        //Enviamos el siguiente mensaje encolado:
+        msg = msgBuffer.shift();
+        console.log(msg.idRequest + ': Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n');
+        arrayTimes[msg.idRequest]=Date.now(); //Contamos el tiempo desde que se envía la petición (se ignora el tiempo de encolamiento)
+        rq.send(JSON.stringify(msg)); 
+    }
+    else {
+        //Permitimos tratar nuevas peticiones conforme lleguen:
+        available = true;
+    }
 });
 /******* USER INTERFACE LOGIC *******/
 
-
-//Create an Interface for interacting with the user via console:
+//Communication with the parent process:
 
 process.on('message', (input) => {
     var parsed_input = input.split(" "); //Transform the input from string to array of strings (by word)
@@ -66,7 +69,11 @@ process.on('message', (input) => {
     if (command == 'set') {
         if (parsed_input.length == 3) {
             //Prepare a copy of the protoypeMsg to send the requested operation:
-            var newMsg = prototypeMsg;
+            var newMsg = {
+                "idRequest": "",
+                "idClient":idClient,
+                "msg": ""
+            };
             //Create get msg:
             var setMsg = {
                 "op": command,
@@ -75,10 +82,18 @@ process.on('message', (input) => {
             newMsg.idRequest = idClient + '_' +currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = setMsg;
-            console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + setMsg.op + ' ' + setMsg.args + '\n');
-            rq.send(JSON.stringify(newMsg));
-           // var tiempo_actual =Date.now();
-            arrayTimes[newMsg.idRequest]=Date.now();
+
+            if (available) {
+                available = false;
+                console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + setMsg.op + ' ' + setMsg.args + '\n');
+                rq.send(JSON.stringify(newMsg))
+                arrayTimes[newMsg.idRequest]=Date.now();
+            } else {
+                console.log(newMsg.idRequest + ': Encolada peticion.');
+                var tempVar = newMsg;
+                msgBuffer.push(tempVar); //Almacenamos el mensaje generado para enviarlo después
+                console.log(msgBuffer);
+            }
         }
         else {
             console.log('Incorrect use of "set": set [var] [val].')
@@ -87,7 +102,11 @@ process.on('message', (input) => {
     else if (command == 'get') {
         if (parsed_input.length == 2) {
             //Prepare a copy of the protoypeMsg to send the requested operation:
-            var newMsg = prototypeMsg;
+            var newMsg = {
+                "idRequest": "",
+                "idClient":idClient,
+                "msg": ""
+            };
             //Create get msg:
             var getMsg = {
                 "op": command,
@@ -96,10 +115,17 @@ process.on('message', (input) => {
             newMsg.idRequest = idClient + '_' +currentReq;
             currentReq = currentReq + 1;
             newMsg.msg = getMsg;
-            console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + getMsg.op + ' ' + getMsg.args + '\n');
-            rq.send(JSON.stringify(newMsg));
-            //var tiempo_actual =Date.now();
-            arrayTimes[newMsg.idRequest]=Date.now();
+            if (available) {
+                available = false;
+                console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + getMsg.op + ' ' + getMsg.args + '\n');
+                rq.send(JSON.stringify(newMsg))
+                arrayTimes[newMsg.idRequest]=Date.now();
+            } else {
+                console.log(newMsg.idRequest + ': Encolada peticion.')
+                var tempVar = newMsg;
+                msgBuffer.push(tempVar); //Almacenamos el mensaje generado para enviarlo después
+                console.log(msgBuffer);
+            }
         }
         else {
             console.log('Incorrect use of "get": get [var].')
@@ -109,4 +135,3 @@ process.on('message', (input) => {
         console.log('Unrecognized command. Type "help" for a list of available commands.')
     }
 });
-
