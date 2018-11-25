@@ -21,6 +21,8 @@ dealer.identity = id_replica;
 dealer.connect('tcp://127.0.0.1:'+ puerto);
 console.log('Conexión de Replica: ' + id_replica + ' abierta --> 127.0.0.1:' + puerto);
 
+console.log("El pid del proceso es: "+process.pid);
+
 // Get request from handler
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);

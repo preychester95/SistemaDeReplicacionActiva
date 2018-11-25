@@ -12,13 +12,15 @@ var cont=0;
 possible_commands = ['get', 'set'];
 possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
+var numeroPeticiones=process.argv[2];
+var periodoMatarProceso = process.argv[3]; //Periodo en el cual se va a ejecutar la función suicidio
+var muerteDeHijos = process.argv[4]; //Si matamos hijos o no
 
 // Check user input:
-if (process.argv.length != 3) {
+if (process.argv.length != 5) {
 	//CHANGE
     throw new Error('Incorrect number of parameters. Use: node prepare_clients numeroPeticiones\n');
 }
-var numeroPeticiones=process.argv[2];
 
 // Write as much clients ids as necessary (numClients):
 // specify the path to the file
@@ -121,8 +123,51 @@ function sendRandomRequest(client) {
 
 
 //Cuando matamos al padre matamos también a los hijos
-process.on('exit', function(){
+process.on('SIGINT', function(){
     for (let i = 0; i < client_childs.length; i++) {
-        client_childs[i].kill();
+        console.log('El pid de la Replica '+i+' es: '+client_childs[i].pid);
+        process.kill(client_childs[i].pid);
     }
 });
+
+if (muerteDeHijos == "true"){
+    //Muerte del proceso aleatoria
+    var interval = setInterval(function suicidio(arg){
+        console.log('Entra');
+        var numeroProcesosDisponibles = client_childs.length;
+        console.log("El numero de hijos es: "+numeroProcesosDisponibles);
+        if (numeroProcesosDisponibles > 2 && decidirMatarHijo()){ //Mantemos siempre al menos 2 procesos VIVOS 
+            pid = getPidAMatar();
+            if (deleteProcessFromClientsChild(pid)){
+                console.log('Elemento eliminado del array con éxito!');
+                process.kill(pid);
+                console.log('Matamos al proceso: '+pid);
+            }
+
+        }
+        else{
+            console.log('No hay muertes');    
+        } 
+    },periodoMatarProceso);
+
+    function decidirMatarHijo(){
+        var random_boolean = Math.random() >= 0.5;
+        return random_boolean;
+    }
+
+    function getPidAMatar(){
+        var item = client_childs[Math.floor(Math.random()*client_childs.length)];
+        console.log('El proceso elegido es: '+item.pid);
+        return item.pid;
+    }
+
+    function deleteProcessFromClientsChild(pid){
+        for (var i = 0; i < client_childs.length-1; i++){
+            if (client_childs[i].pid == pid){
+                client_childs.splice(i,1);
+                return true;
+            }
+        }
+        return false;
+    }
+}
