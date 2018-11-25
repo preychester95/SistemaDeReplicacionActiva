@@ -3,11 +3,7 @@ var zmq = require('zmq');
 const EventEmitter = require('events'); //Allow events (used for errors)
 ee = new EventEmitter();
 
-console.log(process.argv[2]);
-
 var params = process.argv[2].split(' ');
-
-console.log('Los parametros de RR son: '+params);
 
 var REP = "rep";
 var DEALER = "dealer";
@@ -20,7 +16,7 @@ var intervalTime = 1000; //1 second of delay for the timeout
 
 //var idRR = PREFIJO_DEAL + process.pid;
 var URL_DEALER = "tcp://localhost:" + params[2]; //URL for the router
-console.log('URL_DEALER es: '+URL_DEALER);
+//console.log('URL_DEALER es: '+URL_DEALER);
 //var repeatedTimeout;
 var repeatedInterval;
 
@@ -51,7 +47,7 @@ responder.on('message', function(request) {
   //We first do what is inside the setInterval() for it to be executed instantly:
   var chosenHandler = chooseRandomNonUsedHandler();
   var requestToRouter = createJSONForRouter(request_parsed, chosenHandler);
-  console.log(request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
+  console.log('\n' +request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
   dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
 
   //Store the timeout associated with the client that created the request, so we can stop it when we get its response:
@@ -62,7 +58,7 @@ responder.on('message', function(request) {
     requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
-    console.log(request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
+    console.log('\n' +request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
   }, intervalTime);
 });
@@ -70,7 +66,7 @@ responder.on('message', function(request) {
 /******* DEALER LOGIC *******/
 dealer.on('message', function(reply) {  
   reply = JSON.parse(reply);
-  console.log(reply.idRequest + ': Recibida respuesta desde router-routerRRToHandler');
+  console.log('\n' +reply.idRequest + ': Recibida respuesta desde router-routerRRToHandler');
 
   //Stop the timeout from the client that created the request of the gotten replied
   //clearInterval(repeatedTimeout);

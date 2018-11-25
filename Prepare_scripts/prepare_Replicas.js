@@ -6,12 +6,16 @@ var Replicas_childs = [];
 var Replica_prefix = 'FO';
 var Replica_port_base = 7000; 
 
+var numReplicas = process.argv[2];
+var periodoMatarProceso = process.argv[3]; //Periodo en el cual se va a ejecutar la función suicidio
+var muerteDeHijos = process.argv[4]; //Si matamos hijos o no
+//console.log("El parametro es: "+muerteDeHijos);
 // Check user input:
-if (process.argv.length != 2 + 1) {
+if (process.argv.length != 5) {
     console.log(process.argv.length);
     throw new Error('Incorrect number of parameters. Use: node prepare_Replicas num_Replicas\n');
 }
-var numReplicas = process.argv[2];
+
 
 // Write as much Replicass ids as necessary (numReplicas):
 // specify the path to the file
@@ -58,8 +62,51 @@ fs.open(path_Replicas, 'w+', function(err, fd) {
 });
 
 //Cuando matamos al padre matamos también a los hijos
-process.on('exit', function(){
+process.on('SIGINT', function(){
     for (let i = 0; i < Replicas_childs.length; i++) {
-        Replicas_childs[i].kill();
-    }
-});
+         console.log('El pid de la Replica '+i+' es: '+Replicas_childs[i].pid);
+         process.kill(Replicas_childs[i].pid);
+     }
+ });
+
+if (muerteDeHijos == "true"){
+     //Muerte del proceso aleatoria
+     var interval = setInterval(function suicidio(arg){
+         console.log('Entra');
+         var numeroProcesosDisponibles = Replicas_childs.length;
+         console.log("El numero de hijos es: "+numeroProcesosDisponibles);
+         if (numeroProcesosDisponibles > 2 && decidirMatarHijo()){ //Mantemos siempre al menos 2 procesos VIVOS 
+             pid = getPidAMatar();
+             if (deleteProcessFromReplicasChild(pid)){
+                 console.log('Elemento eliminado del array con éxito!');
+                 process.kill(pid);
+                 console.log('Matamos al proceso: '+pid);
+             }
+
+         }
+         else{
+             console.log('No hay muertes');    
+         } 
+     },periodoMatarProceso);
+
+     function decidirMatarHijo(){
+         var random_boolean = Math.random() >= 0.5;
+         return random_boolean;
+     }
+
+     function getPidAMatar(){
+         var item = Replicas_childs[Math.floor(Math.random()*Replicas_childs.length)];
+         console.log('El proceso elegido es: '+item.pid);
+         return item.pid;
+     }
+
+     function deleteProcessFromReplicasChild(pid){
+         for (var i = 0; i < Replicas_childs.length-1; i++){
+             if (Replicas_childs[i].pid == pid){
+                 Replicas_childs.splice(i,1);
+                 return true;
+             }
+         }
+         return false;
+     }
+ }

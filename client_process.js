@@ -16,7 +16,6 @@ if (process.argv.length != 3) {
 }
 
 var params = process.argv[2].split(' ');
-console.log(params)
 var numeroPeticiones=params[2];
 
 var currentReq = 0;
@@ -34,23 +33,23 @@ rq.connect('tcp://127.0.0.1:' + params[1]);
 
 rq.on('message', function(response) {
     var parsedResponse = JSON.parse(response);
-    console.log(parsedResponse.idRequest + ': Recibida respuesta del rr_module: \n' + response + '\n');
+    console.log('\n' +parsedResponse.idRequest + ': Recibida respuesta del rr_module: \n' + response + '\n');
     var msg = parsedResponse.msg;
     start=arrayTimes[parsedResponse.idRequest];
-    console.log('start: '+start);
+    //console.log('start: '+start);
     end=Date.now();
     elapsed=(end-start)/1000;
     console.log('Tiempo entre peticion y respuesta: '+elapsed);
     allDates.push(elapsed);
-    console.log('Array de tiempos del cliente: '+parsedResponse.idClient+', '+allDates);
+    //console.log('Array de tiempos del cliente: '+parsedResponse.idClient+', '+allDates);
     contador=contador+1;
-    console.log('contador:'+contador+'peticiones: '+numeroPeticiones);
+    //console.log('contador:'+contador+'peticiones: '+numeroPeticiones);
     if(contador==numeroPeticiones)
         process.send(allDates);
     if (msgBuffer.length != 0) {
         //Enviamos el siguiente mensaje encolado:
         msg = msgBuffer.shift();
-        console.log(msg.idRequest + ': Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n');
+        console.log('\n' +msg.idRequest + ': Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n');
         arrayTimes[msg.idRequest]=Date.now(); //Contamos el tiempo desde que se envía la petición (se ignora el tiempo de encolamiento)
         rq.send(JSON.stringify(msg)); 
     }
@@ -85,14 +84,14 @@ process.on('message', (input) => {
 
             if (available) {
                 available = false;
-                console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + setMsg.op + ' ' + setMsg.args + '\n');
+                console.log('\n' +newMsg.idRequest + ': Enviando peticion al modulo_RR conectado en el puerto '+params[1] + '\n');
                 rq.send(JSON.stringify(newMsg))
                 arrayTimes[newMsg.idRequest]=Date.now();
             } else {
-                console.log(newMsg.idRequest + ': Encolada peticion.');
+                console.log('\n' +newMsg.idRequest + ': Encolada peticion.');
                 var tempVar = newMsg;
                 msgBuffer.push(tempVar); //Almacenamos el mensaje generado para enviarlo después
-                console.log(msgBuffer);
+                //console.log(msgBuffer);
             }
         }
         else {
@@ -117,14 +116,14 @@ process.on('message', (input) => {
             newMsg.msg = getMsg;
             if (available) {
                 available = false;
-                console.log(newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n' + getMsg.op + ' ' + getMsg.args + '\n');
+                console.log('\n' +newMsg.idRequest + ': Enviando peticion al modulo_rr conectado en el puerto '+params[1] + '\n');
                 rq.send(JSON.stringify(newMsg))
                 arrayTimes[newMsg.idRequest]=Date.now();
             } else {
-                console.log(newMsg.idRequest + ': Encolada peticion.')
+                console.log('\n' +newMsg.idRequest + ': Encolada peticion.')
                 var tempVar = newMsg;
                 msgBuffer.push(tempVar); //Almacenamos el mensaje generado para enviarlo después
-                console.log(msgBuffer);
+                //console.log(msgBuffer);
             }
         }
         else {

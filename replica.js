@@ -24,8 +24,8 @@ console.log('Conexión de Replica: ' + id_replica + ' abierta --> 127.0.0.1:' + 
 // Get request from handler
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
-  console.log('Recibida peticion: '+msg);
-  console.log('Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
+  //console.log('Recibida peticion: '+msg);
+  console.log('\n' +'Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
   seq = messege.seq; //Get sequence
   if(seq > expectedSeq){
@@ -40,7 +40,7 @@ dealer.on('message', function(msg) {
     messege.seqRequest = expectedSeq;
     executed[seq] = result;
     dealer.send(JSON.stringify(messege));
-    console.log('Petición enviada hacia el cliente: '+JSON.stringify(messege));
+    console.log('\n' +'Petición enviada hacia el cliente: '+JSON.stringify(messege));
     expectedSeq = expectedSeq + 1;
     if(waiting[contWaiting]!=undefined){
         while(expectedSeq== waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
@@ -48,7 +48,7 @@ dealer.on('message', function(msg) {
           executed[seq] = result;
           // Introducir resultado y expected sec en mensaje de vuelta
           dealer.send(JSON.stringify(messege));
-          console.log('Petición enviada hacia el cliente: '+JSON.stringify(messege));
+          console.log('\n' +'Petición enviada hacia el cliente: '+JSON.stringify(messege));
           waiting.shift();
           expectedSeq = expectedSeq + 1;
         }

@@ -47,8 +47,7 @@ handler_FO.connect('tcp://127.0.0.1:' + portFO);
 handler_TO.identity = 'TO'+idManejador;
 handler_TO.connect('tcp://127.0.0.1:'+ portTO);
 numberReplicas=Replicas.length;
-console.log(handler_RR.identity+' escuchando al router-routerRRToHandler por el puerto '+portRR+' y escuchando a las replicas por el puerto '+portFO);
-console.log('Esperando...');
+console.log('\n' +handler_RR.identity+' escuchando al router-routerRRToHandler por el puerto '+portRR+' y escuchando a las replicas por el puerto '+portFO);
 
 //Cuando nos devuelve el TO
 handler_TO.on('message',function(requestTO){
@@ -60,10 +59,9 @@ handler_TO.on('message',function(requestTO){
 		Tratados[request_parsedTO.idClient] = true;//Apuntamos que estamos tratando al cliente que nos ha enviado esta petición:
 		//console.log('Guardado cliente a tratar: ' + Object.keys(Tratados));
 		Sequenced.push(request_parsedTO);
-		console.log('Sequenced: '+JSON.stringify(Sequenced));
+		//console.log('Sequenced: '+JSON.stringify(Sequenced));
 		seq=Sequenced.indexOf(request_parsedTO);
 		array.push(seq+1);
-		console.log(seq);
 		sendToReplicas(seq);
 		LocalSeq=LocalSeq+1;
 	}
@@ -74,7 +72,7 @@ handler_TO.on('message',function(requestTO){
 handler_RR.on('message', function(request) {
 	//Get the JSON send by a client.
   	var request_parsed = JSON.parse(request); 
-  	console.log(handler_RR.identity + ": " + request_parsed.idRequest + ": Recibida peticion desde router-routerRRToHandler");
+  	console.log('\n' +handler_RR.identity + ": " + request_parsed.idRequest + ": Recibida peticion desde router-routerRRToHandler");
 	//Si no existe 
 	if (Sequenced.indexOf(request_parsed)==-1){
 		//console.log('Enviando para secuenciar a TO');
@@ -91,12 +89,12 @@ handler_RR.on('message', function(request) {
 handler_FO.on('message', function(reply) {
 		reply = JSON.parse(reply);
 		//HAY QUE COMPROBAR SI TIENE EL MISMO NUMERO DE SECUENCIA Y SI LO HEMOS RECIBIDO ANTES DE OTRA FO????????????????
-		console.log('\n' + reply.idRequest + ": Recibida respuesta desde replica asociada a cliente: "+reply.idClient + "\nSecuencia peticion: " + reply.seq + ", Secuencia local: " + JSON.stringify(array));
-		console.log('Respuesta'+JSON.stringify(reply));
+		//console.log('\n' + reply.idRequest + ": Recibida respuesta desde replica asociada a cliente: "+reply.idClient + "\nSecuencia peticion: " + reply.seq + ", Secuencia local: " + JSON.stringify(array));
+		//console.log('Respuesta'+JSON.stringify(reply));
 
 		// COMPROBAR: Se ha utilizado un array para comprobar las peticiones tratadas:
 		if(array.indexOf(reply.seq)!=-1 && Tratados[reply.idClient]){
-			console.log(reply.idRequest + ": Recibida respuesta de cliente tratable: " + reply.idClient);
+			console.log('\n' +reply.idRequest + ": Recibida respuesta de cliente tratable: " + reply.idClient);
 			handler_RR.send(JSON.stringify(reply)); //Respondemos al cliente
 			Tratados[reply.idClient] = false; //Indicamos que ya no estamos tratando a este cliente.
 		}

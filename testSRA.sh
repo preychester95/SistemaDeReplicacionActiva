@@ -2,17 +2,17 @@
 NUMHIJOS=$1
 echo "El numero de procesos es: "$NUMHIJOS
 	
-gnome-terminal --tab --title="Router: RRToHandler" -e "node router-router-RRToHandler.js 9000 9001 S" 
-gnome-terminal --tab --title="Router: HandlerToReplica" -e  "node router-router-HandlerToReplica.js 9002 9003 S" 
+gnome-terminal --tab --title="Router: RRToHandler" -e "node --no-deprecation router-router-RRToHandler.js 9000 9001 " 
+gnome-terminal --tab --title="Router: HandlerToReplica" -e  "node --no-deprecation router-router-HandlerToReplica.js 9002 9003" 
 cd Prepare_scripts/
-gnome-terminal --tab --title="Replicas" -e "node prepare_Replicas.js 1"
+gnome-terminal --tab --title="Replicas" -e "node --no-deprecation prepare_Replicas.js 5 3000 false"
 sleep 1
-gnome-terminal --tab --title="Manejadores" -e "node prepare_handlers.js 3"
+gnome-terminal --tab --title="Manejadores" -e "node --no-deprecation prepare_handlers.js 5 3000 false"
 sleep 1
 cd ..
-gnome-terminal --tab --title="TotalOrder" -e "node TO_module.js 5000"
+gnome-terminal --tab --title="TotalOrder" -e "node --no-deprecation TO_module.js 5000"
 sleep 1
 cd Prepare_scripts/
-gnome-terminal --tab --title="RRs" -e "node prepare_RRs.js 4 9000"
+gnome-terminal --tab --title="RRs" -e "node --no-deprecation prepare_RRs.js 10 9000"
 sleep 1
-gnome-terminal --tab --title="Clientes" -e "node prepare_clients.js 3"
+gnome-terminal --tab --title="Clientes" -e "node --no-deprecation prepare_clients.js 30 3000 false"

@@ -8,7 +8,7 @@ var RR_prefix = 'RR';
 var RR_port_base = 2000; 
 
 // Check user input:
-if (process.argv.length != 2 + 2) {
+if (process.argv.length != 4) {
 	//CHANGE
     console.log(process.argv.length);
     throw new Error('Incorrect number of parameters. Use: node prepare_RRs num_RRs portRouterRouter\n');
@@ -31,7 +31,7 @@ fs.readFile(path_handlers, 'utf8', function(err, data) {
         var currentHandler = handlers_data[i].split(' ');
         handlers_ids.push(currentHandler[0]);
     }
-    console.log(handlers_ids);
+    //console.log(handlers_ids);
     fs.open(path_RRs, 'w+', function(err, fd) {  
         if (err) {
             throw 'could not open file RRs_ids: ' + err;

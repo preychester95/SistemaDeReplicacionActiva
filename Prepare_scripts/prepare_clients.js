@@ -12,13 +12,16 @@ var cont=0;
 possible_commands = ['get', 'set'];
 possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
+fs.unlink('../Files/informe.txt'); //Borrar el fichero de informes antes de empezar
+var numeroPeticiones=process.argv[2];
+var periodoMatarProceso = process.argv[3]; //Periodo en el cual se va a ejecutar la función suicidio
+var muerteDeHijos = process.argv[4]; //Si matamos hijos o no
 
 // Check user input:
-if (process.argv.length != 3) {
+if (process.argv.length != 5) {
 	//CHANGE
     throw new Error('Incorrect number of parameters. Use: node prepare_clients numeroPeticiones\n');
 }
-var numeroPeticiones=process.argv[2];
 
 // Write as much clients ids as necessary (numClients):
 // specify the path to the file
@@ -33,11 +36,10 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
     for (var i = 0; i < RRs_data.length - 1; i++) {
         var client_id = client_prefix + i;
         current_RR = RRs_data[i].split(' ');
-        console.log('El hijo '+i+' se conectara al modulo RR en el puerto '+current_RR[1]);
+        console.log('El hijo '+i+' se conectara al modulo RR por el puerto '+current_RR[1]);
         client_childs.push(
             fork('../client_process', args = [client_id + ' ' + current_RR[1]+ ' '+numeroPeticiones], options = {silent: false}) //current_RR[1] -> Port of this RR
         );
-        console.log('Creado hijo ' + i);
     }
 
     /******* CLIENTS EXECUTION SIMULATION: *******/
@@ -58,9 +60,8 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
         });
     }
     client_childs.forEach(function (client) {
-            console.log(client);
             client.on('message', function(response) {
-                console.log('Recibido mensaje de hijo: '+response);
+                console.log('Recibido array de tiempos de un hijo: ['+response+']');
 
             path_informes='../Files/informe.txt';
             fs.open(path_informes, 'as', function(err, fd) {  
@@ -121,8 +122,50 @@ function sendRandomRequest(client) {
 
 
 //Cuando matamos al padre matamos también a los hijos
-process.on('exit', function(){
+process.on('SIGINT', function(){
     for (let i = 0; i < client_childs.length; i++) {
-        client_childs[i].kill();
-    }
-});
+        console.log('El pid del cliente '+i+' es: '+client_childs[i].pid);
+         process.kill(client_childs[i].pid);
+     }
+ });
+
+if (muerteDeHijos == "true"){
+     //Muerte del proceso aleatoria
+     var interval = setInterval(function suicidio(arg){
+         console.log('Entra');
+         var numeroProcesosDisponibles = client_childs.length;
+         console.log("El numero de hijos es: "+numeroProcesosDisponibles);
+         if (numeroProcesosDisponibles > 2 && decidirMatarHijo()){ //Mantemos siempre al menos 2 procesos VIVOS 
+             pid = getPidAMatar();
+             if (deleteProcessFromClientsChild(pid)){
+                 console.log('Elemento eliminado del array con éxito!');
+                 process.kill(pid);
+                 console.log('Matamos al proceso: '+pid);
+             }
+
+         }
+         else{
+             console.log('No hay muertes');    
+         } 
+     },periodoMatarProceso);
+
+     function decidirMatarHijo(){
+         var random_boolean = Math.random() >= 0.5;
+         return random_boolean;
+     }
+
+     function getPidAMatar(){
+         var item = client_childs[Math.floor(Math.random()*client_childs.length)];
+         console.log('El proceso elegido es: '+item.pid);
+         return item.pid;
+     }
+      function deleteProcessFromClientsChild(pid){
+         for (var i = 0; i < client_childs.length-1; i++){
+             if (client_childs[i].pid == pid){
+                 client_childs.splice(i,1);
+                 return true;
+             }
+         }
+         return false;
+     }
+ }
