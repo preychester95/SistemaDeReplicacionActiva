@@ -15,4 +15,4 @@ sleep 1
 cd Prepare_scripts/
 gnome-terminal --tab --title="RRs" -e "node prepare_RRs.js 4 9000"
 sleep 1
-gnome-terminal --tab --title="Clientes" -e "node prepare_clients.js"
+gnome-terminal --tab --title="Clientes" -e "node prepare_clients.js 3"
