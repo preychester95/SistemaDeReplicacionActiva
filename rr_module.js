@@ -16,11 +16,13 @@ var PREFIJO_DEAL = 'rr_deal';
 var URL_REP = "tcp://127.0.0.1:" + params[1];
 
 var usedHandlerList = [];
+var intervalTime = 1000; //1 second of delay for the timeout
 
 //var idRR = PREFIJO_DEAL + process.pid;
 var URL_DEALER = "tcp://localhost:" + params[2]; //URL for the router
 console.log('URL_DEALER es: '+URL_DEALER);
-var repeatedTimeout;
+//var repeatedTimeout;
+var repeatedInterval;
 
 var handlerList = params[3].split(','); //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
 
@@ -34,7 +36,7 @@ var responder = zmq.socket(REP);
 // Set the url for the clients to connect
 responder.bind(URL_REP, function(err) {
   if (err) {
-    console.log('HOLA'+ err);
+    console.log(err);
   } else {
     console.log("Modulo_RR escuchando en el puerto " + params[1]+" conectado router-routerRRToHandler por el puerto "+params[2]);
   }
@@ -44,31 +46,35 @@ responder.bind(URL_REP, function(err) {
 responder.on('message', function(request) {
   //Get the JSON send by a client.
   var request_parsed = JSON.parse(request); 
-  console.log(request_parsed);
+  //console.log(request_parsed);
   
-  //Store the timeout associated with the client that created the request, so we can stop it when we get its response:
+  //We first do what is inside the setInterval() for it to be executed instantly:
+  var chosenHandler = chooseRandomNonUsedHandler();
+  var requestToRouter = createJSONForRouter(request_parsed, chosenHandler);
+  console.log(request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
+  dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
 
-  var intervalTime = 0;
-  repeatedTimeout = setTimeout(function() {
-    intervalTime = 10000; //////////////////////////////////OJOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
-  	//Enviamos la petición al router a través del socket dealer
+  //Store the timeout associated with the client that created the request, so we can stop it when we get its response:
+  repeatedInterval = setInterval(function() {
+    //Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
-    var chosenHandler = chooseRandomNonUsedHandler(); 
-    var requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
+    chosenHandler = chooseRandomNonUsedHandler(); 
+    requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
-    console.log('Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
+    console.log(request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
   }, intervalTime);
 });
 
 /******* DEALER LOGIC *******/
-dealer.on('message', function(reply) {
-  console.log('Recibida respuesta desde router-routerRRToHandler');
+dealer.on('message', function(reply) {  
   reply = JSON.parse(reply);
+  console.log(reply.idRequest + ': Recibida respuesta desde router-routerRRToHandler');
 
   //Stop the timeout from the client that created the request of the gotten replied
-  clearInterval(repeatedTimeout);
+  //clearInterval(repeatedTimeout);
+  clearInterval(repeatedInterval);
 
   //Send the response to the client who requested it:
   responder.send(JSON.stringify(reply));
@@ -93,14 +99,13 @@ function chooseRandomNonUsedHandler() {
   //CHECK:
   //If there is no non-used handler, set all of them as available and hope for some to be available:
   if (usedHandlerList.length == handlerList.length) {
-    dealer.disconnect(URL_DEALER); //DEBUG (Should be removed)
-    ee.emit('error', new Error('NO RESPONSE FROM ANY HANDLER')); //DEBUG (Should be removed)
-    //usedHandlerList = []; //DEBUG (Should be uncommented)
+    //dealer.disconnect(URL_DEALER); //DEBUG (Should be removed)
+    //ee.emit('error', new Error('NO RESPONSE FROM ANY HANDLER')); //DEBUG (Should be removed)
+    usedHandlerList = []; //DEBUG (Should be uncommented)
   }
   
   //MEJORABLE SI EN VEZ DE BUSCAR REPETIDAMENTE UN ÍNDICE BORRAMOS LOS UTILIZADOS
   var handlerIdx = Math.floor(Math.random() * handlerList.length); //Choose a random index from your used handlerList
-  console.log('\n Manejador '+handlerIdx);
   var chosenHandler = handlerList[handlerIdx];
   while (usedHandlerList.includes(chosenHandler)) {
     handlerIdx = Math.floor(Math.random() * handlerList.length); 
