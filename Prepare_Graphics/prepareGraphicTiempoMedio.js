@@ -52,7 +52,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
             dtick: 1
 		  },
 		yaxis: {
-			title: "Tiempos de ejecución",
+			title: "Tiempos de ejecución (seg)",
 			titlefont: {
 			  family: "Courier New, monospace",
 			  size: 18,
