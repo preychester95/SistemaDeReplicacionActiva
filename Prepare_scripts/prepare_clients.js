@@ -12,10 +12,13 @@ var cont=0;
 possible_commands = ['get', 'set'];
 possible_vars = ['a', 'b', 'c', 'd', 'e'];
 possible_values = [1, 2, 3, 4, 5];
-fs.unlink('../Files/informe.txt'); //Borrar el fichero de informes antes de empezar
+let path_informe = '../Files/informe.txt'; 
+createFile(path_informe);
+
 var numeroPeticiones=process.argv[2];
 var periodoMatarProceso = process.argv[3]; //Periodo en el cual se va a ejecutar la función suicidio
 var muerteDeHijos = process.argv[4]; //Si matamos hijos o no
+
 
 // Check user input:
 if (process.argv.length != 5) {
@@ -119,6 +122,21 @@ function sendRandomRequest(client) {
     }
 }
 
+function createFile(filename) {
+  fs.open(filename,'w+',function(err, fd){
+    if (err) {
+      fs.writeFile(filename, '', function(err) {
+          if(err) {
+              console.log(err);
+          }
+          console.log("The file was saved!");
+      });
+    } else {
+      console.log("The file exists!");
+    }
+  });
+}
+
 
 
 //Cuando matamos al padre matamos también a los hijos
@@ -129,6 +147,7 @@ process.on('SIGINT', function(){
      }
  });
 
+console.log("Se matan a los hijos: "+muerteDeHijos);
 if (muerteDeHijos == "true"){
      //Muerte del proceso aleatoria
      var interval = setInterval(function suicidio(arg){
