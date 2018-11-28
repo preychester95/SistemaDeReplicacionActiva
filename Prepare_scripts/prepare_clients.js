@@ -75,29 +75,24 @@ fs.readFile(path_RRs, 'utf8', function(err, data) {
                 var write_pos_final = 0;
                // client_childs.forEach(function (client) {
                     var client_id = 'cliente'+cont;
-                    write_pos_final = write_pos_final + client_id.length;
-                    fs.write(fd, client_id, write_pos_init, write_pos_final, null, function(err) {
+                    var tiempo=response;
+                    var tiempo_txt=": "+tiempo+"\n";
+                    var resultado=client_id+tiempo_txt;
+                    write_pos_final = write_pos_final + resultado.length;
+                    fs.write(fd, resultado, write_pos_init, write_pos_final, null, function(err) {
                             if (err) {
                                 throw 'error writting informes_id in file: ' + err;
                             }
-                    });
-                    write_pos_init = write_pos_final;
-                    var tiempo=response;
-                    var tiempo_txt=": "+tiempo+"\n";
-                    write_pos_final = write_pos_final + tiempo_txt.length;
-                    fs.write(fd, tiempo_txt, write_pos_init, write_pos_final, null, function(err) {
-                           if (err) {
-                               throw 'error writting informes_id in file: ' + err;
-                           }
+                            fs.close(fd, function(err) {
+                                if (err) {
+                                    throw 'could not close file handlers_ids: ' + err;
+                                }
+                            });
                     });
                     write_pos_init = write_pos_final;
                     cont=cont+1;
                 //});
-            fs.close(fd, function(err) {
-                    if (err) {
-                        throw 'could not close file handlers_ids: ' + err;
-                    }
-            });
+           
             });
     });
 });
