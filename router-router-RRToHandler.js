@@ -17,14 +17,14 @@ frontend.on('message', function(idRR, request) {
 	var request = JSON.parse(request);
 	// Send the petition through backend router, to the chosen handler:
 	var idHandler = request.idHandler;
-	console.log('\n' +"Recibida peticion desde rr_module,enviando al manejador "+idHandler);
+	console.log('\n' + request.idRequest +": Recibida peticion desde rr_module,enviando al manejador "+idHandler);
 	backend.send([idHandler,JSON.stringify(request)]);	
 });
 
 backend.on('message', function(idHandler, reply) {
 	// Get the reply sent through the handler
 	var reply = JSON.parse(reply);
-	console.log('\n' +"Recibida respuesta desde el manejador "+idHandler+" al rr_module "+reply.idRR);
+	console.log('\n' + reply.idRequest +": Recibida respuesta desde el manejador "+idHandler+" al rr_module "+reply.idRR);
 
 	// Send the response 
 	var idRR = reply.idRR;

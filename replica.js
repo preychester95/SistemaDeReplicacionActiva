@@ -25,7 +25,7 @@ console.log('Conexión de Replica: ' + id_replica + ' abierta --> 127.0.0.1:' + 
 dealer.on('message', function(msg) {
   messege = JSON.parse(msg);
   //console.log('Recibida peticion: '+msg);
-  console.log('\n' +'Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
+  console.log(id_replica + ': ' + messege.idRequest + ':\n' +'Petición recibida del cliente: ' + messege.idClient + ' desde el manejador: ' + messege.idHandler);
   // FILTER AND ORDERING
   seq = messege.seq; //Get sequence
   if(seq > expectedSeq){

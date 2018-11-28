@@ -17,7 +17,7 @@ var Requests={};
 var LocalSeq=0;
 var UltimaReq=0;
 
-var Tratados={}
+var Tratados={}; //Informa de las peticiones tratadas o aun no tratadas.
 
 //Parámetros
 var params = process.argv[2].split(' ');
@@ -35,8 +35,6 @@ var idManejador = params[4];
 var Replicas = params[5].split(','); 
 
 //console.log('El total de replicas en el array Replicas es: '+Replicas);
-
-
 
 handler_RR.identity = 'handler'+idManejador;
 handler_RR.connect('tcp://127.0.0.1:' + portRR);
@@ -56,12 +54,16 @@ handler_TO.on('message',function(requestTO){
 	
 	if (Sequenced.indexOf(request_parsedTO)==-1){
 		console.log('\n' + request_parsedTO.idRequest + ': ' + handler_RR.identity + ': ' + 'Recibida peticion secuenciada desde TO');
-		Tratados[request_parsedTO.idClient] = true;//Apuntamos que estamos tratando al cliente que nos ha enviado esta petición:
+		//Tratados[request_parsedTO.idClient] = true;//Apuntamos que estamos tratando al cliente que nos ha enviado esta petición:
 		//console.log('Guardado cliente a tratar: ' + Object.keys(Tratados));
 		Sequenced.push(request_parsedTO);
 		//console.log('Sequenced: '+JSON.stringify(Sequenced));
 		seq=Sequenced.indexOf(request_parsedTO);
-		array.push(seq+1);
+		//array.push(seq+1);
+
+		//array[request_parsedTO.seq] = false;
+		Tratados[request_parsedTO.idRequest] = false;
+
 		sendToReplicas(seq);
 		LocalSeq=LocalSeq+1;
 	}
@@ -79,8 +81,8 @@ handler_RR.on('message', function(request) {
 		handler_TO.send(request);
 	}else{
 		seq=Sequenced.indexOf(request_parsed);
-		array.push(seq+1);
-		Tratados[request_parsed.idClient] = true;//Apuntamos que estamos tratando al cliente que nos ha enviado esta petición:
+		//array.push(seq+1);
+		Tratados[request_parsed.idRequest] = false;//Apuntamos que estamos tratando al cliente que nos ha enviado esta petición:
 		sendToReplicas(seq);
 	}
 });
@@ -93,10 +95,11 @@ handler_FO.on('message', function(reply) {
 		//console.log('Respuesta'+JSON.stringify(reply));
 
 		// COMPROBAR: Se ha utilizado un array para comprobar las peticiones tratadas:
-		if(array.indexOf(reply.seq)!=-1 && Tratados[reply.idClient]){
+		//if(array.indexOf(reply.seq)!=-1 && Tratados[reply.idClient]){
+		if (Tratados[reply.idRequest] == false) { //Si está a false, implica que Tratados[reply.idRequest] != -1 (es decir, está secuenciado) y no hemos devuelto aún respuesta para esta petición.
 			console.log('\n' +reply.idRequest + ": Recibida respuesta de cliente tratable: " + reply.idClient);
 			handler_RR.send(JSON.stringify(reply)); //Respondemos al cliente
-			Tratados[reply.idClient] = false; //Indicamos que ya no estamos tratando a este cliente.
+			Tratados[reply.idRequest] = true; //Indicamos que ya no estamos tratando a este cliente.
 		}
 });
 

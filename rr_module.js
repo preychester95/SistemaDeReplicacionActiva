@@ -58,7 +58,7 @@ responder.on('message', function(request) {
     requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
     // Add the given 
-    console.log('\n' +request_parsed.idRequest + ': Enviando peticion desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
+    console.log('\n' +request_parsed.idRequest + ': Enviando peticion (DENTRO DE INTERVAL) desde module_rr al router-routerRRToHandler (escuchando en puerto '+params[2]+' ) destino manejador '+chosenHandler);
     dealer.send(JSON.stringify(requestToRouter)); //Send the new msg to the router:
   }, intervalTime);
 });

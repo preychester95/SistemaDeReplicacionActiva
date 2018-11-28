@@ -7,7 +7,7 @@ gnome-terminal --tab --title="Router: HandlerToReplica" -e  "node --no-deprecati
 cd Prepare_scripts/
 gnome-terminal --tab --title="Replicas" -e "node --no-deprecation prepare_Replicas.js 5 3000 false"
 sleep 1
-gnome-terminal --tab --title="Manejadores" -e "node --no-deprecation prepare_handlers.js 5 3000 false"
+gnome-terminal --tab --title="Manejadores" -e "node --no-deprecation prepare_handlers.js 10 3000 false"
 sleep 1
 cd ..
 gnome-terminal --tab --title="TotalOrder" -e "node --no-deprecation TO_module.js 5000"
@@ -15,4 +15,4 @@ sleep 1
 cd Prepare_scripts/
 gnome-terminal --tab --title="RRs" -e "node --no-deprecation prepare_RRs.js 10 9000"
 sleep 1
-gnome-terminal --tab --title="Clientes" -e "node --no-deprecation prepare_clients.js 30 3000 false"
+gnome-terminal --tab --title="Clientes" -e "node --no-deprecation prepare_clients.js 10 3000 false"
