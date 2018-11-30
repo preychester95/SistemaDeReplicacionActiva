@@ -35,6 +35,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 		x: dataMax_X,
 		y: dataMax_Y,
 		name: "Tiempo Máximo peticiones",
+		mode: "markers",
 		type: "scatter"
 	};
 

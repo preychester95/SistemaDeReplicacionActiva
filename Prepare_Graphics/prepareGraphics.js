@@ -53,18 +53,21 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 		x: dataMedias_X,
 		y: dataMedias_Y,
 		name: "Tiempo Medio peticiones",
+		mode: "markers",
 		type: "scatter"
     };
     var dataMaximos = {
 		x: dataMax_X,
 		y: dataMax_Y,
 		name: "Tiempo Máximo peticiones",
+		mode: "markers",
 		type: "scatter"
 	};
 	var dataAcumulados = {
 		x: dataAcumulado_X,
 		y: dataAcumulado_Y,
 		name: "Tiempo Acumulado peticiones",
+		mode: "markers",
 		type: "scatter"
 	};
     

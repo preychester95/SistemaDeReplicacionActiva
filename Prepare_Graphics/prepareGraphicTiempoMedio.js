@@ -35,6 +35,7 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 		x: dataMedias_X,
 		y: dataMedias_Y,
 		name: "Tiempo Medio peticiones",
+		mode: "markers",
 		type: "scatter"
     };
 
