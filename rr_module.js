@@ -11,7 +11,8 @@ var PREFIJO_RESP = "rr_resp";
 var PREFIJO_DEAL = 'rr_deal';
 var URL_REP = "tcp://127.0.0.1:" + params[1];
 
-var usedHandlerList = [];
+//var usedHandlerList = [];
+var nonUsedHandlerList = []; //DEBUG
 var intervalTime = 1000; //1 second of delay for the timeout
 
 //var idRR = PREFIJO_DEAL + process.pid;
@@ -21,6 +22,7 @@ var URL_DEALER = "tcp://localhost:" + params[2]; //URL for the router
 var repeatedInterval;
 
 var handlerList = params[3].split(','); //RELLENAR CUANDO CONOZCAMOS LOS IDS DE LOS HANDLERS
+nonUsedHandlerList = handlerList.slice(); //DEBUG
 
 // Instantiate a dealer socket for communication with the router
 var dealer = buildSocket(DEALER, params[0]);
@@ -54,6 +56,7 @@ responder.on('message', function(request) {
   repeatedInterval = setInterval(function() {
     //Enviamos la petición al router a través del socket dealer
     // Choose randomly a handler from the not yet used ones:
+    nonUsedHandlerList.splice(nonUsedHandlerList.indexOf(chosenHandler), 1);
     chosenHandler = chooseRandomNonUsedHandler(); 
     requestToRouter = createJSONForRouter(request_parsed, chosenHandler); 
 
@@ -91,12 +94,15 @@ function buildSocket(tipoSocket,idRR){
 	return sock;
 }
 
+/*
 function chooseRandomNonUsedHandler() {
   //CHECK:
   //If there is no non-used handler, set all of them as available and hope for some to be available:
   if (usedHandlerList.length == handlerList.length) {
     //dealer.disconnect(URL_DEALER); //DEBUG (Should be removed)
     //ee.emit('error', new Error('NO RESPONSE FROM ANY HANDLER')); //DEBUG (Should be removed)
+    //console.log('REUTILIZANDO MANEJADORES');
+    //throw ('Detenido proceso');
     usedHandlerList = []; //DEBUG (Should be uncommented)
   }
   
@@ -108,6 +114,25 @@ function chooseRandomNonUsedHandler() {
     chosenHandler = handlerList[handlerIdx];
   }
   usedHandlerList.push(chosenHandler);
+  return chosenHandler;
+}
+*/
+
+function chooseRandomNonUsedHandler() {
+  //CHECK:
+  //If there is no non-used handler, set all of them as available and hope for some to be available:
+  if (nonUsedHandlerList.length > 0) {
+    //dealer.disconnect(URL_DEALER); //DEBUG (Should be removed)
+    //ee.emit('error', new Error('NO RESPONSE FROM ANY HANDLER')); //DEBUG (Should be removed)
+    //console.log('REUTILIZANDO MANEJADORES');
+    //throw ('Detenido proceso');
+    nonUsedHandlerList = handlerList.slice(); //DEBUG (Should be uncommented)
+  }
+  
+  //MEJORABLE SI EN VEZ DE BUSCAR REPETIDAMENTE UN ÍNDICE BORRAMOS LOS UTILIZADOS
+  var handlerIdx = Math.floor(Math.random() * nonUsedHandlerList.length); //Choose a random index from your used handlerList
+  var chosenHandler = nonUsedHandlerList[handlerIdx];
+  //usedHandlerList.push(chosenHandler);
   return chosenHandler;
 }
 
