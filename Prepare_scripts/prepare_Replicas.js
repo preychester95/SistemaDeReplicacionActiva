@@ -70,6 +70,7 @@ process.on('SIGINT', function(){
  });
 
 if (muerteDeHijos == "true"){
+    setTimeout(function() {
      //Muerte del proceso aleatoria
      var interval = setInterval(function suicidio(arg){
          console.log('Entra');
@@ -109,4 +110,5 @@ if (muerteDeHijos == "true"){
          }
          return false;
      }
+      }, 4000);
  }

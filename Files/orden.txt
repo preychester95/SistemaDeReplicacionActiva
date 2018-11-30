@@ -1,0 +1,3980 @@
+client3_0: Enviando peticion al modulo_RR conectado en el puerto 2003
+
+
+client3_1: Encolada peticion.
+
+client3_2: Encolada peticion.
+
+client3_3: Encolada peticion.
+
+client3_4: Encolada peticion.
+
+client3_5: Encolada peticion.
+
+client3_6: Encolada peticion.
+
+client3_7: Encolada peticion.
+
+client3_8: Encolada peticion.
+
+client3_9: Encolada peticion.
+
+client3_10: Encolada peticion.
+
+client3_11: Encolada peticion.
+
+client3_12: Encolada peticion.
+
+client3_13: Encolada peticion.
+
+client3_14: Encolada peticion.
+
+client3_15: Encolada peticion.
+
+client3_16: Encolada peticion.
+
+client3_17: Encolada peticion.
+
+client3_18: Encolada peticion.
+
+client3_19: Encolada peticion.
+
+client8_0: Enviando peticion al modulo_RR conectado en el puerto 2008
+
+
+client4_0: Enviando peticion al modulo_RR conectado en el puerto 2004
+
+
+client4_1: Encolada peticion.
+
+client5_0: Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client7_0: Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client2_0: Enviando peticion al modulo_RR conectado en el puerto 2002
+
+
+client2_1: Encolada peticion.
+
+client2_2: Encolada peticion.
+
+client2_3: Encolada peticion.
+
+client2_4: Encolada peticion.
+
+client2_5: Encolada peticion.
+
+client2_6: Encolada peticion.
+
+client5_1: Encolada peticion.
+
+client8_1: Encolada peticion.
+
+client2_7: Encolada peticion.
+
+client10_0: Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client8_2: Encolada peticion.
+
+client7_1: Encolada peticion.
+
+client7_2: Encolada peticion.
+
+client7_3: Encolada peticion.
+
+client7_4: Encolada peticion.
+
+client7_5: Encolada peticion.
+
+client7_6: Encolada peticion.
+
+client7_7: Encolada peticion.
+
+client7_8: Encolada peticion.
+
+client7_9: Encolada peticion.
+
+client7_10: Encolada peticion.
+
+client7_11: Encolada peticion.
+
+client7_12: Encolada peticion.
+
+client7_13: Encolada peticion.
+
+client7_14: Encolada peticion.
+
+client7_15: Encolada peticion.
+
+client13_0: Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client7_16: Encolada peticion.
+
+client7_17: Encolada peticion.
+
+client7_18: Encolada peticion.
+
+client7_19: Encolada peticion.
+
+client10_1: Encolada peticion.
+
+client10_2: Encolada peticion.
+
+client10_3: Encolada peticion.
+
+client10_4: Encolada peticion.
+
+client10_5: Encolada peticion.
+
+client10_6: Encolada peticion.
+
+client10_7: Encolada peticion.
+
+client10_8: Encolada peticion.
+
+client10_9: Encolada peticion.
+
+client10_10: Encolada peticion.
+
+client10_11: Encolada peticion.
+
+client10_12: Encolada peticion.
+
+client10_13: Encolada peticion.
+
+client10_14: Encolada peticion.
+
+client10_15: Encolada peticion.
+
+client10_16: Encolada peticion.
+
+client10_17: Encolada peticion.
+
+client10_18: Encolada peticion.
+
+client10_19: Encolada peticion.
+
+client13_1: Encolada peticion.
+
+client2_8: Encolada peticion.
+
+client13_2: Encolada peticion.
+
+client2_9: Encolada peticion.
+
+client2_10: Encolada peticion.
+
+client2_11: Encolada peticion.
+
+client2_12: Encolada peticion.
+
+client2_13: Encolada peticion.
+
+client2_14: Encolada peticion.
+
+client2_15: Encolada peticion.
+
+client2_16: Encolada peticion.
+
+client2_17: Encolada peticion.
+
+client2_18: Encolada peticion.
+
+client2_19: Encolada peticion.
+
+client1_0: Enviando peticion al modulo_RR conectado en el puerto 2001
+
+
+client5_2: Encolada peticion.
+
+client8_3: Encolada peticion.
+
+client8_4: Encolada peticion.
+
+client8_5: Encolada peticion.
+
+client4_2: Encolada peticion.
+
+client4_3: Encolada peticion.
+
+client4_4: Encolada peticion.
+
+client4_5: Encolada peticion.
+
+client4_6: Encolada peticion.
+
+client4_7: Encolada peticion.
+
+client4_8: Encolada peticion.
+
+client4_9: Encolada peticion.
+
+client4_10: Encolada peticion.
+
+client4_11: Encolada peticion.
+
+client4_12: Encolada peticion.
+
+client4_13: Encolada peticion.
+
+client4_14: Encolada peticion.
+
+client4_15: Encolada peticion.
+
+client4_16: Encolada peticion.
+
+client4_17: Encolada peticion.
+
+client4_18: Encolada peticion.
+
+client4_19: Encolada peticion.
+
+client0_0: Enviando peticion al modulo_RR conectado en el puerto 2000
+
+
+client1_1: Encolada peticion.
+
+client1_2: Encolada peticion.
+
+client1_3: Encolada peticion.
+
+client1_4: Encolada peticion.
+
+client1_5: Encolada peticion.
+
+client1_6: Encolada peticion.
+
+client1_7: Encolada peticion.
+
+client1_8: Encolada peticion.
+
+client1_9: Encolada peticion.
+
+client1_10: Encolada peticion.
+
+client1_11: Encolada peticion.
+
+client1_12: Encolada peticion.
+
+client1_13: Encolada peticion.
+
+client1_14: Encolada peticion.
+
+client1_15: Encolada peticion.
+
+client1_16: Encolada peticion.
+
+client1_17: Encolada peticion.
+
+client1_18: Encolada peticion.
+
+client1_19: Encolada peticion.
+
+client6_0: Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client13_3: Encolada peticion.
+
+client5_3: Encolada peticion.
+
+client8_6: Encolada peticion.
+
+client8_7: Encolada peticion.
+
+client8_8: Encolada peticion.
+
+client8_9: Encolada peticion.
+
+client8_10: Encolada peticion.
+
+client8_11: Encolada peticion.
+
+client8_12: Encolada peticion.
+
+client8_13: Encolada peticion.
+
+client8_14: Encolada peticion.
+
+client8_15: Encolada peticion.
+
+client8_16: Encolada peticion.
+
+client8_17: Encolada peticion.
+
+client8_18: Encolada peticion.
+
+client8_19: Encolada peticion.
+
+client0_1: Encolada peticion.
+
+client5_4: Encolada peticion.
+
+client3_0: Recibida respuesta del rr_module: 
+{"idRequest":"client3_0","idClient":"client3","msg":{"op":"set","args":["e","5"]},"idHandler":"handler5","idRR":"RR3","seq":1,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":1}
+
+
+client5_5: Encolada peticion.
+
+client5_6: Encolada peticion.
+
+client5_7: Encolada peticion.
+
+client5_8: Encolada peticion.
+
+client5_9: Encolada peticion.
+
+client5_10: Encolada peticion.
+
+client5_11: Encolada peticion.
+
+client5_12: Encolada peticion.
+
+client5_13: Encolada peticion.
+Tiempo entre peticion y respuesta: 0.055
+
+client4_0: Recibida respuesta del rr_module: 
+{"idRequest":"client4_0","idClient":"client4","msg":{"op":"set","args":["e","4"]},"idHandler":"handler0","idRR":"RR4","seq":2,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":2}
+
+Tiempo entre peticion y respuesta: 0.049
+
+client4_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client3_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client5_14: Encolada peticion.
+
+client5_15: Encolada peticion.
+
+client5_16: Encolada peticion.
+
+client5_17: Encolada peticion.
+
+client5_18: Encolada peticion.
+
+client5_19: Encolada peticion.
+
+client0_2: Encolada peticion.
+
+client0_3: Encolada peticion.
+
+client0_4: Encolada peticion.
+
+client0_5: Encolada peticion.
+
+client0_6: Encolada peticion.
+
+client0_7: Encolada peticion.
+
+client0_8: Encolada peticion.
+
+client0_9: Encolada peticion.
+
+client0_10: Encolada peticion.
+
+client0_11: Encolada peticion.
+
+client0_12: Encolada peticion.
+
+client0_13: Encolada peticion.
+
+client0_14: Encolada peticion.
+
+client0_15: Encolada peticion.
+
+client0_16: Encolada peticion.
+
+client0_17: Encolada peticion.
+
+client0_18: Encolada peticion.
+
+client0_19: Encolada peticion.
+
+client13_4: Encolada peticion.
+
+client13_5: Encolada peticion.
+
+client13_6: Encolada peticion.
+
+client13_7: Encolada peticion.
+
+client13_8: Encolada peticion.
+
+client13_9: Encolada peticion.
+
+client13_10: Encolada peticion.
+
+client13_11: Encolada peticion.
+
+client13_12: Encolada peticion.
+
+client13_13: Encolada peticion.
+
+client13_14: Encolada peticion.
+
+client13_15: Encolada peticion.
+
+client13_16: Encolada peticion.
+
+client13_17: Encolada peticion.
+
+client13_18: Encolada peticion.
+
+client13_19: Encolada peticion.
+
+client6_1: Encolada peticion.
+
+client6_2: Encolada peticion.
+
+client6_3: Encolada peticion.
+
+client6_4: Encolada peticion.
+
+client6_5: Encolada peticion.
+
+client11_0: Enviando peticion al modulo_RR conectado en el puerto 2011
+
+
+client6_6: Encolada peticion.
+
+client6_7: Encolada peticion.
+
+client6_8: Encolada peticion.
+
+client6_9: Encolada peticion.
+
+client6_10: Encolada peticion.
+
+client6_11: Encolada peticion.
+
+client6_12: Encolada peticion.
+
+client6_13: Encolada peticion.
+
+client6_14: Encolada peticion.
+
+client6_15: Encolada peticion.
+
+client6_16: Encolada peticion.
+
+client6_17: Encolada peticion.
+
+client11_1: Encolada peticion.
+
+client2_0: Recibida respuesta del rr_module: 
+{"idRequest":"client2_0","idClient":"client2","msg":{"op":"set","args":["e","2"]},"idHandler":"handler2","idRR":"RR2","seq":3,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":3}
+
+
+client6_18: Encolada peticion.
+Tiempo entre peticion y respuesta: 0.062
+
+client6_19: Encolada peticion.
+
+client11_2: Encolada peticion.
+
+client2_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client11_3: Encolada peticion.
+
+client11_4: Encolada peticion.
+
+client11_5: Encolada peticion.
+
+client11_6: Encolada peticion.
+
+client11_7: Encolada peticion.
+
+client11_8: Encolada peticion.
+
+client11_9: Encolada peticion.
+
+client11_10: Encolada peticion.
+
+client11_11: Encolada peticion.
+
+client11_12: Encolada peticion.
+
+client11_13: Encolada peticion.
+
+client11_14: Encolada peticion.
+
+client11_15: Encolada peticion.
+
+client11_16: Encolada peticion.
+
+client11_17: Encolada peticion.
+
+client11_18: Encolada peticion.
+
+client11_19: Encolada peticion.
+
+client12_0: Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client9_0: Enviando peticion al modulo_RR conectado en el puerto 2009
+
+
+client12_1: Encolada peticion.
+
+client12_2: Encolada peticion.
+
+client12_3: Encolada peticion.
+
+client12_4: Encolada peticion.
+
+client12_5: Encolada peticion.
+
+client12_6: Encolada peticion.
+
+client12_7: Encolada peticion.
+
+client12_8: Encolada peticion.
+
+client12_9: Encolada peticion.
+
+client12_10: Encolada peticion.
+
+client12_11: Encolada peticion.
+
+client12_12: Encolada peticion.
+
+client12_13: Encolada peticion.
+
+client12_14: Encolada peticion.
+
+client12_15: Encolada peticion.
+
+client12_16: Encolada peticion.
+
+client12_17: Encolada peticion.
+
+client12_18: Encolada peticion.
+
+client12_19: Encolada peticion.
+
+client9_1: Encolada peticion.
+
+client9_2: Encolada peticion.
+
+client9_3: Encolada peticion.
+
+client9_4: Encolada peticion.
+
+client9_5: Encolada peticion.
+
+client9_6: Encolada peticion.
+
+client9_7: Encolada peticion.
+
+client9_8: Encolada peticion.
+
+client9_9: Encolada peticion.
+
+client9_10: Encolada peticion.
+
+client9_11: Encolada peticion.
+
+client9_12: Encolada peticion.
+
+client9_13: Encolada peticion.
+
+client9_14: Encolada peticion.
+
+client9_15: Encolada peticion.
+
+client9_16: Encolada peticion.
+
+client9_17: Encolada peticion.
+
+client9_18: Encolada peticion.
+
+client9_19: Encolada peticion.
+
+client8_0: Recibida respuesta del rr_module: 
+{"idRequest":"client8_0","idClient":"client8","msg":{"op":"set","args":["e","4"]},"idHandler":"handler1","idRR":"RR8","seq":4,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":4}
+
+Tiempo entre peticion y respuesta: 0.095
+
+client8_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_0: Recibida respuesta del rr_module: 
+{"idRequest":"client10_0","idClient":"client10","msg":{"op":"get","args":["b"]},"idHandler":"handler3","idRR":"RR10","seq":5,"idReplica":"FO0","idFO":"FO0","result":"No existe un valor para esa clave","seqRequest":5}
+
+Tiempo entre peticion y respuesta: 0.1
+
+client10_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_0: Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client15_1: Encolada peticion.
+
+client15_2: Encolada peticion.
+
+client15_3: Encolada peticion.
+
+client15_4: Encolada peticion.
+
+client15_5: Encolada peticion.
+
+client15_6: Encolada peticion.
+
+client15_7: Encolada peticion.
+
+client15_8: Encolada peticion.
+
+client15_9: Encolada peticion.
+
+client15_10: Encolada peticion.
+
+client15_11: Encolada peticion.
+
+client15_12: Encolada peticion.
+
+client15_13: Encolada peticion.
+
+client15_14: Encolada peticion.
+
+client15_15: Encolada peticion.
+
+client15_16: Encolada peticion.
+
+client15_17: Encolada peticion.
+
+client15_18: Encolada peticion.
+
+client15_19: Encolada peticion.
+
+client1_0: Recibida respuesta del rr_module: 
+{"idRequest":"client1_0","idClient":"client1","msg":{"op":"set","args":["e","2"]},"idHandler":"handler6","idRR":"RR1","seq":7,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":7}
+
+Tiempo entre peticion y respuesta: 0.116
+
+client1_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_0: Recibida respuesta del rr_module: 
+{"idRequest":"client7_0","idClient":"client7","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR7","seq":6,"idReplica":"FO1","idFO":"FO0","result":"No existe un valor para esa clave","seqRequest":6}
+
+Tiempo entre peticion y respuesta: 0.138
+
+client7_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_0: Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client16_1: Encolada peticion.
+
+client16_2: Encolada peticion.
+
+client16_3: Encolada peticion.
+
+client16_4: Encolada peticion.
+
+client16_5: Encolada peticion.
+
+client16_6: Encolada peticion.
+
+client16_7: Encolada peticion.
+
+client16_8: Encolada peticion.
+
+client16_9: Encolada peticion.
+
+client16_10: Encolada peticion.
+
+client16_11: Encolada peticion.
+
+client16_12: Encolada peticion.
+
+client16_13: Encolada peticion.
+
+client16_14: Encolada peticion.
+
+client16_15: Encolada peticion.
+
+client16_16: Encolada peticion.
+
+client16_17: Encolada peticion.
+
+client16_18: Encolada peticion.
+
+client16_19: Encolada peticion.
+
+client14_0: Enviando peticion al modulo_RR conectado en el puerto 2014
+
+
+client14_1: Encolada peticion.
+
+client14_2: Encolada peticion.
+
+client14_3: Encolada peticion.
+
+client14_4: Encolada peticion.
+
+client14_5: Encolada peticion.
+
+client14_6: Encolada peticion.
+
+client14_7: Encolada peticion.
+
+client14_8: Encolada peticion.
+
+client14_9: Encolada peticion.
+
+client14_10: Encolada peticion.
+
+client14_11: Encolada peticion.
+
+client14_12: Encolada peticion.
+
+client14_13: Encolada peticion.
+
+client14_14: Encolada peticion.
+
+client14_15: Encolada peticion.
+
+client14_16: Encolada peticion.
+
+client14_17: Encolada peticion.
+
+client14_18: Encolada peticion.
+
+client14_19: Encolada peticion.
+
+client0_0: Recibida respuesta del rr_module: 
+{"idRequest":"client0_0","idClient":"client0","msg":{"op":"set","args":["c","5"]},"idHandler":"handler4","idRR":"RR0","seq":8,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":8}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client0_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_0: Recibida respuesta del rr_module: 
+{"idRequest":"client5_0","idClient":"client5","msg":{"op":"get","args":["a"]},"idHandler":"handler8","idRR":"RR5","seq":9,"idReplica":"FO0","idFO":"FO0","result":"No existe un valor para esa clave","seqRequest":9}
+
+Tiempo entre peticion y respuesta: 0.2
+
+client5_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_1: Recibida respuesta del rr_module: 
+{"idRequest":"client4_1","idClient":"client4","msg":{"op":"set","args":["d","3"]},"idHandler":"handler0","idRR":"RR4","seq":10,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":10}
+
+Tiempo entre peticion y respuesta: 0.187
+
+client4_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_0: Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client17_1: Encolada peticion.
+
+client17_2: Encolada peticion.
+
+client17_3: Encolada peticion.
+
+client17_4: Encolada peticion.
+
+client17_5: Encolada peticion.
+
+client17_6: Encolada peticion.
+
+client17_7: Encolada peticion.
+
+client17_8: Encolada peticion.
+
+client17_9: Encolada peticion.
+
+client17_10: Encolada peticion.
+
+client17_11: Encolada peticion.
+
+client17_12: Encolada peticion.
+
+client17_13: Encolada peticion.
+
+client17_14: Encolada peticion.
+
+client17_15: Encolada peticion.
+
+client17_16: Encolada peticion.
+
+client17_17: Encolada peticion.
+
+client17_18: Encolada peticion.
+
+client17_19: Encolada peticion.
+
+client3_1: Recibida respuesta del rr_module: 
+{"idRequest":"client3_1","idClient":"client3","msg":{"op":"set","args":["e","2"]},"idHandler":"handler3","idRR":"RR3","seq":11,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":11}
+
+Tiempo entre peticion y respuesta: 0.195
+
+client3_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_0: Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client18_1: Encolada peticion.
+
+client18_2: Encolada peticion.
+
+client18_3: Encolada peticion.
+
+client18_4: Encolada peticion.
+
+client18_5: Encolada peticion.
+
+client18_6: Encolada peticion.
+
+client18_7: Encolada peticion.
+
+client18_8: Encolada peticion.
+
+client18_9: Encolada peticion.
+
+client18_10: Encolada peticion.
+
+client18_11: Encolada peticion.
+
+client18_12: Encolada peticion.
+
+client18_13: Encolada peticion.
+
+client18_14: Encolada peticion.
+
+client18_15: Encolada peticion.
+
+client18_16: Encolada peticion.
+
+client18_17: Encolada peticion.
+
+client18_18: Encolada peticion.
+
+client18_19: Encolada peticion.
+
+client19_0: Enviando peticion al modulo_RR conectado en el puerto 2019
+
+
+client19_1: Encolada peticion.
+
+client19_2: Encolada peticion.
+
+client19_3: Encolada peticion.
+
+client19_4: Encolada peticion.
+
+client19_5: Encolada peticion.
+
+client19_6: Encolada peticion.
+
+client19_7: Encolada peticion.
+
+client19_8: Encolada peticion.
+
+client19_9: Encolada peticion.
+
+client19_10: Encolada peticion.
+
+client19_11: Encolada peticion.
+
+client13_0: Recibida respuesta del rr_module: 
+{"idRequest":"client13_0","idClient":"client13","msg":{"op":"get","args":["e"]},"idHandler":"handler0","idRR":"RR13","seq":12,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":12}
+
+Tiempo entre peticion y respuesta: 0.246
+
+client13_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client19_12: Encolada peticion.
+
+client19_13: Encolada peticion.
+
+client19_14: Encolada peticion.
+
+client19_15: Encolada peticion.
+
+client19_16: Encolada peticion.
+
+client19_17: Encolada peticion.
+
+client19_18: Encolada peticion.
+
+client19_19: Encolada peticion.
+
+client11_0: Recibida respuesta del rr_module: 
+{"idRequest":"client11_0","idClient":"client11","msg":{"op":"set","args":["e","4"]},"idHandler":"handler9","idRR":"RR11","seq":13,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":13}
+
+Tiempo entre peticion y respuesta: 0.208
+
+client11_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_0: Recibida respuesta del rr_module: 
+{"idRequest":"client6_0","idClient":"client6","msg":{"op":"get","args":["e"]},"idHandler":"handler7","idRR":"RR6","seq":14,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":14}
+
+Tiempo entre peticion y respuesta: 0.223
+
+client6_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_1: Recibida respuesta del rr_module: 
+{"idRequest":"client2_1","idClient":"client2","msg":{"op":"set","args":["e","3"]},"idHandler":"handler2","idRR":"RR2","seq":15,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":15}
+
+Tiempo entre peticion y respuesta: 0.231
+
+client2_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_0: Recibida respuesta del rr_module: 
+{"idRequest":"client9_0","idClient":"client9","msg":{"op":"set","args":["b","5"]},"idHandler":"handler5","idRR":"RR9","seq":16,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":16}
+
+Tiempo entre peticion y respuesta: 0.227
+
+client9_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_0: Recibida respuesta del rr_module: 
+{"idRequest":"client12_0","idClient":"client12","msg":{"op":"get","args":["b"]},"idHandler":"handler7","idRR":"RR12","seq":17,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":17}
+
+Tiempo entre peticion y respuesta: 0.24
+
+client12_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_1: Recibida respuesta del rr_module: 
+{"idRequest":"client8_1","idClient":"client8","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR8","seq":18,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":18}
+
+Tiempo entre peticion y respuesta: 0.243
+
+client8_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_1: Recibida respuesta del rr_module: 
+{"idRequest":"client10_1","idClient":"client10","msg":{"op":"get","args":["b"]},"idHandler":"handler4","idRR":"RR10","seq":19,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":19}
+
+Tiempo entre peticion y respuesta: 0.229
+
+client10_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_0: Recibida respuesta del rr_module: 
+{"idRequest":"client15_0","idClient":"client15","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR15","seq":20,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":20}
+
+Tiempo entre peticion y respuesta: 0.221
+
+client15_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_1: Recibida respuesta del rr_module: 
+{"idRequest":"client1_1","idClient":"client1","msg":{"op":"get","args":["b"]},"idHandler":"handler9","idRR":"RR1","seq":21,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":21}
+
+Tiempo entre peticion y respuesta: 0.219
+
+client1_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_1: Recibida respuesta del rr_module: 
+{"idRequest":"client7_1","idClient":"client7","msg":{"op":"set","args":["a","5"]},"idHandler":"handler9","idRR":"RR7","seq":22,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":22}
+
+Tiempo entre peticion y respuesta: 0.226
+
+client7_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_0: Recibida respuesta del rr_module: 
+{"idRequest":"client16_0","idClient":"client16","msg":{"op":"get","args":["b"]},"idHandler":"handler8","idRR":"RR16","seq":23,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":23}
+
+Tiempo entre peticion y respuesta: 0.226
+
+client16_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_0: Recibida respuesta del rr_module: 
+{"idRequest":"client14_0","idClient":"client14","msg":{"op":"set","args":["c","5"]},"idHandler":"handler8","idRR":"RR14","seq":24,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":24}
+
+Tiempo entre peticion y respuesta: 0.227
+
+client14_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_1: Recibida respuesta del rr_module: 
+{"idRequest":"client0_1","idClient":"client0","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR0","seq":25,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":25}
+
+Tiempo entre peticion y respuesta: 0.204
+
+client0_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_1: Recibida respuesta del rr_module: 
+{"idRequest":"client5_1","idClient":"client5","msg":{"op":"set","args":["a","5"]},"idHandler":"handler6","idRR":"RR5","seq":26,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":26}
+
+Tiempo entre peticion y respuesta: 0.206
+
+client5_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_2: Recibida respuesta del rr_module: 
+{"idRequest":"client4_2","idClient":"client4","msg":{"op":"get","args":["d"]},"idHandler":"handler7","idRR":"RR4","seq":27,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":27}
+
+Tiempo entre peticion y respuesta: 0.187
+
+client4_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_0: Recibida respuesta del rr_module: 
+{"idRequest":"client17_0","idClient":"client17","msg":{"op":"get","args":["e"]},"idHandler":"handler3","idRR":"RR17","seq":28,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":28}
+
+Tiempo entre peticion y respuesta: 0.195
+
+client17_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_2: Recibida respuesta del rr_module: 
+{"idRequest":"client3_2","idClient":"client3","msg":{"op":"get","args":["b"]},"idHandler":"handler6","idRR":"RR3","seq":29,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":29}
+
+Tiempo entre peticion y respuesta: 0.199
+
+client3_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_0: Recibida respuesta del rr_module: 
+{"idRequest":"client18_0","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler8","idRR":"RR18","seq":30,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":30}
+
+Tiempo entre peticion y respuesta: 0.203
+
+client18_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_0: Recibida respuesta del rr_module: 
+{"idRequest":"client19_0","idClient":"client19","msg":{"op":"set","args":["b","5"]},"idHandler":"handler0","idRR":"RR19","seq":31,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":31}
+
+Tiempo entre peticion y respuesta: 0.202
+
+client19_1: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_1: Recibida respuesta del rr_module: 
+{"idRequest":"client13_1","idClient":"client13","msg":{"op":"set","args":["c","2"]},"idHandler":"handler8","idRR":"RR13","seq":32,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":32}
+
+Tiempo entre peticion y respuesta: 0.207
+
+client13_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_1: Recibida respuesta del rr_module: 
+{"idRequest":"client11_1","idClient":"client11","msg":{"op":"set","args":["d","1"]},"idHandler":"handler0","idRR":"RR11","seq":33,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":33}
+
+Tiempo entre peticion y respuesta: 0.204
+
+client11_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_1: Recibida respuesta del rr_module: 
+{"idRequest":"client6_1","idClient":"client6","msg":{"op":"get","args":["e"]},"idHandler":"handler3","idRR":"RR6","seq":34,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":34}
+
+Tiempo entre peticion y respuesta: 0.2
+
+client6_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_2: Recibida respuesta del rr_module: 
+{"idRequest":"client2_2","idClient":"client2","msg":{"op":"set","args":["b","5"]},"idHandler":"handler0","idRR":"RR2","seq":35,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":35}
+
+Tiempo entre peticion y respuesta: 0.197
+
+client2_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_1: Recibida respuesta del rr_module: 
+{"idRequest":"client9_1","idClient":"client9","msg":{"op":"get","args":["c"]},"idHandler":"handler6","idRR":"RR9","seq":36,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":36}
+
+Tiempo entre peticion y respuesta: 0.195
+
+client9_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_1: Recibida respuesta del rr_module: 
+{"idRequest":"client12_1","idClient":"client12","msg":{"op":"set","args":["e","2"]},"idHandler":"handler1","idRR":"RR12","seq":37,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":37}
+
+Tiempo entre peticion y respuesta: 0.193
+
+client12_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_2: Recibida respuesta del rr_module: 
+{"idRequest":"client8_2","idClient":"client8","msg":{"op":"set","args":["c","3"]},"idHandler":"handler4","idRR":"RR8","seq":38,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":38}
+
+Tiempo entre peticion y respuesta: 0.186
+
+client8_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_2: Recibida respuesta del rr_module: 
+{"idRequest":"client10_2","idClient":"client10","msg":{"op":"set","args":["e","5"]},"idHandler":"handler7","idRR":"RR10","seq":39,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":39}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client10_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_1: Recibida respuesta del rr_module: 
+{"idRequest":"client15_1","idClient":"client15","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR15","seq":40,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":40}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client15_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_2: Recibida respuesta del rr_module: 
+{"idRequest":"client1_2","idClient":"client1","msg":{"op":"set","args":["c","1"]},"idHandler":"handler7","idRR":"RR1","seq":41,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":41}
+
+Tiempo entre peticion y respuesta: 0.187
+
+client1_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_2: Recibida respuesta del rr_module: 
+{"idRequest":"client7_2","idClient":"client7","msg":{"op":"set","args":["a","2"]},"idHandler":"handler7","idRR":"RR7","seq":42,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 2","seqRequest":42}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client7_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_1: Recibida respuesta del rr_module: 
+{"idRequest":"client16_1","idClient":"client16","msg":{"op":"set","args":["c","5"]},"idHandler":"handler5","idRR":"RR16","seq":43,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":43}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client16_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_1: Recibida respuesta del rr_module: 
+{"idRequest":"client14_1","idClient":"client14","msg":{"op":"set","args":["b","1"]},"idHandler":"handler6","idRR":"RR14","seq":44,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":44}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client14_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_2: Recibida respuesta del rr_module: 
+{"idRequest":"client0_2","idClient":"client0","msg":{"op":"set","args":["c","5"]},"idHandler":"handler8","idRR":"RR0","seq":45,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":45}
+
+Tiempo entre peticion y respuesta: 0.183
+
+client0_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_2: Recibida respuesta del rr_module: 
+{"idRequest":"client5_2","idClient":"client5","msg":{"op":"set","args":["b","2"]},"idHandler":"handler2","idRR":"RR5","seq":46,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":46}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client5_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_3: Recibida respuesta del rr_module: 
+{"idRequest":"client4_3","idClient":"client4","msg":{"op":"set","args":["a","5"]},"idHandler":"handler2","idRR":"RR4","seq":47,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":47}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client4_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_1: Recibida respuesta del rr_module: 
+{"idRequest":"client17_1","idClient":"client17","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR17","seq":48,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":48}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client17_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_3: Recibida respuesta del rr_module: 
+{"idRequest":"client3_3","idClient":"client3","msg":{"op":"get","args":["d"]},"idHandler":"handler3","idRR":"RR3","seq":49,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":49}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client3_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_1: Recibida respuesta del rr_module: 
+{"idRequest":"client18_1","idClient":"client18","msg":{"op":"set","args":["c","5"]},"idHandler":"handler5","idRR":"RR18","seq":50,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":50}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client18_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_1: Recibida respuesta del rr_module: 
+{"idRequest":"client19_1","idClient":"client19","msg":{"op":"set","args":["b","3"]},"idHandler":"handler8","idRR":"RR19","seq":51,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 3","seqRequest":51}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client19_2: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_2: Recibida respuesta del rr_module: 
+{"idRequest":"client13_2","idClient":"client13","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR13","seq":52,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":52}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client13_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_2: Recibida respuesta del rr_module: 
+{"idRequest":"client11_2","idClient":"client11","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR11","seq":53,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":53}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client11_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_2: Recibida respuesta del rr_module: 
+{"idRequest":"client6_2","idClient":"client6","msg":{"op":"set","args":["a","5"]},"idHandler":"handler8","idRR":"RR6","seq":54,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":54}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client6_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_3: Recibida respuesta del rr_module: 
+{"idRequest":"client2_3","idClient":"client2","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR2","seq":55,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":55}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client2_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_2: Recibida respuesta del rr_module: 
+{"idRequest":"client9_2","idClient":"client9","msg":{"op":"get","args":["b"]},"idHandler":"handler1","idRR":"RR9","seq":56,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":56}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client9_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_2: Recibida respuesta del rr_module: 
+{"idRequest":"client12_2","idClient":"client12","msg":{"op":"set","args":["b","5"]},"idHandler":"handler3","idRR":"RR12","seq":57,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":57}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client12_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_3: Recibida respuesta del rr_module: 
+{"idRequest":"client8_3","idClient":"client8","msg":{"op":"get","args":["e"]},"idHandler":"handler3","idRR":"RR8","seq":58,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":58}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client8_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_3: Recibida respuesta del rr_module: 
+{"idRequest":"client10_3","idClient":"client10","msg":{"op":"get","args":["d"]},"idHandler":"handler1","idRR":"RR10","seq":59,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":59}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client10_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_2: Recibida respuesta del rr_module: 
+{"idRequest":"client15_2","idClient":"client15","msg":{"op":"set","args":["a","1"]},"idHandler":"handler7","idRR":"RR15","seq":60,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 1","seqRequest":60}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client15_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_3: Recibida respuesta del rr_module: 
+{"idRequest":"client1_3","idClient":"client1","msg":{"op":"get","args":["a"]},"idHandler":"handler7","idRR":"RR1","seq":61,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":61}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client1_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_3: Recibida respuesta del rr_module: 
+{"idRequest":"client7_3","idClient":"client7","msg":{"op":"set","args":["a","3"]},"idHandler":"handler4","idRR":"RR7","seq":62,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":62}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client7_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_2: Recibida respuesta del rr_module: 
+{"idRequest":"client16_2","idClient":"client16","msg":{"op":"set","args":["d","3"]},"idHandler":"handler9","idRR":"RR16","seq":63,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":63}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client16_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_2: Recibida respuesta del rr_module: 
+{"idRequest":"client14_2","idClient":"client14","msg":{"op":"set","args":["c","5"]},"idHandler":"handler1","idRR":"RR14","seq":64,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":64}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client14_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_3: Recibida respuesta del rr_module: 
+{"idRequest":"client0_3","idClient":"client0","msg":{"op":"get","args":["c"]},"idHandler":"handler4","idRR":"RR0","seq":65,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":65}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client0_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_3: Recibida respuesta del rr_module: 
+{"idRequest":"client5_3","idClient":"client5","msg":{"op":"get","args":["d"]},"idHandler":"handler6","idRR":"RR5","seq":66,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":66}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client5_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_4: Recibida respuesta del rr_module: 
+{"idRequest":"client4_4","idClient":"client4","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR4","seq":67,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":67}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client4_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_2: Recibida respuesta del rr_module: 
+{"idRequest":"client17_2","idClient":"client17","msg":{"op":"set","args":["d","5"]},"idHandler":"handler2","idRR":"RR17","seq":68,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":68}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client17_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_4: Recibida respuesta del rr_module: 
+{"idRequest":"client3_4","idClient":"client3","msg":{"op":"set","args":["d","5"]},"idHandler":"handler0","idRR":"RR3","seq":69,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":69}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client3_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_2: Recibida respuesta del rr_module: 
+{"idRequest":"client18_2","idClient":"client18","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR18","seq":70,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":70}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client18_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_2: Recibida respuesta del rr_module: 
+{"idRequest":"client19_2","idClient":"client19","msg":{"op":"set","args":["d","3"]},"idHandler":"handler3","idRR":"RR19","seq":71,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":71}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client19_3: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_3: Recibida respuesta del rr_module: 
+{"idRequest":"client13_3","idClient":"client13","msg":{"op":"set","args":["c","2"]},"idHandler":"handler6","idRR":"RR13","seq":72,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":72}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client13_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_3: Recibida respuesta del rr_module: 
+{"idRequest":"client11_3","idClient":"client11","msg":{"op":"get","args":["c"]},"idHandler":"handler2","idRR":"RR11","seq":73,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":73}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client11_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_3: Recibida respuesta del rr_module: 
+{"idRequest":"client6_3","idClient":"client6","msg":{"op":"set","args":["b","4"]},"idHandler":"handler6","idRR":"RR6","seq":74,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":74}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client6_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_4: Recibida respuesta del rr_module: 
+{"idRequest":"client2_4","idClient":"client2","msg":{"op":"get","args":["e"]},"idHandler":"handler4","idRR":"RR2","seq":75,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":75}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client2_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_3: Recibida respuesta del rr_module: 
+{"idRequest":"client9_3","idClient":"client9","msg":{"op":"set","args":["a","2"]},"idHandler":"handler5","idRR":"RR9","seq":76,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 2","seqRequest":76}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client9_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_3: Recibida respuesta del rr_module: 
+{"idRequest":"client12_3","idClient":"client12","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR12","seq":77,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":77}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client12_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_4: Recibida respuesta del rr_module: 
+{"idRequest":"client8_4","idClient":"client8","msg":{"op":"set","args":["c","3"]},"idHandler":"handler6","idRR":"RR8","seq":78,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":78}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client8_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_4: Recibida respuesta del rr_module: 
+{"idRequest":"client10_4","idClient":"client10","msg":{"op":"get","args":["e"]},"idHandler":"handler0","idRR":"RR10","seq":79,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":79}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client10_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_3: Recibida respuesta del rr_module: 
+{"idRequest":"client15_3","idClient":"client15","msg":{"op":"set","args":["c","4"]},"idHandler":"handler5","idRR":"RR15","seq":80,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 4","seqRequest":80}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client15_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_4: Recibida respuesta del rr_module: 
+{"idRequest":"client1_4","idClient":"client1","msg":{"op":"get","args":["e"]},"idHandler":"handler2","idRR":"RR1","seq":81,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":81}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client1_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_4: Recibida respuesta del rr_module: 
+{"idRequest":"client7_4","idClient":"client7","msg":{"op":"get","args":["e"]},"idHandler":"handler6","idRR":"RR7","seq":82,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":82}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client7_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_3: Recibida respuesta del rr_module: 
+{"idRequest":"client16_3","idClient":"client16","msg":{"op":"get","args":["b"]},"idHandler":"handler4","idRR":"RR16","seq":83,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":83}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client16_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_3: Recibida respuesta del rr_module: 
+{"idRequest":"client14_3","idClient":"client14","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR14","seq":84,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":84}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client14_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_4: Recibida respuesta del rr_module: 
+{"idRequest":"client0_4","idClient":"client0","msg":{"op":"get","args":["c"]},"idHandler":"handler3","idRR":"RR0","seq":85,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":85}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client0_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_4: Recibida respuesta del rr_module: 
+{"idRequest":"client5_4","idClient":"client5","msg":{"op":"get","args":["e"]},"idHandler":"handler4","idRR":"RR5","seq":86,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":86}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client5_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_5: Recibida respuesta del rr_module: 
+{"idRequest":"client4_5","idClient":"client4","msg":{"op":"set","args":["b","2"]},"idHandler":"handler8","idRR":"RR4","seq":87,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":87}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client4_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_3: Recibida respuesta del rr_module: 
+{"idRequest":"client17_3","idClient":"client17","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR17","seq":88,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":88}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client17_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_5: Recibida respuesta del rr_module: 
+{"idRequest":"client3_5","idClient":"client3","msg":{"op":"set","args":["c","3"]},"idHandler":"handler7","idRR":"RR3","seq":89,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":89}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client3_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_3: Recibida respuesta del rr_module: 
+{"idRequest":"client18_3","idClient":"client18","msg":{"op":"set","args":["d","1"]},"idHandler":"handler4","idRR":"RR18","seq":90,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":90}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client18_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_3: Recibida respuesta del rr_module: 
+{"idRequest":"client19_3","idClient":"client19","msg":{"op":"set","args":["b","4"]},"idHandler":"handler9","idRR":"RR19","seq":91,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":91}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client19_4: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_4: Recibida respuesta del rr_module: 
+{"idRequest":"client13_4","idClient":"client13","msg":{"op":"get","args":["c"]},"idHandler":"handler5","idRR":"RR13","seq":92,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":92}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client13_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_4: Recibida respuesta del rr_module: 
+{"idRequest":"client11_4","idClient":"client11","msg":{"op":"get","args":["a"]},"idHandler":"handler8","idRR":"RR11","seq":93,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":93}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client11_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_4: Recibida respuesta del rr_module: 
+{"idRequest":"client6_4","idClient":"client6","msg":{"op":"set","args":["b","4"]},"idHandler":"handler9","idRR":"RR6","seq":94,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":94}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client6_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_5: Recibida respuesta del rr_module: 
+{"idRequest":"client2_5","idClient":"client2","msg":{"op":"get","args":["d"]},"idHandler":"handler3","idRR":"RR2","seq":95,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":95}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client2_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_4: Recibida respuesta del rr_module: 
+{"idRequest":"client9_4","idClient":"client9","msg":{"op":"get","args":["c"]},"idHandler":"handler2","idRR":"RR9","seq":96,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":96}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client9_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_4: Recibida respuesta del rr_module: 
+{"idRequest":"client12_4","idClient":"client12","msg":{"op":"set","args":["c","3"]},"idHandler":"handler2","idRR":"RR12","seq":97,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":97}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client12_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_5: Recibida respuesta del rr_module: 
+{"idRequest":"client8_5","idClient":"client8","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR8","seq":98,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":98}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client8_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_5: Recibida respuesta del rr_module: 
+{"idRequest":"client10_5","idClient":"client10","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR10","seq":99,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":99}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client10_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_4: Recibida respuesta del rr_module: 
+{"idRequest":"client15_4","idClient":"client15","msg":{"op":"set","args":["a","1"]},"idHandler":"handler7","idRR":"RR15","seq":100,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 1","seqRequest":100}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client15_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_5: Recibida respuesta del rr_module: 
+{"idRequest":"client1_5","idClient":"client1","msg":{"op":"get","args":["b"]},"idHandler":"handler4","idRR":"RR1","seq":101,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":101}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client1_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_5: Recibida respuesta del rr_module: 
+{"idRequest":"client7_5","idClient":"client7","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR7","seq":102,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":102}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client7_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_4: Recibida respuesta del rr_module: 
+{"idRequest":"client16_4","idClient":"client16","msg":{"op":"set","args":["d","3"]},"idHandler":"handler6","idRR":"RR16","seq":103,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":103}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client16_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_4: Recibida respuesta del rr_module: 
+{"idRequest":"client14_4","idClient":"client14","msg":{"op":"set","args":["b","4"]},"idHandler":"handler7","idRR":"RR14","seq":104,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":104}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client14_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_5: Recibida respuesta del rr_module: 
+{"idRequest":"client0_5","idClient":"client0","msg":{"op":"get","args":["b"]},"idHandler":"handler9","idRR":"RR0","seq":105,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":105}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client0_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_5: Recibida respuesta del rr_module: 
+{"idRequest":"client5_5","idClient":"client5","msg":{"op":"get","args":["d"]},"idHandler":"handler1","idRR":"RR5","seq":106,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":106}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client5_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_6: Recibida respuesta del rr_module: 
+{"idRequest":"client4_6","idClient":"client4","msg":{"op":"set","args":["c","5"]},"idHandler":"handler6","idRR":"RR4","seq":107,"idReplica":"FO5","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":107}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client4_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_4: Recibida respuesta del rr_module: 
+{"idRequest":"client17_4","idClient":"client17","msg":{"op":"set","args":["d","2"]},"idHandler":"handler5","idRR":"RR17","seq":108,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 2","seqRequest":108}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client17_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_6: Recibida respuesta del rr_module: 
+{"idRequest":"client3_6","idClient":"client3","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR3","seq":109,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":109}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client3_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_4: Recibida respuesta del rr_module: 
+{"idRequest":"client18_4","idClient":"client18","msg":{"op":"get","args":["e"]},"idHandler":"handler5","idRR":"RR18","seq":110,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":110}
+
+Tiempo entre peticion y respuesta: 0.181
+
+client18_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_4: Recibida respuesta del rr_module: 
+{"idRequest":"client19_4","idClient":"client19","msg":{"op":"get","args":["c"]},"idHandler":"handler6","idRR":"RR19","seq":111,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":111}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client19_5: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_5: Recibida respuesta del rr_module: 
+{"idRequest":"client13_5","idClient":"client13","msg":{"op":"set","args":["e","2"]},"idHandler":"handler2","idRR":"RR13","seq":112,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":112}
+
+Tiempo entre peticion y respuesta: 0.181
+
+client13_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_5: Recibida respuesta del rr_module: 
+{"idRequest":"client11_5","idClient":"client11","msg":{"op":"get","args":["e"]},"idHandler":"handler5","idRR":"RR11","seq":113,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":113}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client11_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_5: Recibida respuesta del rr_module: 
+{"idRequest":"client6_5","idClient":"client6","msg":{"op":"set","args":["e","4"]},"idHandler":"handler0","idRR":"RR6","seq":114,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":114}
+
+Tiempo entre peticion y respuesta: 0.191
+
+client6_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_6: Recibida respuesta del rr_module: 
+{"idRequest":"client2_6","idClient":"client2","msg":{"op":"get","args":["e"]},"idHandler":"handler6","idRR":"RR2","seq":115,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":115}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client2_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_5: Recibida respuesta del rr_module: 
+{"idRequest":"client9_5","idClient":"client9","msg":{"op":"set","args":["d","5"]},"idHandler":"handler2","idRR":"RR9","seq":116,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":116}
+
+Tiempo entre peticion y respuesta: 0.181
+
+client9_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_5: Recibida respuesta del rr_module: 
+{"idRequest":"client12_5","idClient":"client12","msg":{"op":"set","args":["c","2"]},"idHandler":"handler1","idRR":"RR12","seq":117,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":117}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client12_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_6: Recibida respuesta del rr_module: 
+{"idRequest":"client8_6","idClient":"client8","msg":{"op":"set","args":["b","3"]},"idHandler":"handler8","idRR":"RR8","seq":118,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 3","seqRequest":118}
+
+Tiempo entre peticion y respuesta: 0.188
+
+client8_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_6: Recibida respuesta del rr_module: 
+{"idRequest":"client10_6","idClient":"client10","msg":{"op":"set","args":["c","5"]},"idHandler":"handler1","idRR":"RR10","seq":119,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":119}
+
+Tiempo entre peticion y respuesta: 0.189
+
+client10_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_5: Recibida respuesta del rr_module: 
+{"idRequest":"client15_5","idClient":"client15","msg":{"op":"set","args":["d","1"]},"idHandler":"handler7","idRR":"RR15","seq":120,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":120}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client15_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_6: Recibida respuesta del rr_module: 
+{"idRequest":"client1_6","idClient":"client1","msg":{"op":"set","args":["c","1"]},"idHandler":"handler2","idRR":"RR1","seq":121,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":121}
+
+Tiempo entre peticion y respuesta: 0.197
+
+client1_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_6: Recibida respuesta del rr_module: 
+{"idRequest":"client7_6","idClient":"client7","msg":{"op":"set","args":["c","1"]},"idHandler":"handler3","idRR":"RR7","seq":122,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":122}
+
+Tiempo entre peticion y respuesta: 0.201
+
+client7_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_5: Recibida respuesta del rr_module: 
+{"idRequest":"client16_5","idClient":"client16","msg":{"op":"get","args":["b"]},"idHandler":"handler3","idRR":"RR16","seq":123,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":123}
+
+Tiempo entre peticion y respuesta: 0.198
+
+client16_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_5: Recibida respuesta del rr_module: 
+{"idRequest":"client14_5","idClient":"client14","msg":{"op":"set","args":["b","5"]},"idHandler":"handler2","idRR":"RR14","seq":124,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":124}
+
+Tiempo entre peticion y respuesta: 0.198
+
+client14_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_6: Recibida respuesta del rr_module: 
+{"idRequest":"client0_6","idClient":"client0","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR0","seq":125,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":125}
+
+Tiempo entre peticion y respuesta: 0.199
+
+client0_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_6: Recibida respuesta del rr_module: 
+{"idRequest":"client5_6","idClient":"client5","msg":{"op":"set","args":["c","2"]},"idHandler":"handler6","idRR":"RR5","seq":126,"idReplica":"FO3","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":126}
+
+Tiempo entre peticion y respuesta: 0.198
+
+client5_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_7: Recibida respuesta del rr_module: 
+{"idRequest":"client4_7","idClient":"client4","msg":{"op":"set","args":["e","4"]},"idHandler":"handler3","idRR":"RR4","seq":127,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":127}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client4_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_5: Recibida respuesta del rr_module: 
+{"idRequest":"client17_5","idClient":"client17","msg":{"op":"set","args":["c","5"]},"idHandler":"handler5","idRR":"RR17","seq":128,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":128}
+
+Tiempo entre peticion y respuesta: 0.203
+
+client17_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_7: Recibida respuesta del rr_module: 
+{"idRequest":"client3_7","idClient":"client3","msg":{"op":"set","args":["c","4"]},"idHandler":"handler6","idRR":"RR3","seq":129,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 4","seqRequest":129}
+
+Tiempo entre peticion y respuesta: 0.195
+
+client3_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_5: Recibida respuesta del rr_module: 
+{"idRequest":"client18_5","idClient":"client18","msg":{"op":"get","args":["d"]},"idHandler":"handler0","idRR":"RR18","seq":130,"idReplica":"FO1","idFO":"FO0","result":"1","seqRequest":130}
+
+Tiempo entre peticion y respuesta: 0.197
+
+client18_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_5: Recibida respuesta del rr_module: 
+{"idRequest":"client19_5","idClient":"client19","msg":{"op":"set","args":["e","4"]},"idHandler":"handler9","idRR":"RR19","seq":131,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":131}
+
+Tiempo entre peticion y respuesta: 0.197
+
+client19_6: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_6: Recibida respuesta del rr_module: 
+{"idRequest":"client13_6","idClient":"client13","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR13","seq":132,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":132}
+
+Tiempo entre peticion y respuesta: 0.199
+
+client13_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_6: Recibida respuesta del rr_module: 
+{"idRequest":"client11_6","idClient":"client11","msg":{"op":"get","args":["c"]},"idHandler":"handler0","idRR":"RR11","seq":133,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":133}
+
+Tiempo entre peticion y respuesta: 0.206
+
+client11_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_6: Recibida respuesta del rr_module: 
+{"idRequest":"client6_6","idClient":"client6","msg":{"op":"get","args":["a"]},"idHandler":"handler7","idRR":"RR6","seq":134,"idReplica":"FO1","idFO":"FO0","result":"1","seqRequest":134}
+
+Tiempo entre peticion y respuesta: 0.2
+
+client6_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_7: Recibida respuesta del rr_module: 
+{"idRequest":"client2_7","idClient":"client2","msg":{"op":"set","args":["a","5"]},"idHandler":"handler7","idRR":"RR2","seq":135,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":135}
+
+Tiempo entre peticion y respuesta: 0.202
+
+client2_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_6: Recibida respuesta del rr_module: 
+{"idRequest":"client9_6","idClient":"client9","msg":{"op":"get","args":["c"]},"idHandler":"handler0","idRR":"RR9","seq":136,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":136}
+
+Tiempo entre peticion y respuesta: 0.203
+
+client9_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_6: Recibida respuesta del rr_module: 
+{"idRequest":"client12_6","idClient":"client12","msg":{"op":"set","args":["a","1"]},"idHandler":"handler4","idRR":"RR12","seq":137,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 1","seqRequest":137}
+
+Tiempo entre peticion y respuesta: 0.201
+
+client12_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_7: Recibida respuesta del rr_module: 
+{"idRequest":"client8_7","idClient":"client8","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR8","seq":138,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":138}
+
+Tiempo entre peticion y respuesta: 0.195
+
+client8_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_7: Recibida respuesta del rr_module: 
+{"idRequest":"client10_7","idClient":"client10","msg":{"op":"set","args":["b","2"]},"idHandler":"handler9","idRR":"RR10","seq":139,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":139}
+
+Tiempo entre peticion y respuesta: 0.192
+
+client10_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_6: Recibida respuesta del rr_module: 
+{"idRequest":"client15_6","idClient":"client15","msg":{"op":"get","args":["a"]},"idHandler":"handler7","idRR":"RR15","seq":140,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":140}
+
+Tiempo entre peticion y respuesta: 0.191
+
+client15_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_7: Recibida respuesta del rr_module: 
+{"idRequest":"client1_7","idClient":"client1","msg":{"op":"get","args":["b"]},"idHandler":"handler7","idRR":"RR1","seq":141,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":141}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client1_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_7: Recibida respuesta del rr_module: 
+{"idRequest":"client7_7","idClient":"client7","msg":{"op":"set","args":["c","3"]},"idHandler":"handler8","idRR":"RR7","seq":142,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":142}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client7_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_6: Recibida respuesta del rr_module: 
+{"idRequest":"client16_6","idClient":"client16","msg":{"op":"set","args":["c","1"]},"idHandler":"handler7","idRR":"RR16","seq":143,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":143}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client16_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_6: Recibida respuesta del rr_module: 
+{"idRequest":"client14_6","idClient":"client14","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR14","seq":144,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":144}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client14_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_7: Recibida respuesta del rr_module: 
+{"idRequest":"client0_7","idClient":"client0","msg":{"op":"get","args":["a"]},"idHandler":"handler8","idRR":"RR0","seq":145,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":145}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client0_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_7: Recibida respuesta del rr_module: 
+{"idRequest":"client5_7","idClient":"client5","msg":{"op":"set","args":["a","4"]},"idHandler":"handler3","idRR":"RR5","seq":146,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":146}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client5_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_8: Recibida respuesta del rr_module: 
+{"idRequest":"client4_8","idClient":"client4","msg":{"op":"set","args":["b","4"]},"idHandler":"handler8","idRR":"RR4","seq":147,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":147}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client4_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_6: Recibida respuesta del rr_module: 
+{"idRequest":"client17_6","idClient":"client17","msg":{"op":"get","args":["b"]},"idHandler":"handler8","idRR":"RR17","seq":148,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":148}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client17_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_8: Recibida respuesta del rr_module: 
+{"idRequest":"client3_8","idClient":"client3","msg":{"op":"get","args":["b"]},"idHandler":"handler8","idRR":"RR3","seq":149,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":149}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client3_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_6: Recibida respuesta del rr_module: 
+{"idRequest":"client18_6","idClient":"client18","msg":{"op":"set","args":["b","2"]},"idHandler":"handler9","idRR":"RR18","seq":150,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":150}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client18_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_6: Recibida respuesta del rr_module: 
+{"idRequest":"client19_6","idClient":"client19","msg":{"op":"set","args":["e","1"]},"idHandler":"handler0","idRR":"RR19","seq":151,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 1","seqRequest":151}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client19_7: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_7: Recibida respuesta del rr_module: 
+{"idRequest":"client13_7","idClient":"client13","msg":{"op":"set","args":["d","1"]},"idHandler":"handler0","idRR":"RR13","seq":152,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":152}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client13_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_7: Recibida respuesta del rr_module: 
+{"idRequest":"client11_7","idClient":"client11","msg":{"op":"get","args":["e"]},"idHandler":"handler2","idRR":"RR11","seq":153,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":153}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client11_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_7: Recibida respuesta del rr_module: 
+{"idRequest":"client6_7","idClient":"client6","msg":{"op":"set","args":["c","5"]},"idHandler":"handler4","idRR":"RR6","seq":154,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":154}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client6_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_8: Recibida respuesta del rr_module: 
+{"idRequest":"client2_8","idClient":"client2","msg":{"op":"set","args":["b","3"]},"idHandler":"handler1","idRR":"RR2","seq":155,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 3","seqRequest":155}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client2_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_7: Recibida respuesta del rr_module: 
+{"idRequest":"client9_7","idClient":"client9","msg":{"op":"get","args":["c"]},"idHandler":"handler9","idRR":"RR9","seq":156,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":156}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client9_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_7: Recibida respuesta del rr_module: 
+{"idRequest":"client12_7","idClient":"client12","msg":{"op":"get","args":["d"]},"idHandler":"handler0","idRR":"RR12","seq":157,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":157}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client12_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_8: Recibida respuesta del rr_module: 
+{"idRequest":"client8_8","idClient":"client8","msg":{"op":"get","args":["b"]},"idHandler":"handler6","idRR":"RR8","seq":158,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":158}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client8_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_8: Recibida respuesta del rr_module: 
+{"idRequest":"client10_8","idClient":"client10","msg":{"op":"get","args":["d"]},"idHandler":"handler3","idRR":"RR10","seq":159,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":159}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client10_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_7: Recibida respuesta del rr_module: 
+{"idRequest":"client15_7","idClient":"client15","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR15","seq":160,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":160}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client15_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_8: Recibida respuesta del rr_module: 
+{"idRequest":"client1_8","idClient":"client1","msg":{"op":"set","args":["b","2"]},"idHandler":"handler5","idRR":"RR1","seq":161,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":161}
+
+Tiempo entre peticion y respuesta: 0.181
+
+client1_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_8: Recibida respuesta del rr_module: 
+{"idRequest":"client7_8","idClient":"client7","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR7","seq":162,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":162}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client7_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_7: Recibida respuesta del rr_module: 
+{"idRequest":"client16_7","idClient":"client16","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR16","seq":163,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":163}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client16_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_7: Recibida respuesta del rr_module: 
+{"idRequest":"client14_7","idClient":"client14","msg":{"op":"get","args":["d"]},"idHandler":"handler2","idRR":"RR14","seq":164,"idReplica":"FO1","idFO":"FO0","result":"1","seqRequest":164}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client14_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_8: Recibida respuesta del rr_module: 
+{"idRequest":"client0_8","idClient":"client0","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR0","seq":165,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":165}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client0_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_8: Recibida respuesta del rr_module: 
+{"idRequest":"client5_8","idClient":"client5","msg":{"op":"get","args":["b"]},"idHandler":"handler5","idRR":"RR5","seq":166,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":166}
+
+Tiempo entre peticion y respuesta: 0.188
+
+client5_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_9: Recibida respuesta del rr_module: 
+{"idRequest":"client4_9","idClient":"client4","msg":{"op":"set","args":["c","2"]},"idHandler":"handler5","idRR":"RR4","seq":167,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":167}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client4_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_7: Recibida respuesta del rr_module: 
+{"idRequest":"client17_7","idClient":"client17","msg":{"op":"get","args":["c"]},"idHandler":"handler3","idRR":"RR17","seq":168,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":168}
+
+Tiempo entre peticion y respuesta: 0.183
+
+client17_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_9: Recibida respuesta del rr_module: 
+{"idRequest":"client3_9","idClient":"client3","msg":{"op":"set","args":["d","2"]},"idHandler":"handler4","idRR":"RR3","seq":169,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 2","seqRequest":169}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client3_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_7: Recibida respuesta del rr_module: 
+{"idRequest":"client18_7","idClient":"client18","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR18","seq":170,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":170}
+
+Tiempo entre peticion y respuesta: 0.187
+
+client18_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_7: Recibida respuesta del rr_module: 
+{"idRequest":"client19_7","idClient":"client19","msg":{"op":"set","args":["b","4"]},"idHandler":"handler2","idRR":"RR19","seq":171,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":171}
+
+Tiempo entre peticion y respuesta: 0.186
+
+client19_8: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_8: Recibida respuesta del rr_module: 
+{"idRequest":"client13_8","idClient":"client13","msg":{"op":"get","args":["a"]},"idHandler":"handler0","idRR":"RR13","seq":172,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":172}
+
+Tiempo entre peticion y respuesta: 0.186
+
+client13_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_8: Recibida respuesta del rr_module: 
+{"idRequest":"client11_8","idClient":"client11","msg":{"op":"set","args":["e","5"]},"idHandler":"handler3","idRR":"RR11","seq":173,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":173}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client11_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_8: Recibida respuesta del rr_module: 
+{"idRequest":"client6_8","idClient":"client6","msg":{"op":"get","args":["c"]},"idHandler":"handler5","idRR":"RR6","seq":174,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":174}
+
+Tiempo entre peticion y respuesta: 0.186
+
+client6_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_9: Recibida respuesta del rr_module: 
+{"idRequest":"client2_9","idClient":"client2","msg":{"op":"set","args":["b","5"]},"idHandler":"handler3","idRR":"RR2","seq":175,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":175}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client2_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_8: Recibida respuesta del rr_module: 
+{"idRequest":"client9_8","idClient":"client9","msg":{"op":"set","args":["e","5"]},"idHandler":"handler5","idRR":"RR9","seq":176,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":176}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client9_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_8: Recibida respuesta del rr_module: 
+{"idRequest":"client12_8","idClient":"client12","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR12","seq":177,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":177}
+
+Tiempo entre peticion y respuesta: 0.183
+
+client12_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_9: Recibida respuesta del rr_module: 
+{"idRequest":"client8_9","idClient":"client8","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR8","seq":178,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":178}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client8_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_9: Recibida respuesta del rr_module: 
+{"idRequest":"client10_9","idClient":"client10","msg":{"op":"get","args":["b"]},"idHandler":"handler6","idRR":"RR10","seq":179,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":179}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client10_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_8: Recibida respuesta del rr_module: 
+{"idRequest":"client15_8","idClient":"client15","msg":{"op":"get","args":["e"]},"idHandler":"handler7","idRR":"RR15","seq":180,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":180}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client15_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_9: Recibida respuesta del rr_module: 
+{"idRequest":"client1_9","idClient":"client1","msg":{"op":"get","args":["d"]},"idHandler":"handler2","idRR":"RR1","seq":181,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":181}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client1_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_9: Recibida respuesta del rr_module: 
+{"idRequest":"client7_9","idClient":"client7","msg":{"op":"set","args":["e","2"]},"idHandler":"handler7","idRR":"RR7","seq":182,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":182}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client7_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_8: Recibida respuesta del rr_module: 
+{"idRequest":"client16_8","idClient":"client16","msg":{"op":"set","args":["e","2"]},"idHandler":"handler6","idRR":"RR16","seq":183,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":183}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client16_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_8: Recibida respuesta del rr_module: 
+{"idRequest":"client14_8","idClient":"client14","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR14","seq":184,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":184}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client14_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_9: Recibida respuesta del rr_module: 
+{"idRequest":"client0_9","idClient":"client0","msg":{"op":"set","args":["e","4"]},"idHandler":"handler7","idRR":"RR0","seq":185,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":185}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client0_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_9: Recibida respuesta del rr_module: 
+{"idRequest":"client5_9","idClient":"client5","msg":{"op":"get","args":["c"]},"idHandler":"handler4","idRR":"RR5","seq":186,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":186}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client5_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_10: Recibida respuesta del rr_module: 
+{"idRequest":"client4_10","idClient":"client4","msg":{"op":"get","args":["d"]},"idHandler":"handler2","idRR":"RR4","seq":187,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":187}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client4_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_8: Recibida respuesta del rr_module: 
+{"idRequest":"client17_8","idClient":"client17","msg":{"op":"set","args":["a","4"]},"idHandler":"handler9","idRR":"RR17","seq":188,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":188}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client17_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_10: Recibida respuesta del rr_module: 
+{"idRequest":"client3_10","idClient":"client3","msg":{"op":"set","args":["d","5"]},"idHandler":"handler6","idRR":"RR3","seq":189,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":189}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client3_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_8: Recibida respuesta del rr_module: 
+{"idRequest":"client18_8","idClient":"client18","msg":{"op":"get","args":["d"]},"idHandler":"handler7","idRR":"RR18","seq":190,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":190}
+
+Tiempo entre peticion y respuesta: 0.162
+
+client18_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_8: Recibida respuesta del rr_module: 
+{"idRequest":"client19_8","idClient":"client19","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR19","seq":191,"idReplica":"FO2","idFO":"FO0","result":"4","seqRequest":191}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client19_9: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_9: Recibida respuesta del rr_module: 
+{"idRequest":"client13_9","idClient":"client13","msg":{"op":"get","args":["b"]},"idHandler":"handler7","idRR":"RR13","seq":192,"idReplica":"FO2","idFO":"FO0","result":"5","seqRequest":192}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client13_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_9: Recibida respuesta del rr_module: 
+{"idRequest":"client11_9","idClient":"client11","msg":{"op":"set","args":["d","5"]},"idHandler":"handler2","idRR":"RR11","seq":193,"idReplica":"FO2","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":193}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client11_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_9: Recibida respuesta del rr_module: 
+{"idRequest":"client6_9","idClient":"client6","msg":{"op":"get","args":["a"]},"idHandler":"handler2","idRR":"RR6","seq":194,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":194}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client6_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_10: Recibida respuesta del rr_module: 
+{"idRequest":"client2_10","idClient":"client2","msg":{"op":"set","args":["d","4"]},"idHandler":"handler2","idRR":"RR2","seq":195,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 4","seqRequest":195}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client2_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_9: Recibida respuesta del rr_module: 
+{"idRequest":"client9_9","idClient":"client9","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR9","seq":196,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":196}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client9_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_9: Recibida respuesta del rr_module: 
+{"idRequest":"client12_9","idClient":"client12","msg":{"op":"set","args":["a","3"]},"idHandler":"handler0","idRR":"RR12","seq":197,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":197}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client12_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_10: Recibida respuesta del rr_module: 
+{"idRequest":"client8_10","idClient":"client8","msg":{"op":"get","args":["e"]},"idHandler":"handler7","idRR":"RR8","seq":198,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":198}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client8_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_10: Recibida respuesta del rr_module: 
+{"idRequest":"client10_10","idClient":"client10","msg":{"op":"get","args":["e"]},"idHandler":"handler5","idRR":"RR10","seq":199,"idReplica":"FO3","idFO":"FO0","result":"4","seqRequest":199}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client10_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_9: Recibida respuesta del rr_module: 
+{"idRequest":"client15_9","idClient":"client15","msg":{"op":"get","args":["c"]},"idHandler":"handler1","idRR":"RR15","seq":200,"idReplica":"FO2","idFO":"FO0","result":"2","seqRequest":200}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client15_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_10: Recibida respuesta del rr_module: 
+{"idRequest":"client1_10","idClient":"client1","msg":{"op":"set","args":["c","2"]},"idHandler":"handler4","idRR":"RR1","seq":201,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":201}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client1_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_10: Recibida respuesta del rr_module: 
+{"idRequest":"client7_10","idClient":"client7","msg":{"op":"set","args":["a","5"]},"idHandler":"handler3","idRR":"RR7","seq":202,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":202}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client7_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_9: Recibida respuesta del rr_module: 
+{"idRequest":"client16_9","idClient":"client16","msg":{"op":"set","args":["e","2"]},"idHandler":"handler5","idRR":"RR16","seq":203,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":203}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client16_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_9: Recibida respuesta del rr_module: 
+{"idRequest":"client14_9","idClient":"client14","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR14","seq":204,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":204}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client14_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_10: Recibida respuesta del rr_module: 
+{"idRequest":"client0_10","idClient":"client0","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR0","seq":205,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":205}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client0_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_10: Recibida respuesta del rr_module: 
+{"idRequest":"client5_10","idClient":"client5","msg":{"op":"get","args":["b"]},"idHandler":"handler3","idRR":"RR5","seq":206,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":206}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client5_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_11: Recibida respuesta del rr_module: 
+{"idRequest":"client4_11","idClient":"client4","msg":{"op":"set","args":["d","4"]},"idHandler":"handler3","idRR":"RR4","seq":207,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 4","seqRequest":207}
+
+Tiempo entre peticion y respuesta: 0.163
+
+client4_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_9: Recibida respuesta del rr_module: 
+{"idRequest":"client17_9","idClient":"client17","msg":{"op":"set","args":["a","4"]},"idHandler":"handler5","idRR":"RR17","seq":208,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":208}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client17_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_11: Recibida respuesta del rr_module: 
+{"idRequest":"client3_11","idClient":"client3","msg":{"op":"set","args":["a","5"]},"idHandler":"handler0","idRR":"RR3","seq":209,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":209}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client3_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_9: Recibida respuesta del rr_module: 
+{"idRequest":"client18_9","idClient":"client18","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR18","seq":210,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":210}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client18_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_9: Recibida respuesta del rr_module: 
+{"idRequest":"client19_9","idClient":"client19","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR19","seq":211,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":211}
+
+Tiempo entre peticion y respuesta: 0.159
+
+client19_10: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_10: Recibida respuesta del rr_module: 
+{"idRequest":"client13_10","idClient":"client13","msg":{"op":"set","args":["e","1"]},"idHandler":"handler7","idRR":"RR13","seq":212,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 1","seqRequest":212}
+
+Tiempo entre peticion y respuesta: 0.162
+
+client13_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_10: Recibida respuesta del rr_module: 
+{"idRequest":"client11_10","idClient":"client11","msg":{"op":"set","args":["a","4"]},"idHandler":"handler9","idRR":"RR11","seq":213,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":213}
+
+Tiempo entre peticion y respuesta: 0.158
+
+client11_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_10: Recibida respuesta del rr_module: 
+{"idRequest":"client6_10","idClient":"client6","msg":{"op":"get","args":["d"]},"idHandler":"handler1","idRR":"RR6","seq":214,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":214}
+
+Tiempo entre peticion y respuesta: 0.161
+
+client6_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_11: Recibida respuesta del rr_module: 
+{"idRequest":"client2_11","idClient":"client2","msg":{"op":"set","args":["d","5"]},"idHandler":"handler8","idRR":"RR2","seq":215,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":215}
+
+Tiempo entre peticion y respuesta: 0.159
+
+client2_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_10: Recibida respuesta del rr_module: 
+{"idRequest":"client9_10","idClient":"client9","msg":{"op":"set","args":["c","1"]},"idHandler":"handler5","idRR":"RR9","seq":216,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":216}
+
+Tiempo entre peticion y respuesta: 0.161
+
+client9_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_10: Recibida respuesta del rr_module: 
+{"idRequest":"client12_10","idClient":"client12","msg":{"op":"set","args":["d","3"]},"idHandler":"handler4","idRR":"RR12","seq":217,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":217}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client12_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_11: Recibida respuesta del rr_module: 
+{"idRequest":"client8_11","idClient":"client8","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR8","seq":218,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":218}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client8_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_11: Recibida respuesta del rr_module: 
+{"idRequest":"client10_11","idClient":"client10","msg":{"op":"set","args":["c","5"]},"idHandler":"handler6","idRR":"RR10","seq":219,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":219}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client10_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_10: Recibida respuesta del rr_module: 
+{"idRequest":"client15_10","idClient":"client15","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR15","seq":220,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":220}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client15_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_11: Recibida respuesta del rr_module: 
+{"idRequest":"client1_11","idClient":"client1","msg":{"op":"set","args":["e","2"]},"idHandler":"handler2","idRR":"RR1","seq":221,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":221}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client1_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_11: Recibida respuesta del rr_module: 
+{"idRequest":"client7_11","idClient":"client7","msg":{"op":"get","args":["d"]},"idHandler":"handler7","idRR":"RR7","seq":222,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":222}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client7_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_10: Recibida respuesta del rr_module: 
+{"idRequest":"client16_10","idClient":"client16","msg":{"op":"get","args":["e"]},"idHandler":"handler9","idRR":"RR16","seq":223,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":223}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client16_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_10: Recibida respuesta del rr_module: 
+{"idRequest":"client14_10","idClient":"client14","msg":{"op":"get","args":["e"]},"idHandler":"handler9","idRR":"RR14","seq":224,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":224}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client14_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_11: Recibida respuesta del rr_module: 
+{"idRequest":"client0_11","idClient":"client0","msg":{"op":"set","args":["b","1"]},"idHandler":"handler3","idRR":"RR0","seq":225,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":225}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client0_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_11: Recibida respuesta del rr_module: 
+{"idRequest":"client5_11","idClient":"client5","msg":{"op":"set","args":["e","4"]},"idHandler":"handler5","idRR":"RR5","seq":226,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":226}
+
+Tiempo entre peticion y respuesta: 0.161
+
+client5_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_12: Recibida respuesta del rr_module: 
+{"idRequest":"client4_12","idClient":"client4","msg":{"op":"set","args":["d","5"]},"idHandler":"handler1","idRR":"RR4","seq":227,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":227}
+
+Tiempo entre peticion y respuesta: 0.162
+
+client4_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_10: Recibida respuesta del rr_module: 
+{"idRequest":"client17_10","idClient":"client17","msg":{"op":"set","args":["b","2"]},"idHandler":"handler5","idRR":"RR17","seq":228,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":228}
+
+Tiempo entre peticion y respuesta: 0.162
+
+client17_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_12: Recibida respuesta del rr_module: 
+{"idRequest":"client3_12","idClient":"client3","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR3","seq":229,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":229}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client3_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_10: Recibida respuesta del rr_module: 
+{"idRequest":"client18_10","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler7","idRR":"RR18","seq":230,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":230}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client18_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_10: Recibida respuesta del rr_module: 
+{"idRequest":"client19_10","idClient":"client19","msg":{"op":"set","args":["c","2"]},"idHandler":"handler7","idRR":"RR19","seq":231,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":231}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client19_11: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_11: Recibida respuesta del rr_module: 
+{"idRequest":"client13_11","idClient":"client13","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR13","seq":232,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":232}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client13_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_11: Recibida respuesta del rr_module: 
+{"idRequest":"client11_11","idClient":"client11","msg":{"op":"set","args":["e","4"]},"idHandler":"handler8","idRR":"RR11","seq":233,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":233}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client11_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_11: Recibida respuesta del rr_module: 
+{"idRequest":"client6_11","idClient":"client6","msg":{"op":"get","args":["e"]},"idHandler":"handler1","idRR":"RR6","seq":234,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":234}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client6_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_12: Recibida respuesta del rr_module: 
+{"idRequest":"client2_12","idClient":"client2","msg":{"op":"set","args":["b","2"]},"idHandler":"handler7","idRR":"RR2","seq":235,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":235}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client2_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_11: Recibida respuesta del rr_module: 
+{"idRequest":"client9_11","idClient":"client9","msg":{"op":"get","args":["e"]},"idHandler":"handler3","idRR":"RR9","seq":236,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":236}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client9_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_11: Recibida respuesta del rr_module: 
+{"idRequest":"client12_11","idClient":"client12","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR12","seq":237,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":237}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client12_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_12: Recibida respuesta del rr_module: 
+{"idRequest":"client8_12","idClient":"client8","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR8","seq":238,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":238}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client8_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_12: Recibida respuesta del rr_module: 
+{"idRequest":"client10_12","idClient":"client10","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR10","seq":239,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":239}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client10_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_11: Recibida respuesta del rr_module: 
+{"idRequest":"client15_11","idClient":"client15","msg":{"op":"set","args":["a","5"]},"idHandler":"handler2","idRR":"RR15","seq":240,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":240}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client15_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_12: Recibida respuesta del rr_module: 
+{"idRequest":"client1_12","idClient":"client1","msg":{"op":"set","args":["c","4"]},"idHandler":"handler0","idRR":"RR1","seq":241,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 4","seqRequest":241}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client1_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_12: Recibida respuesta del rr_module: 
+{"idRequest":"client7_12","idClient":"client7","msg":{"op":"get","args":["c"]},"idHandler":"handler4","idRR":"RR7","seq":242,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":242}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client7_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_11: Recibida respuesta del rr_module: 
+{"idRequest":"client16_11","idClient":"client16","msg":{"op":"set","args":["d","1"]},"idHandler":"handler7","idRR":"RR16","seq":243,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":243}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client16_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_11: Recibida respuesta del rr_module: 
+{"idRequest":"client14_11","idClient":"client14","msg":{"op":"get","args":["e"]},"idHandler":"handler5","idRR":"RR14","seq":244,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":244}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client14_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_12: Recibida respuesta del rr_module: 
+{"idRequest":"client0_12","idClient":"client0","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR0","seq":245,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":245}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client0_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_12: Recibida respuesta del rr_module: 
+{"idRequest":"client5_12","idClient":"client5","msg":{"op":"set","args":["c","1"]},"idHandler":"handler7","idRR":"RR5","seq":246,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":246}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client5_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_13: Recibida respuesta del rr_module: 
+{"idRequest":"client4_13","idClient":"client4","msg":{"op":"set","args":["e","1"]},"idHandler":"handler6","idRR":"RR4","seq":247,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 1","seqRequest":247}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client4_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_11: Recibida respuesta del rr_module: 
+{"idRequest":"client17_11","idClient":"client17","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR17","seq":248,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":248}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client17_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_13: Recibida respuesta del rr_module: 
+{"idRequest":"client3_13","idClient":"client3","msg":{"op":"set","args":["e","3"]},"idHandler":"handler4","idRR":"RR3","seq":249,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":249}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client3_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_11: Recibida respuesta del rr_module: 
+{"idRequest":"client18_11","idClient":"client18","msg":{"op":"get","args":["c"]},"idHandler":"handler0","idRR":"RR18","seq":250,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":250}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client18_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_11: Recibida respuesta del rr_module: 
+{"idRequest":"client19_11","idClient":"client19","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR19","seq":251,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":251}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client19_12: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_12: Recibida respuesta del rr_module: 
+{"idRequest":"client13_12","idClient":"client13","msg":{"op":"set","args":["b","1"]},"idHandler":"handler2","idRR":"RR13","seq":252,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":252}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client13_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_12: Recibida respuesta del rr_module: 
+{"idRequest":"client11_12","idClient":"client11","msg":{"op":"set","args":["a","4"]},"idHandler":"handler9","idRR":"RR11","seq":253,"idReplica":"FO6","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":253}
+
+Tiempo entre peticion y respuesta: 0.17
+
+client11_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_12: Recibida respuesta del rr_module: 
+{"idRequest":"client6_12","idClient":"client6","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR6","seq":254,"idReplica":"FO6","idFO":"FO0","result":"4","seqRequest":254}
+
+Tiempo entre peticion y respuesta: 0.173
+
+client6_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_13: Recibida respuesta del rr_module: 
+{"idRequest":"client2_13","idClient":"client2","msg":{"op":"set","args":["b","5"]},"idHandler":"handler7","idRR":"RR2","seq":255,"idReplica":"FO2","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":255}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client2_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_12: Recibida respuesta del rr_module: 
+{"idRequest":"client9_12","idClient":"client9","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR9","seq":256,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":256}
+
+Tiempo entre peticion y respuesta: 0.174
+
+client9_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_12: Recibida respuesta del rr_module: 
+{"idRequest":"client12_12","idClient":"client12","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR12","seq":257,"idReplica":"FO2","idFO":"FO0","result":"1","seqRequest":257}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client12_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_13: Recibida respuesta del rr_module: 
+{"idRequest":"client8_13","idClient":"client8","msg":{"op":"set","args":["e","5"]},"idHandler":"handler9","idRR":"RR8","seq":258,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":258}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client8_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_13: Recibida respuesta del rr_module: 
+{"idRequest":"client10_13","idClient":"client10","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR10","seq":259,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":259}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client10_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_12: Recibida respuesta del rr_module: 
+{"idRequest":"client15_12","idClient":"client15","msg":{"op":"set","args":["a","4"]},"idHandler":"handler8","idRR":"RR15","seq":260,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":260}
+
+Tiempo entre peticion y respuesta: 0.169
+
+client15_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_13: Recibida respuesta del rr_module: 
+{"idRequest":"client1_13","idClient":"client1","msg":{"op":"get","args":["a"]},"idHandler":"handler9","idRR":"RR1","seq":261,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":261}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client1_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_13: Recibida respuesta del rr_module: 
+{"idRequest":"client7_13","idClient":"client7","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR7","seq":262,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":262}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client7_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_12: Recibida respuesta del rr_module: 
+{"idRequest":"client16_12","idClient":"client16","msg":{"op":"get","args":["e"]},"idHandler":"handler3","idRR":"RR16","seq":263,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":263}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client16_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_12: Recibida respuesta del rr_module: 
+{"idRequest":"client14_12","idClient":"client14","msg":{"op":"set","args":["a","4"]},"idHandler":"handler3","idRR":"RR14","seq":264,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":264}
+
+Tiempo entre peticion y respuesta: 0.179
+
+client14_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_13: Recibida respuesta del rr_module: 
+{"idRequest":"client0_13","idClient":"client0","msg":{"op":"set","args":["a","4"]},"idHandler":"handler8","idRR":"RR0","seq":265,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":265}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client0_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_13: Recibida respuesta del rr_module: 
+{"idRequest":"client5_13","idClient":"client5","msg":{"op":"set","args":["d","4"]},"idHandler":"handler9","idRR":"RR5","seq":266,"idReplica":"FO3","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 4","seqRequest":266}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client5_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_14: Recibida respuesta del rr_module: 
+{"idRequest":"client4_14","idClient":"client4","msg":{"op":"set","args":["b","1"]},"idHandler":"handler6","idRR":"RR4","seq":267,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":267}
+
+Tiempo entre peticion y respuesta: 0.183
+
+client4_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_12: Recibida respuesta del rr_module: 
+{"idRequest":"client17_12","idClient":"client17","msg":{"op":"set","args":["d","4"]},"idHandler":"handler6","idRR":"RR17","seq":268,"idReplica":"FO6","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 4","seqRequest":268}
+
+Tiempo entre peticion y respuesta: 0.188
+
+client17_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_14: Recibida respuesta del rr_module: 
+{"idRequest":"client3_14","idClient":"client3","msg":{"op":"get","args":["e"]},"idHandler":"handler0","idRR":"RR3","seq":269,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":269}
+
+Tiempo entre peticion y respuesta: 0.187
+
+client3_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_12: Recibida respuesta del rr_module: 
+{"idRequest":"client18_12","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR18","seq":270,"idReplica":"FO2","idFO":"FO0","result":"4","seqRequest":270}
+
+Tiempo entre peticion y respuesta: 0.19
+
+client18_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_12: Recibida respuesta del rr_module: 
+{"idRequest":"client19_12","idClient":"client19","msg":{"op":"set","args":["e","3"]},"idHandler":"handler6","idRR":"RR19","seq":271,"idReplica":"FO2","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":271}
+
+Tiempo entre peticion y respuesta: 0.189
+
+client19_13: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_13: Recibida respuesta del rr_module: 
+{"idRequest":"client13_13","idClient":"client13","msg":{"op":"set","args":["b","5"]},"idHandler":"handler5","idRR":"RR13","seq":272,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":272}
+
+Tiempo entre peticion y respuesta: 0.191
+
+client13_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_13: Recibida respuesta del rr_module: 
+{"idRequest":"client11_13","idClient":"client11","msg":{"op":"set","args":["e","5"]},"idHandler":"handler4","idRR":"RR11","seq":273,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":273}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client11_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_13: Recibida respuesta del rr_module: 
+{"idRequest":"client6_13","idClient":"client6","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR6","seq":274,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":274}
+
+Tiempo entre peticion y respuesta: 0.182
+
+client6_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_14: Recibida respuesta del rr_module: 
+{"idRequest":"client2_14","idClient":"client2","msg":{"op":"set","args":["d","1"]},"idHandler":"handler5","idRR":"RR2","seq":275,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":275}
+
+Tiempo entre peticion y respuesta: 0.186
+
+client2_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_13: Recibida respuesta del rr_module: 
+{"idRequest":"client9_13","idClient":"client9","msg":{"op":"set","args":["e","5"]},"idHandler":"handler0","idRR":"RR9","seq":276,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":276}
+
+Tiempo entre peticion y respuesta: 0.18
+
+client9_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_13: Recibida respuesta del rr_module: 
+{"idRequest":"client12_13","idClient":"client12","msg":{"op":"set","args":["d","2"]},"idHandler":"handler4","idRR":"RR12","seq":277,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 2","seqRequest":277}
+
+Tiempo entre peticion y respuesta: 0.179
+
+client12_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_14: Recibida respuesta del rr_module: 
+{"idRequest":"client8_14","idClient":"client8","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR8","seq":278,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":278}
+
+Tiempo entre peticion y respuesta: 0.181
+
+client8_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_14: Recibida respuesta del rr_module: 
+{"idRequest":"client10_14","idClient":"client10","msg":{"op":"get","args":["b"]},"idHandler":"handler6","idRR":"RR10","seq":279,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":279}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client10_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_13: Recibida respuesta del rr_module: 
+{"idRequest":"client15_13","idClient":"client15","msg":{"op":"set","args":["e","3"]},"idHandler":"handler8","idRR":"RR15","seq":280,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":280}
+
+Tiempo entre peticion y respuesta: 0.185
+
+client15_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_14: Recibida respuesta del rr_module: 
+{"idRequest":"client1_14","idClient":"client1","msg":{"op":"set","args":["e","3"]},"idHandler":"handler6","idRR":"RR1","seq":281,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":281}
+
+Tiempo entre peticion y respuesta: 0.184
+
+client1_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_14: Recibida respuesta del rr_module: 
+{"idRequest":"client7_14","idClient":"client7","msg":{"op":"get","args":["b"]},"idHandler":"handler9","idRR":"RR7","seq":282,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":282}
+
+Tiempo entre peticion y respuesta: 0.179
+
+client7_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_13: Recibida respuesta del rr_module: 
+{"idRequest":"client16_13","idClient":"client16","msg":{"op":"get","args":["d"]},"idHandler":"handler2","idRR":"RR16","seq":283,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":283}
+
+Tiempo entre peticion y respuesta: 0.175
+
+client16_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_13: Recibida respuesta del rr_module: 
+{"idRequest":"client14_13","idClient":"client14","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR14","seq":284,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":284}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client14_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_14: Recibida respuesta del rr_module: 
+{"idRequest":"client0_14","idClient":"client0","msg":{"op":"get","args":["d"]},"idHandler":"handler1","idRR":"RR0","seq":285,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":285}
+
+Tiempo entre peticion y respuesta: 0.177
+
+client0_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_14: Recibida respuesta del rr_module: 
+{"idRequest":"client5_14","idClient":"client5","msg":{"op":"get","args":["b"]},"idHandler":"handler4","idRR":"RR5","seq":286,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":286}
+
+Tiempo entre peticion y respuesta: 0.176
+
+client5_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_15: Recibida respuesta del rr_module: 
+{"idRequest":"client4_15","idClient":"client4","msg":{"op":"set","args":["d","5"]},"idHandler":"handler2","idRR":"RR4","seq":287,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":287}
+
+Tiempo entre peticion y respuesta: 0.178
+
+client4_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_13: Recibida respuesta del rr_module: 
+{"idRequest":"client17_13","idClient":"client17","msg":{"op":"set","args":["a","3"]},"idHandler":"handler3","idRR":"RR17","seq":288,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":288}
+
+Tiempo entre peticion y respuesta: 0.172
+
+client17_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_15: Recibida respuesta del rr_module: 
+{"idRequest":"client3_15","idClient":"client3","msg":{"op":"set","args":["d","5"]},"idHandler":"handler8","idRR":"RR3","seq":289,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":289}
+
+Tiempo entre peticion y respuesta: 0.171
+
+client3_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_13: Recibida respuesta del rr_module: 
+{"idRequest":"client18_13","idClient":"client18","msg":{"op":"set","args":["a","4"]},"idHandler":"handler8","idRR":"RR18","seq":290,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":290}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client18_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_13: Recibida respuesta del rr_module: 
+{"idRequest":"client19_13","idClient":"client19","msg":{"op":"set","args":["d","1"]},"idHandler":"handler7","idRR":"RR19","seq":291,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":291}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client19_14: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_14: Recibida respuesta del rr_module: 
+{"idRequest":"client13_14","idClient":"client13","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR13","seq":292,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":292}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client13_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_14: Recibida respuesta del rr_module: 
+{"idRequest":"client11_14","idClient":"client11","msg":{"op":"get","args":["c"]},"idHandler":"handler9","idRR":"RR11","seq":293,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":293}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client11_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_14: Recibida respuesta del rr_module: 
+{"idRequest":"client6_14","idClient":"client6","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR6","seq":294,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":294}
+
+Tiempo entre peticion y respuesta: 0.168
+
+client6_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_15: Recibida respuesta del rr_module: 
+{"idRequest":"client2_15","idClient":"client2","msg":{"op":"get","args":["c"]},"idHandler":"handler1","idRR":"RR2","seq":295,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":295}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client2_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_14: Recibida respuesta del rr_module: 
+{"idRequest":"client9_14","idClient":"client9","msg":{"op":"set","args":["c","5"]},"idHandler":"handler5","idRR":"RR9","seq":296,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":296}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client9_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_14: Recibida respuesta del rr_module: 
+{"idRequest":"client12_14","idClient":"client12","msg":{"op":"get","args":["a"]},"idHandler":"handler7","idRR":"RR12","seq":297,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":297}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client12_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_15: Recibida respuesta del rr_module: 
+{"idRequest":"client8_15","idClient":"client8","msg":{"op":"set","args":["c","2"]},"idHandler":"handler0","idRR":"RR8","seq":298,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":298}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client8_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_15: Recibida respuesta del rr_module: 
+{"idRequest":"client10_15","idClient":"client10","msg":{"op":"set","args":["a","4"]},"idHandler":"handler2","idRR":"RR10","seq":299,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":299}
+
+Tiempo entre peticion y respuesta: 0.159
+
+client10_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_14: Recibida respuesta del rr_module: 
+{"idRequest":"client15_14","idClient":"client15","msg":{"op":"get","args":["b"]},"idHandler":"handler1","idRR":"RR15","seq":300,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":300}
+
+Tiempo entre peticion y respuesta: 0.159
+
+client15_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_15: Recibida respuesta del rr_module: 
+{"idRequest":"client1_15","idClient":"client1","msg":{"op":"set","args":["c","4"]},"idHandler":"handler7","idRR":"RR1","seq":301,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 4","seqRequest":301}
+
+Tiempo entre peticion y respuesta: 0.158
+
+client1_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_15: Recibida respuesta del rr_module: 
+{"idRequest":"client7_15","idClient":"client7","msg":{"op":"get","args":["a"]},"idHandler":"handler2","idRR":"RR7","seq":302,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":302}
+
+Tiempo entre peticion y respuesta: 0.158
+
+client7_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_14: Recibida respuesta del rr_module: 
+{"idRequest":"client16_14","idClient":"client16","msg":{"op":"set","args":["c","5"]},"idHandler":"handler3","idRR":"RR16","seq":303,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":303}
+
+Tiempo entre peticion y respuesta: 0.16
+
+client16_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_14: Recibida respuesta del rr_module: 
+{"idRequest":"client14_14","idClient":"client14","msg":{"op":"set","args":["d","1"]},"idHandler":"handler4","idRR":"RR14","seq":304,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 1","seqRequest":304}
+
+Tiempo entre peticion y respuesta: 0.16
+
+client14_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_15: Recibida respuesta del rr_module: 
+{"idRequest":"client0_15","idClient":"client0","msg":{"op":"set","args":["e","1"]},"idHandler":"handler9","idRR":"RR0","seq":305,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 1","seqRequest":305}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client0_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_15: Recibida respuesta del rr_module: 
+{"idRequest":"client5_15","idClient":"client5","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR5","seq":306,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":306}
+
+Tiempo entre peticion y respuesta: 0.152
+
+client5_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_16: Recibida respuesta del rr_module: 
+{"idRequest":"client4_16","idClient":"client4","msg":{"op":"get","args":["b"]},"idHandler":"handler1","idRR":"RR4","seq":307,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":307}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client4_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_14: Recibida respuesta del rr_module: 
+{"idRequest":"client17_14","idClient":"client17","msg":{"op":"get","args":["c"]},"idHandler":"handler3","idRR":"RR17","seq":308,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":308}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client17_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_16: Recibida respuesta del rr_module: 
+{"idRequest":"client3_16","idClient":"client3","msg":{"op":"get","args":["d"]},"idHandler":"handler5","idRR":"RR3","seq":309,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":309}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client3_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_14: Recibida respuesta del rr_module: 
+{"idRequest":"client18_14","idClient":"client18","msg":{"op":"set","args":["a","3"]},"idHandler":"handler7","idRR":"RR18","seq":310,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":310}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client18_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_14: Recibida respuesta del rr_module: 
+{"idRequest":"client19_14","idClient":"client19","msg":{"op":"get","args":["b"]},"idHandler":"handler2","idRR":"RR19","seq":311,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":311}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client19_15: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_15: Recibida respuesta del rr_module: 
+{"idRequest":"client13_15","idClient":"client13","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR13","seq":312,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":312}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client13_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_15: Recibida respuesta del rr_module: 
+{"idRequest":"client11_15","idClient":"client11","msg":{"op":"get","args":["c"]},"idHandler":"handler9","idRR":"RR11","seq":313,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":313}
+
+Tiempo entre peticion y respuesta: 0.158
+
+client11_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_15: Recibida respuesta del rr_module: 
+{"idRequest":"client6_15","idClient":"client6","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR6","seq":314,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":314}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client6_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_16: Recibida respuesta del rr_module: 
+{"idRequest":"client2_16","idClient":"client2","msg":{"op":"get","args":["d"]},"idHandler":"handler6","idRR":"RR2","seq":315,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":315}
+
+Tiempo entre peticion y respuesta: 0.158
+
+client2_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_15: Recibida respuesta del rr_module: 
+{"idRequest":"client9_15","idClient":"client9","msg":{"op":"set","args":["b","1"]},"idHandler":"handler8","idRR":"RR9","seq":316,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":316}
+
+Tiempo entre peticion y respuesta: 0.163
+
+client9_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_15: Recibida respuesta del rr_module: 
+{"idRequest":"client12_15","idClient":"client12","msg":{"op":"get","args":["c"]},"idHandler":"handler3","idRR":"RR12","seq":317,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":317}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client12_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_16: Recibida respuesta del rr_module: 
+{"idRequest":"client8_16","idClient":"client8","msg":{"op":"get","args":["e"]},"idHandler":"handler2","idRR":"RR8","seq":318,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":318}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client8_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_16: Recibida respuesta del rr_module: 
+{"idRequest":"client10_16","idClient":"client10","msg":{"op":"get","args":["a"]},"idHandler":"handler2","idRR":"RR10","seq":319,"idReplica":"FO1","idFO":"FO0","result":"3","seqRequest":319}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client10_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_15: Recibida respuesta del rr_module: 
+{"idRequest":"client15_15","idClient":"client15","msg":{"op":"set","args":["b","4"]},"idHandler":"handler7","idRR":"RR15","seq":320,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":320}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client15_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_16: Recibida respuesta del rr_module: 
+{"idRequest":"client1_16","idClient":"client1","msg":{"op":"get","args":["b"]},"idHandler":"handler7","idRR":"RR1","seq":321,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":321}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client1_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_16: Recibida respuesta del rr_module: 
+{"idRequest":"client7_16","idClient":"client7","msg":{"op":"get","args":["b"]},"idHandler":"handler0","idRR":"RR7","seq":322,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":322}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client7_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_15: Recibida respuesta del rr_module: 
+{"idRequest":"client16_15","idClient":"client16","msg":{"op":"set","args":["c","4"]},"idHandler":"handler7","idRR":"RR16","seq":323,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 4","seqRequest":323}
+
+Tiempo entre peticion y respuesta: 0.167
+
+client16_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_15: Recibida respuesta del rr_module: 
+{"idRequest":"client14_15","idClient":"client14","msg":{"op":"set","args":["a","4"]},"idHandler":"handler1","idRR":"RR14","seq":324,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":324}
+
+Tiempo entre peticion y respuesta: 0.166
+
+client14_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_16: Recibida respuesta del rr_module: 
+{"idRequest":"client0_16","idClient":"client0","msg":{"op":"set","args":["e","1"]},"idHandler":"handler6","idRR":"RR0","seq":325,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 1","seqRequest":325}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client0_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_16: Recibida respuesta del rr_module: 
+{"idRequest":"client5_16","idClient":"client5","msg":{"op":"get","args":["a"]},"idHandler":"handler9","idRR":"RR5","seq":326,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":326}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client5_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_17: Recibida respuesta del rr_module: 
+{"idRequest":"client4_17","idClient":"client4","msg":{"op":"set","args":["c","1"]},"idHandler":"handler5","idRR":"RR4","seq":327,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":327}
+
+Tiempo entre peticion y respuesta: 0.163
+
+client4_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_15: Recibida respuesta del rr_module: 
+{"idRequest":"client17_15","idClient":"client17","msg":{"op":"get","args":["e"]},"idHandler":"handler9","idRR":"RR17","seq":328,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":328}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client17_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_17: Recibida respuesta del rr_module: 
+{"idRequest":"client3_17","idClient":"client3","msg":{"op":"set","args":["c","3"]},"idHandler":"handler6","idRR":"RR3","seq":329,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":329}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client3_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_15: Recibida respuesta del rr_module: 
+{"idRequest":"client18_15","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR18","seq":330,"idReplica":"FO1","idFO":"FO0","result":"4","seqRequest":330}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client18_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_15: Recibida respuesta del rr_module: 
+{"idRequest":"client19_15","idClient":"client19","msg":{"op":"set","args":["c","5"]},"idHandler":"handler7","idRR":"RR19","seq":331,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":331}
+
+Tiempo entre peticion y respuesta: 0.164
+
+client19_16: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client13_16: Recibida respuesta del rr_module: 
+{"idRequest":"client13_16","idClient":"client13","msg":{"op":"set","args":["a","4"]},"idHandler":"handler3","idRR":"RR13","seq":332,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":332}
+
+Tiempo entre peticion y respuesta: 0.165
+
+client13_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client11_16: Recibida respuesta del rr_module: 
+{"idRequest":"client11_16","idClient":"client11","msg":{"op":"set","args":["e","3"]},"idHandler":"handler8","idRR":"RR11","seq":333,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":333}
+
+Tiempo entre peticion y respuesta: 0.161
+
+client11_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client6_16: Recibida respuesta del rr_module: 
+{"idRequest":"client6_16","idClient":"client6","msg":{"op":"set","args":["e","4"]},"idHandler":"handler2","idRR":"RR6","seq":334,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":334}
+
+Tiempo entre peticion y respuesta: 0.162
+
+client6_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_17: Recibida respuesta del rr_module: 
+{"idRequest":"client2_17","idClient":"client2","msg":{"op":"get","args":["d"]},"idHandler":"handler6","idRR":"RR2","seq":335,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":335}
+
+Tiempo entre peticion y respuesta: 0.161
+
+client2_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_16: Recibida respuesta del rr_module: 
+{"idRequest":"client9_16","idClient":"client9","msg":{"op":"set","args":["e","2"]},"idHandler":"handler8","idRR":"RR9","seq":336,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":336}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client9_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_16: Recibida respuesta del rr_module: 
+{"idRequest":"client12_16","idClient":"client12","msg":{"op":"set","args":["a","4"]},"idHandler":"handler1","idRR":"RR12","seq":337,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":337}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client12_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_17: Recibida respuesta del rr_module: 
+{"idRequest":"client8_17","idClient":"client8","msg":{"op":"set","args":["a","4"]},"idHandler":"handler7","idRR":"RR8","seq":338,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":338}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client8_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_17: Recibida respuesta del rr_module: 
+{"idRequest":"client10_17","idClient":"client10","msg":{"op":"set","args":["a","2"]},"idHandler":"handler9","idRR":"RR10","seq":339,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 2","seqRequest":339}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client10_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_16: Recibida respuesta del rr_module: 
+{"idRequest":"client15_16","idClient":"client15","msg":{"op":"get","args":["c"]},"idHandler":"handler0","idRR":"RR15","seq":340,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":340}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client15_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_17: Recibida respuesta del rr_module: 
+{"idRequest":"client1_17","idClient":"client1","msg":{"op":"get","args":["c"]},"idHandler":"handler3","idRR":"RR1","seq":341,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":341}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client1_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_17: Recibida respuesta del rr_module: 
+{"idRequest":"client7_17","idClient":"client7","msg":{"op":"get","args":["d"]},"idHandler":"handler6","idRR":"RR7","seq":342,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":342}
+
+Tiempo entre peticion y respuesta: 0.152
+
+client7_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_16: Recibida respuesta del rr_module: 
+{"idRequest":"client16_16","idClient":"client16","msg":{"op":"set","args":["c","3"]},"idHandler":"handler2","idRR":"RR16","seq":343,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 3","seqRequest":343}
+
+Tiempo entre peticion y respuesta: 0.15
+
+client16_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_16: Recibida respuesta del rr_module: 
+{"idRequest":"client14_16","idClient":"client14","msg":{"op":"set","args":["a","5"]},"idHandler":"handler2","idRR":"RR14","seq":344,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":344}
+
+Tiempo entre peticion y respuesta: 0.152
+
+client14_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_17: Recibida respuesta del rr_module: 
+{"idRequest":"client0_17","idClient":"client0","msg":{"op":"set","args":["b","1"]},"idHandler":"handler1","idRR":"RR0","seq":345,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 1","seqRequest":345}
+
+Tiempo entre peticion y respuesta: 0.15
+
+client0_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_17: Recibida respuesta del rr_module: 
+{"idRequest":"client5_17","idClient":"client5","msg":{"op":"get","args":["d"]},"idHandler":"handler6","idRR":"RR5","seq":346,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":346}
+
+Tiempo entre peticion y respuesta: 0.149
+
+client5_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_18: Recibida respuesta del rr_module: 
+{"idRequest":"client4_18","idClient":"client4","msg":{"op":"get","args":["b"]},"idHandler":"handler3","idRR":"RR4","seq":347,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":347}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client4_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2004
+
+
+client17_16: Recibida respuesta del rr_module: 
+{"idRequest":"client17_16","idClient":"client17","msg":{"op":"set","args":["a","1"]},"idHandler":"handler5","idRR":"RR17","seq":348,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 1","seqRequest":348}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client17_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_18: Recibida respuesta del rr_module: 
+{"idRequest":"client3_18","idClient":"client3","msg":{"op":"get","args":["c"]},"idHandler":"handler9","idRR":"RR3","seq":349,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":349}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client3_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2003
+
+
+client18_16: Recibida respuesta del rr_module: 
+{"idRequest":"client18_16","idClient":"client18","msg":{"op":"set","args":["d","5"]},"idHandler":"handler3","idRR":"RR18","seq":350,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":350}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client18_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_16: Recibida respuesta del rr_module: 
+{"idRequest":"client19_16","idClient":"client19","msg":{"op":"set","args":["e","5"]},"idHandler":"handler8","idRR":"RR19","seq":351,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":351}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client19_17: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client11_17: Recibida respuesta del rr_module: 
+{"idRequest":"client11_17","idClient":"client11","msg":{"op":"get","args":["d"]},"idHandler":"handler4","idRR":"RR11","seq":352,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":352}
+
+Tiempo entre peticion y respuesta: 0.148
+
+client11_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client13_17: Recibida respuesta del rr_module: 
+{"idRequest":"client13_17","idClient":"client13","msg":{"op":"set","args":["e","3"]},"idHandler":"handler1","idRR":"RR13","seq":353,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 3","seqRequest":353}
+
+Tiempo entre peticion y respuesta: 0.16
+
+client13_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client6_17: Recibida respuesta del rr_module: 
+{"idRequest":"client6_17","idClient":"client6","msg":{"op":"set","args":["e","2"]},"idHandler":"handler0","idRR":"RR6","seq":354,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":354}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client6_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_18: Recibida respuesta del rr_module: 
+{"idRequest":"client2_18","idClient":"client2","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR2","seq":355,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":355}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client2_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2002
+
+
+client9_17: Recibida respuesta del rr_module: 
+{"idRequest":"client9_17","idClient":"client9","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR9","seq":356,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":356}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client9_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_17: Recibida respuesta del rr_module: 
+{"idRequest":"client12_17","idClient":"client12","msg":{"op":"set","args":["a","5"]},"idHandler":"handler2","idRR":"RR12","seq":357,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 5","seqRequest":357}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client12_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_18: Recibida respuesta del rr_module: 
+{"idRequest":"client8_18","idClient":"client8","msg":{"op":"get","args":["d"]},"idHandler":"handler7","idRR":"RR8","seq":358,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":358}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client8_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2008
+
+
+client10_18: Recibida respuesta del rr_module: 
+{"idRequest":"client10_18","idClient":"client10","msg":{"op":"get","args":["c"]},"idHandler":"handler8","idRR":"RR10","seq":359,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":359}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client10_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2010
+
+
+client15_17: Recibida respuesta del rr_module: 
+{"idRequest":"client15_17","idClient":"client15","msg":{"op":"set","args":["d","4"]},"idHandler":"handler1","idRR":"RR15","seq":360,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 4","seqRequest":360}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client15_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_18: Recibida respuesta del rr_module: 
+{"idRequest":"client1_18","idClient":"client1","msg":{"op":"get","args":["b"]},"idHandler":"handler2","idRR":"RR1","seq":361,"idReplica":"FO0","idFO":"FO0","result":"1","seqRequest":361}
+
+Tiempo entre peticion y respuesta: 0.156
+
+client1_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2001
+
+
+client7_18: Recibida respuesta del rr_module: 
+{"idRequest":"client7_18","idClient":"client7","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR7","seq":362,"idReplica":"FO2","idFO":"FO0","result":"5","seqRequest":362}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client7_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2007
+
+
+client16_17: Recibida respuesta del rr_module: 
+{"idRequest":"client16_17","idClient":"client16","msg":{"op":"set","args":["d","2"]},"idHandler":"handler1","idRR":"RR16","seq":363,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 2","seqRequest":363}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client16_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_17: Recibida respuesta del rr_module: 
+{"idRequest":"client14_17","idClient":"client14","msg":{"op":"get","args":["e"]},"idHandler":"handler7","idRR":"RR14","seq":364,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":364}
+
+Tiempo entre peticion y respuesta: 0.153
+
+client14_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_18: Recibida respuesta del rr_module: 
+{"idRequest":"client0_18","idClient":"client0","msg":{"op":"get","args":["e"]},"idHandler":"handler7","idRR":"RR0","seq":365,"idReplica":"FO1","idFO":"FO0","result":"2","seqRequest":365}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client0_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2000
+
+
+client5_18: Recibida respuesta del rr_module: 
+{"idRequest":"client5_18","idClient":"client5","msg":{"op":"set","args":["b","5"]},"idHandler":"handler0","idRR":"RR5","seq":366,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":366}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client5_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2005
+
+
+client4_19: Recibida respuesta del rr_module: 
+{"idRequest":"client4_19","idClient":"client4","msg":{"op":"set","args":["c","5"]},"idHandler":"handler4","idRR":"RR4","seq":367,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 5","seqRequest":367}
+
+Tiempo entre peticion y respuesta: 0.152
+Recibido array de tiempos de un hijo: [0.049,0.187,0.187,0.185,0.166,0.17,0.185,0.19,0.178,0.184,0.171,0.163,0.162,0.174,0.183,0.178,0.153,0.163,0.154,0.152]
+
+client17_17: Recibida respuesta del rr_module: 
+{"idRequest":"client17_17","idClient":"client17","msg":{"op":"set","args":["c","1"]},"idHandler":"handler0","idRR":"RR17","seq":368,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 1","seqRequest":368}
+
+Tiempo entre peticion y respuesta: 0.151
+
+client17_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client3_19: Recibida respuesta del rr_module: 
+{"idRequest":"client3_19","idClient":"client3","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR3","seq":369,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":369}
+
+Tiempo entre peticion y respuesta: 0.151
+Recibido array de tiempos de un hijo: [0.055,0.195,0.199,0.18,0.167,0.17,0.182,0.195,0.177,0.184,0.168,0.164,0.164,0.172,0.187,0.171,0.156,0.164,0.154,0.151]
+
+client18_17: Recibida respuesta del rr_module: 
+{"idRequest":"client18_17","idClient":"client18","msg":{"op":"set","args":["b","5"]},"idHandler":"handler3","idRR":"RR18","seq":370,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 5","seqRequest":370}
+
+Tiempo entre peticion y respuesta: 0.149
+
+client18_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_17: Recibida respuesta del rr_module: 
+{"idRequest":"client19_17","idClient":"client19","msg":{"op":"get","args":["a"]},"idHandler":"handler2","idRR":"RR19","seq":371,"idReplica":"FO1","idFO":"FO0","result":"5","seqRequest":371}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client19_18: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client11_18: Recibida respuesta del rr_module: 
+{"idRequest":"client11_18","idClient":"client11","msg":{"op":"set","args":["a","4"]},"idHandler":"handler2","idRR":"RR11","seq":372,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":372}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client11_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2011
+
+
+client13_18: Recibida respuesta del rr_module: 
+{"idRequest":"client13_18","idClient":"client13","msg":{"op":"get","args":["d"]},"idHandler":"handler9","idRR":"RR13","seq":373,"idReplica":"FO1","idFO":"FO0","result":"2","seqRequest":373}
+
+Tiempo entre peticion y respuesta: 0.151
+
+client13_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2013
+
+
+client6_18: Recibida respuesta del rr_module: 
+{"idRequest":"client6_18","idClient":"client6","msg":{"op":"set","args":["e","2"]},"idHandler":"handler2","idRR":"RR6","seq":374,"idReplica":"FO1","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 2","seqRequest":374}
+
+Tiempo entre peticion y respuesta: 0.152
+
+client6_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2006
+
+
+client2_19: Recibida respuesta del rr_module: 
+{"idRequest":"client2_19","idClient":"client2","msg":{"op":"get","args":["a"]},"idHandler":"handler1","idRR":"RR2","seq":375,"idReplica":"FO1","idFO":"FO0","result":"4","seqRequest":375}
+
+Tiempo entre peticion y respuesta: 0.152
+Recibido array de tiempos de un hijo: [0.062,0.231,0.197,0.175,0.17,0.167,0.185,0.202,0.169,0.185,0.17,0.159,0.17,0.168,0.186,0.167,0.158,0.161,0.155,0.152]
+
+client9_18: Recibida respuesta del rr_module: 
+{"idRequest":"client9_18","idClient":"client9","msg":{"op":"get","args":["a"]},"idHandler":"handler0","idRR":"RR9","seq":376,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":376}
+
+Tiempo entre peticion y respuesta: 0.15
+
+client9_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2009
+
+
+client12_18: Recibida respuesta del rr_module: 
+{"idRequest":"client12_18","idClient":"client12","msg":{"op":"set","args":["b","2"]},"idHandler":"handler2","idRR":"RR12","seq":377,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 2","seqRequest":377}
+
+Tiempo entre peticion y respuesta: 0.15
+
+client12_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2012
+
+
+client8_19: Recibida respuesta del rr_module: 
+{"idRequest":"client8_19","idClient":"client8","msg":{"op":"set","args":["d","5"]},"idHandler":"handler0","idRR":"RR8","seq":378,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 5","seqRequest":378}
+
+Tiempo entre peticion y respuesta: 0.155
+Recibido array de tiempos de un hijo: [0.095,0.243,0.186,0.172,0.172,0.168,0.188,0.195,0.17,0.184,0.171,0.156,0.174,0.172,0.181,0.164,0.166,0.153,0.156,0.155]
+
+client10_19: Recibida respuesta del rr_module: 
+{"idRequest":"client10_19","idClient":"client10","msg":{"op":"set","args":["c","2"]},"idHandler":"handler9","idRR":"RR10","seq":379,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: c con valor: 2","seqRequest":379}
+
+Tiempo entre peticion y respuesta: 0.153
+Recibido array de tiempos de un hijo: [0.1,0.229,0.19,0.172,0.173,0.169,0.189,0.192,0.172,0.182,0.173,0.155,0.174,0.172,0.185,0.159,0.165,0.155,0.156,0.153]
+
+client15_18: Recibida respuesta del rr_module: 
+{"idRequest":"client15_18","idClient":"client15","msg":{"op":"get","args":["e"]},"idHandler":"handler8","idRR":"RR15","seq":380,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":380}
+
+Tiempo entre peticion y respuesta: 0.154
+
+client15_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2015
+
+
+client1_19: Recibida respuesta del rr_module: 
+{"idRequest":"client1_19","idClient":"client1","msg":{"op":"get","args":["c"]},"idHandler":"handler9","idRR":"RR1","seq":381,"idReplica":"FO1","idFO":"FO0","result":"2","seqRequest":381}
+
+Tiempo entre peticion y respuesta: 0.157
+Recibido array de tiempos de un hijo: [0.116,0.219,0.187,0.172,0.17,0.17,0.197,0.182,0.181,0.174,0.169,0.155,0.178,0.172,0.184,0.158,0.165,0.153,0.156,0.157]
+
+client7_19: Recibida respuesta del rr_module: 
+{"idRequest":"client7_19","idClient":"client7","msg":{"op":"get","args":["a"]},"idHandler":"handler9","idRR":"RR7","seq":382,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":382}
+
+Tiempo entre peticion y respuesta: 0.153
+Recibido array de tiempos de un hijo: [0.138,0.226,0.185,0.17,0.174,0.168,0.201,0.177,0.184,0.171,0.169,0.155,0.176,0.18,0.179,0.158,0.165,0.152,0.157,0.153]
+
+client16_18: Recibida respuesta del rr_module: 
+{"idRequest":"client16_18","idClient":"client16","msg":{"op":"set","args":["a","4"]},"idHandler":"handler8","idRR":"RR16","seq":383,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 4","seqRequest":383}
+
+Tiempo entre peticion y respuesta: 0.155
+
+client16_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2016
+
+
+client14_18: Recibida respuesta del rr_module: 
+{"idRequest":"client14_18","idClient":"client14","msg":{"op":"get","args":["e"]},"idHandler":"handler1","idRR":"RR14","seq":384,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":384}
+
+Tiempo entre peticion y respuesta: 0.157
+
+client14_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2014
+
+
+client0_19: Recibida respuesta del rr_module: 
+{"idRequest":"client0_19","idClient":"client0","msg":{"op":"get","args":["a"]},"idHandler":"handler0","idRR":"RR0","seq":385,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":385}
+
+Tiempo entre peticion y respuesta: 0.156
+Recibido array de tiempos de un hijo: [0.165,0.204,0.183,0.168,0.172,0.176,0.199,0.173,0.185,0.173,0.164,0.153,0.18,0.185,0.177,0.153,0.165,0.15,0.157,0.156]
+
+client5_19: Recibida respuesta del rr_module: 
+{"idRequest":"client5_19","idClient":"client5","msg":{"op":"get","args":["a"]},"idHandler":"handler2","idRR":"RR5","seq":386,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":386}
+
+Tiempo entre peticion y respuesta: 0.157
+Recibido array de tiempos de un hijo: [0.2,0.206,0.185,0.165,0.172,0.177,0.198,0.172,0.188,0.171,0.164,0.161,0.173,0.185,0.176,0.152,0.165,0.149,0.155,0.157]
+
+client17_18: Recibida respuesta del rr_module: 
+{"idRequest":"client17_18","idClient":"client17","msg":{"op":"set","args":["e","5"]},"idHandler":"handler0","idRR":"RR17","seq":387,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 5","seqRequest":387}
+
+Tiempo entre peticion y respuesta: 0.15
+
+client17_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2017
+
+
+client18_18: Recibida respuesta del rr_module: 
+{"idRequest":"client18_18","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler5","idRR":"RR18","seq":388,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":388}
+
+Tiempo entre peticion y respuesta: 0.144
+
+client18_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2018
+
+
+client19_18: Recibida respuesta del rr_module: 
+{"idRequest":"client19_18","idClient":"client19","msg":{"op":"set","args":["b","4"]},"idHandler":"handler2","idRR":"RR19","seq":389,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: b con valor: 4","seqRequest":389}
+
+Tiempo entre peticion y respuesta: 0.138
+
+client19_19: Desencolado mensaje -> Enviando peticion al modulo_rr conectado en el puerto 2019
+
+
+client11_19: Recibida respuesta del rr_module: 
+{"idRequest":"client11_19","idClient":"client11","msg":{"op":"set","args":["a","3"]},"idHandler":"handler0","idRR":"RR11","seq":390,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":390}
+
+Tiempo entre peticion y respuesta: 0.14
+Recibido array de tiempos de un hijo: [0.208,0.204,0.178,0.165,0.17,0.182,0.206,0.169,0.184,0.172,0.158,0.169,0.17,0.185,0.167,0.158,0.161,0.148,0.155,0.14]
+
+client13_19: Recibida respuesta del rr_module: 
+{"idRequest":"client13_19","idClient":"client13","msg":{"op":"set","args":["a","3"]},"idHandler":"handler6","idRR":"RR13","seq":391,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: a con valor: 3","seqRequest":391}
+
+Tiempo entre peticion y respuesta: 0.142
+Recibido array de tiempos de un hijo: [0.246,0.207,0.178,0.165,0.171,0.181,0.199,0.176,0.186,0.168,0.162,0.166,0.167,0.191,0.167,0.157,0.165,0.16,0.151,0.142]
+
+client6_19: Recibida respuesta del rr_module: 
+{"idRequest":"client6_19","idClient":"client6","msg":{"op":"set","args":["d","3"]},"idHandler":"handler1","idRR":"RR6","seq":392,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: d con valor: 3","seqRequest":392}
+
+Tiempo entre peticion y respuesta: 0.141
+Recibido array de tiempos de un hijo: [0.223,0.2,0.178,0.166,0.17,0.191,0.2,0.165,0.186,0.168,0.161,0.169,0.173,0.182,0.168,0.157,0.162,0.156,0.152,0.141]
+
+client9_19: Recibida respuesta del rr_module: 
+{"idRequest":"client9_19","idClient":"client9","msg":{"op":"get","args":["a"]},"idHandler":"handler3","idRR":"RR9","seq":393,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":393}
+
+Tiempo entre peticion y respuesta: 0.134
+Recibido array de tiempos de un hijo: [0.227,0.195,0.175,0.168,0.169,0.181,0.203,0.17,0.184,0.168,0.161,0.171,0.174,0.18,0.166,0.163,0.156,0.157,0.15,0.134]
+
+client12_19: Recibida respuesta del rr_module: 
+{"idRequest":"client12_19","idClient":"client12","msg":{"op":"get","args":["e"]},"idHandler":"handler1","idRR":"RR12","seq":394,"idReplica":"FO0","idFO":"FO0","result":"5","seqRequest":394}
+
+Tiempo entre peticion y respuesta: 0.134
+Recibido array de tiempos de un hijo: [0.24,0.193,0.174,0.17,0.169,0.182,0.201,0.17,0.183,0.174,0.155,0.172,0.175,0.179,0.164,0.164,0.156,0.156,0.15,0.134]
+
+client15_19: Recibida respuesta del rr_module: 
+{"idRequest":"client15_19","idClient":"client15","msg":{"op":"get","args":["c"]},"idHandler":"handler7","idRR":"RR15","seq":395,"idReplica":"FO0","idFO":"FO0","result":"2","seqRequest":395}
+
+Tiempo entre peticion y respuesta: 0.115
+Recibido array de tiempos de un hijo: [0.221,0.19,0.173,0.172,0.168,0.19,0.191,0.172,0.182,0.171,0.157,0.176,0.169,0.185,0.159,0.165,0.154,0.157,0.154,0.115]
+
+client16_19: Recibida respuesta del rr_module: 
+{"idRequest":"client16_19","idClient":"client16","msg":{"op":"get","args":["b"]},"idHandler":"handler6","idRR":"RR16","seq":396,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":396}
+
+Tiempo entre peticion y respuesta: 0.102
+Recibido array de tiempos de un hijo: [0.226,0.184,0.171,0.171,0.173,0.198,0.175,0.184,0.175,0.165,0.155,0.178,0.18,0.175,0.16,0.167,0.15,0.155,0.155,0.102]
+
+client14_19: Recibida respuesta del rr_module: 
+{"idRequest":"client14_19","idClient":"client14","msg":{"op":"set","args":["e","4"]},"idHandler":"handler1","idRR":"RR14","seq":397,"idReplica":"FO0","idFO":"FO0","result":"Valor actualizado en clave: e con valor: 4","seqRequest":397}
+
+Tiempo entre peticion y respuesta: 0.101
+Recibido array de tiempos de un hijo: [0.227,0.182,0.169,0.172,0.174,0.198,0.174,0.19,0.171,0.164,0.153,0.18,0.179,0.176,0.16,0.166,0.152,0.153,0.157,0.101]
+
+client17_19: Recibida respuesta del rr_module: 
+{"idRequest":"client17_19","idClient":"client17","msg":{"op":"get","args":["d"]},"idHandler":"handler8","idRR":"RR17","seq":398,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":398}
+
+Tiempo entre peticion y respuesta: 0.085
+Recibido array de tiempos de un hijo: [0.195,0.182,0.167,0.169,0.178,0.203,0.173,0.183,0.168,0.166,0.162,0.173,0.188,0.172,0.154,0.164,0.154,0.151,0.15,0.085]
+
+client18_19: Recibida respuesta del rr_module: 
+{"idRequest":"client18_19","idClient":"client18","msg":{"op":"get","args":["a"]},"idHandler":"handler4","idRR":"RR18","seq":399,"idReplica":"FO0","idFO":"FO0","result":"3","seqRequest":399}
+
+Tiempo entre peticion y respuesta: 0.084
+Recibido array de tiempos de un hijo: [0.203,0.178,0.164,0.172,0.181,0.197,0.177,0.187,0.162,0.165,0.164,0.173,0.19,0.168,0.156,0.165,0.153,0.149,0.144,0.084]
+
+client19_19: Recibida respuesta del rr_module: 
+{"idRequest":"client19_19","idClient":"client19","msg":{"op":"get","args":["b"]},"idHandler":"handler3","idRR":"RR19","seq":400,"idReplica":"FO0","idFO":"FO0","result":"4","seqRequest":400}
+
+Tiempo entre peticion y respuesta: 0.083
+Recibido array de tiempos de un hijo: [0.202,0.178,0.164,0.172,0.182,0.197,0.177,0.186,0.166,0.159,0.167,0.171,0.189,0.168,0.157,0.164,0.154,0.154,0.138,0.083]
+
