@@ -34,7 +34,8 @@ fs.readFile(path_timesFile,'utf8', function(err, data) {
 		x: dataAcumulado_X,
 		y: dataAcumulado_Y,
 		name: "Tiempo Acumulado peticiones",
-		type: "scatter"
+		//mode: "markers",
+		type: "scatter",
 	};
 
 	// Preparar interfaz de grafica
