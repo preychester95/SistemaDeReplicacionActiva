@@ -42,16 +42,19 @@ dealer.on('message', function(msg) {
     dealer.send(JSON.stringify(messege));
     console.log('\n' +'Petición enviada hacia el cliente: '+JSON.stringify(messege));
     expectedSeq = expectedSeq + 1;
-    if(waiting[contWaiting]!=undefined){
-        while(expectedSeq== waiting[contWaiting].seq){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
-          var result = compute(waiting[contWaiting], dictionary);
-          executed[seq] = result;
-          // Introducir resultado y expected sec en mensaje de vuelta
-          dealer.send(JSON.stringify(messege));
-          console.log('\n' +'Petición enviada hacia el cliente: '+JSON.stringify(messege));
-          waiting.shift();
-          expectedSeq = expectedSeq + 1;
-        }
+    var i = 0;
+    while((waiting[i] != undefined) && (waiting[i].seq == expectedSeq)){ // Con una petición falla ya que waiting esta vacio y no puede leer seq de undefined
+      var result = compute(waiting[contWaiting], dictionary);
+      executed[seq] = result;
+      // Introducir resultado y expected sec en mensaje de vuelta
+      dealer.send(JSON.stringify(messege));
+      console.log('\n' +'Petición enviada hacia el cliente: '+JSON.stringify(messege));
+      waiting.shift();
+      expectedSeq = expectedSeq + 1;
+      i++;
+    }
+    if(waiting[0]!=undefined){
+
     }
   }
 });
