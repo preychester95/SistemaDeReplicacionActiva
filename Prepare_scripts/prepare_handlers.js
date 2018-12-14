@@ -106,7 +106,7 @@ fs.readFile(path_replicas,'utf8',function(err,data){
 //Cuando matamos al padre matamos también a los hijos
 process.on('SIGINT', function(){
     for (let i = 0; i < handlers_childs.length; i++) {
-        console.log('El pid deL handler '+i+' es: '+handlers_childs[i].pid);
+        console.log('El pid del handler '+i+' es: '+handlers_childs[i].pid);
          process.kill(handlers_childs[i].pid);
      }
  });
@@ -133,7 +133,7 @@ if (muerteDeHijos == "true"){
      },periodoMatarProceso);
 
      function decidirMatarHijo(){
-         var random_boolean = Math.random() >= 0.5;
+         var random_boolean = Math.random() >= 0;
          return random_boolean;
      }
 

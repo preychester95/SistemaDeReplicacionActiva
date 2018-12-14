@@ -165,7 +165,7 @@ if (muerteDeHijos == "true"){
      },periodoMatarProceso);
 
      function decidirMatarHijo(){
-         var random_boolean = Math.random() >= 0.5;
+         var random_boolean = Math.random() >= 0;
          return random_boolean;
      }
 
@@ -183,5 +183,5 @@ if (muerteDeHijos == "true"){
          }
          return false;
      }
-     }, 4000);
+ }, 0);
  }
